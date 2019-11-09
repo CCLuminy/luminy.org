@@ -3,9 +3,9 @@
 
 <p>
   {{ page.date | date_to_string }}
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
+  {% assign author = site.authors | where: 'name', page.author | first %}
   {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
+    - <a href="{{ author.url }}">{{ author.display_name }}</a>
   {% endif %}
 </p>
 

@@ -1,6 +1,6 @@
 ---
-short_name: clara
-name: Clara Terrier
+name: clara
+display_name: Clara Terrier
 position: Secrétaire
 ---
 tip tap top
