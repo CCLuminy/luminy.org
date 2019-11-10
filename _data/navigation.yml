@@ -1,9 +1,12 @@
-items:
-  - name: Home
-    link: /
-  - name: About
-    link: /about.html
-  - name: Blog
-    link: /blog.html
-  - name: Staff
-    link: /staff.html
+# main links
+main:
+  - title: "Où nous trouver"
+    url: /about/
+    # description: "description hover"
+  - title: "Actions"
+    url: /actions/
+    sublinks:
+      - title: "Toukouleur"
+      - url: /actions/toukouleur/
+  - title: "Retrospective"
+    url: /old/
