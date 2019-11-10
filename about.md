@@ -1,7 +1,6 @@
 ---
 title: Plan du site
 author_profile: true
-layout: single
 toc: true
 header:
   overlay_image: assets/images/puget-fleuri.png

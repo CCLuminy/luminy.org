@@ -1,7 +1,6 @@
 ---
 title: Ateliers
 author_profile: true
-layout: single
 header:
   overlay_image: assets/images/atelier-combat.jpg
 ---

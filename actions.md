@@ -1,7 +1,7 @@
 ---
 title: Liste actions
-author_profile: true
 layout: single
+author_profile: true
 toc: true
 header:
   overlay_image: assets/images/baniere_ccl-intime.png

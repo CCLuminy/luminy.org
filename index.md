@@ -1,6 +1,5 @@
 ---
 layout: splash
-permalink: /
 title: Centre Culturel de Luminy
 header:
   overlay_image: assets/images/puget-fleuri.png
