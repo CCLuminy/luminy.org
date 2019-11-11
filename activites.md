@@ -4,7 +4,7 @@ category_name: "activite"
 permalink: "/activites/"
 toc: true
 header:
-  overlay_image: assets/images/baniere_ccl-intime.png
+  overlay_image: assets/images/banniere-parvis.jpg
 ---
 # Le jardin universitaire
 

@@ -3,7 +3,8 @@ title: Le CCL
 category_name: "ccl"
 permalink: "/ccl/"
 header:
-  overlay_image: assets/images/puget-fleuri.png
+  image: assets/images/banniere-ccl-intime.png
+  og_image: assets/images/logo-com-grand.png
 ---
 
 ## Le CCL, c'est nous ! C'est vous ! C'est tous ceux qui ont envie de faire, de partager et de proposer pour que bouge ce campus !

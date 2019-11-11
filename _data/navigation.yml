@@ -60,3 +60,7 @@ tout:
         url: /luminy/comnsea/
       - title: "FSE"
         url: /luminy/fse/
+  - title: "Votre projet"
+    url: /luminy/votre-projet/
+  - title: "Notre projet"
+    url: /luminy/votre-projet/

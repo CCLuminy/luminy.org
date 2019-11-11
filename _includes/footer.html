@@ -1,8 +1,8 @@
 <div class="page__footer-follow">
   <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
+    <!-- {% if site.data.ui-text[site.locale].follow_label %} -->
+    <!--   <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li> -->
+    <!-- {% endif %} -->
 
     {% if site.footer.links %}
       {% for link in site.footer.links %}
@@ -18,4 +18,6 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].website_label | default: "Website" }} {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" | downcase }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>, {{ site.data.ui-text[site.locale].hosted_by | default: "Hosted by" | downcase }} <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>.</div>
+<div class="page__footer-copyright">&copy; 2000-{{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
+
+<!-- {{ site.data.ui-text[site.locale].website_label | default: "Website" }} {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" | downcase }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>, {{ site.data.ui-text[site.locale].hosted_by | default: "Hosted by" | downcase }} <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>. -->
