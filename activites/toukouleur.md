@@ -2,9 +2,9 @@
 title: Toukouleur
 author_profile: true
 toc: true
+description: Le festival Toukouleur organisé chaque année par le CCL!
 header:
   image: assets/images/au-toukouleur-2016.jpg
-  caption: Touk
 ---
 # Le toukouleur c'est de la balle
   - des concerts

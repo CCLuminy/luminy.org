@@ -140,7 +140,7 @@ fr: &DEFAULT_FR
   comments_title             : "Commentaires"
   more_label                 : "Lire plus"
   related_label              : "Vous pourriez aimer aussi"
-  follow_label               : "Liens"
+  follow_label               : "Plus"
   feed_label                 : "Flux"
   powered_by                 : "Propulsé par"
   hosted_by                  : "Hébergé sur"

@@ -1,0 +1,22 @@
+# /_data/authors.yml
+
+jardin:
+  name             : "Jardin Universitaire"
+  avatar           : /assets/images/logo-jardin.png
+  bio              : "Jardin partagé chaleureux et ouvert à tous ! "
+  location         : "Bât. D"
+  email            : "jardin@luminy.org"
+  # uri              : "jardin.luminy.org"
+  facebook         : "jardinluminy"
+  helloasso        : "jardin-universitaire-de-luminy"
+  links:
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/perelo/CCL-site"
+    # - label: "Instagram"
+    #   icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+    # - label: "HelloAsso"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
+
