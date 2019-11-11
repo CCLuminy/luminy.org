@@ -190,7 +190,6 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -272,6 +271,8 @@ compress_html:
   clippings: all
   ignore:
     envs: development
+
+exclude: [ "*/snippets/", ]
 
 # Defaults
 defaults:

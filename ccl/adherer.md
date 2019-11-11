@@ -16,3 +16,4 @@ C'est 1€ symbolique ;)
 ## En nous rencontrant
 Par exemple au local de l'hexagone ou devant la caféteria.
 
+{% include_relative snippets/devenir-benevole.md %}

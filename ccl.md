@@ -20,13 +20,7 @@ Sinon, regardez l'actualité sur [notre page facebook](https://facebook.com/CCLu
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
-# Devenir bénévole au CCL
-
-Il y a plusieurs manières de bénévoler au CCL :
-- devenir membre actif, participer aux réunions régulièrement, monter un atelier ou un festival, ...
-- bénévoler de temps en temps pour vous faire plaisir et nous dépanner sur certaines dates
-- bénévoler sur une seule date (exemple : pour le Toukouleur)
-- rejoindre un projet, s'impliquer dans son organisation ou simplement y participer
+{% include_relative ccl/snippets/devenir-benevole.md %}
 
 ## En savoir plus
 {% assign section_pages = site.pages | where: 'section', 'ccl' %}
