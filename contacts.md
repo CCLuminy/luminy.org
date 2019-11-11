@@ -1,6 +1,6 @@
 ---
 title: Contacts
-author_profile: true
+section: ccl
 header:
   overlay_image: assets/images/puget-fleuri.png
 ---

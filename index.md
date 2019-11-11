@@ -4,6 +4,8 @@ title: Centre Culturel de Luminy
 header:
   overlay_image: assets/images/puget-fleuri.png
   actions:
+    - label: "<i class='fab fa-fw fa-facebook-square'></i> Suivez-nous"
+      url: "https://www.facebook.com/CCLuminy/"
     - label: "<i class='fas fa-users'></i> Adhérez"
       url: "https://www.helloasso.com/associations/centre-culturel-de-luminy/adhesions/adhesions-centre-culturel-de-luminy-ccl"
 excerpt: >
@@ -13,21 +15,21 @@ feature_row:
     alt: "toukouleur"
     title: "Toukouleur"
     excerpt: "Festival culturel organisé chaque année par les motivés!"
-    url: "/actions/toukouleur/"
+    url: "/activites/toukouleur/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: assets/images/logo-jardin.png
     alt: "jardin"
     title: "Jardin"
     excerpt: "Le jardin universitaire lancé par le CCL en 2014, désormais indépendant"
-    url: "/actions/jardin/"
+    url: "/activites/jardin/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: assets/images/theatre-rouge.jpg
     alt: "ateliers"
     title: "Ateliers"
     excerpt: "boulègue"
-    url: "/actions/ateliers/"
+    url: "/activites/ateliers/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
 ---

@@ -63,8 +63,9 @@ staticman:
 reCaptcha:
   siteKey                :
   secret                 :
-atom_feed:
-  path                   : # blank (default) uses feed.xml
+rss                      : false
+# atom_feed:
+#   path                   : # blank (default) uses feed.xml
 search                   : # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -227,19 +228,13 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-  - jekyll-admin
 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-  - jekyll-admin
 
 
 # Archives
@@ -297,5 +292,6 @@ defaults:
     values:
       layout: single
       author_profile: true
+      share: true
       sidebar:
         nav: tout
