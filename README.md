@@ -1,5 +1,5 @@
-# [`Luminy.org`](test.luminy.org)
-Ce dépot contient les sources du site [`luminy.org`](test.luminy.org)
+# [`Luminy.org`](https://test.luminy.org)
+Ce dépot contient les sources du site [`luminy.org`](https://test.luminy.org)
 géré par le Centre Culturel de Luminy.
 
 # Contribuez !
@@ -11,8 +11,9 @@ pages sur le site, c'est possible !
 
 ## Comment ?
 
-- Par mail : `centre-culturel@luminy.org`
-- [En vrai](test.luminy.org/nous-trouver/)
+- Par mail :
+  [centre-culturel@luminy.org](mailto:centre-culturel@luminy.org)
+- [En vrai](https://test.luminy.org/contacts/#en-vrai)
 - Ici, via [pull requests](https://github.com/perelo/CCL-site/pulls)
 
 
@@ -34,7 +35,7 @@ Autrement dit,
 - pas de bases de données.
 - À chaque modification, il faut redéployer le site.
 
-Pour plus d'infos sur le fonctionnement : `webmasters@luminy.org`
+Pour plus d'infos sur le fonctionnement : [webmasters@luminy.org](mailto:webmasters@luminy.org)
 
 ## Pour tester localement
 
