@@ -18,7 +18,7 @@ feature_row:
     url: "/activites/toukouleur/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: assets/images/logo-jardin.png
+  - image_path: assets/images/logo-jardin-grand.png
     alt: "jardin"
     title: "Jardin"
     excerpt: "Le jardin universitaire lancé par le CCL en 2014, désormais indépendant"

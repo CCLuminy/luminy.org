@@ -22,6 +22,8 @@ tout:
         url: /ccl/statuts/
       - title: "Contacts"
         url: /contacts/
+  - title: "Agenda"
+    url: "/agenda/"
   - title: "Activités"
     url: "/activites/"
     children:
@@ -54,5 +56,7 @@ tout:
         url: /luminy/conseil-residents/
       - title: "Asso ERASMUS"
         url: /luminy/erasmus/
+      - title: "Asso Com & Sea"
+        url: /luminy/comnsea/
       - title: "FSE"
         url: /luminy/fse/

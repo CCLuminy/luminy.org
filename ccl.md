@@ -15,7 +15,7 @@ Local dans l'hexagone, on y est souvent entre midi et 2.
 On est tous les jeudis soirs (sauf exceptions) à la cafèt' pour [les
 jeudis du CCL](/activites/jeudis/) de 19h à 23h !
 
-Sinon, regardez l'actualité sur [notre page facebook](https://facebook.com/CCLuminy/) !
+Sinon, regardez l'actualité sur [notre page facebook](https://facebook.com/CCLuminy/) ou notre [agenda](/agenda/) !
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
