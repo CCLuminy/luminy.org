@@ -1,24 +1,52 @@
 ---
-title: Plan du site
+title: À propos
 author_profile: true
 toc: true
 header:
   overlay_image: assets/images/puget-fleuri.png
 ---
-# Navigation
-  - Où nous trouver
-  - Rétrospective
-  - Gallerie(s)
-  - CCL (childrens)
 
-# Projets
- - jardin
- - paniers bio
- - club de sciences
+Luminy.org
+
+ - jekyll
+ - github
+
+
+# Navigation
+  - Le CCL
+  - Activités
+  - Luminy
+  - Contacts
+
+# CCL
+  - Présentation
+  - Adhérer
+  - Bureau
+  - Statuts
+  - financement
+  - Contacts
+
+luminy.org (lien)
+où nous trouver
+
+## contacts
+mails
+adresse
+gps
+
+# Actions du CCL
  - festival toukouleur
+ - projections
+ - club de sciences
  - concerts
  - ateliers
- - projections
+ - projets
+
+# Affiliés
+ - jardin universitaire
+ - paniers bio
+ - asso erasmus
+ - FSE
 
 # Accueil
   - présentation rapide + adhérer

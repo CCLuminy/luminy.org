@@ -1,9 +1,60 @@
 # main links
 main:
-  - title: "Où nous trouver"
-    url: /about/
-    # description: "description hover"
-  - title: "Actions"
-    url: /actions/
-  - title: "Retrospective"
-    url: /about/
+  - title: "Le CCL"
+    url: /ccl/
+  - title: "Activités"
+    url: /activites/
+  - title: "Luminy"
+    url: /luminy/
+  - title: "Contacts"
+    url: /contacts/
+
+# navigation sidebar
+tout:
+  - title: "Le CCL"
+    url: "/ccl/"
+    children:
+      - title: "Qui sommes-nous ?"
+        url: /ccl/presentation-longue/
+      - title: "Adhérer"
+        url: /ccl/adherer/
+      - title: "Bureau"
+        url: /ccl/bureau/
+      - title: "Statuts"
+        url: /ccl/statuts/
+      - title: "Contacts"
+        url: /contacts/
+  - title: "Activités"
+    url: "/activites/"
+    children:
+      - title: "Concerts et festivals"
+        url: /activites/concerts/
+      - title: "Toukouleur"
+        url: /activites/toukouleur/
+      - title: "Les jeudis du CCL"
+        url: /activites/jeudis/
+      - title: "Campus propre"
+        url: /activites/campus-propre/
+      - title: "Club de sciences"
+        url: /activites/club-sciences/
+      - title: "Projections"
+        url: /activites/projections/
+      - title: "Ateliers et animation"
+        url: /activites/ateliers/
+      - title: "Projets"
+        url: /activites/projets/
+  - title: "Luminy"
+    url: "/luminy/"
+    children:
+      - title: "Jardin Universitaire"
+        url: /luminy/jardin/
+      - title: "Paniers bio"
+        url: /luminy/paniers/
+      - title: "Asso ALLIE"
+        url: /luminy/allie/
+      - title: "Conseil des résidents"
+        url: /luminy/conseil-residents/
+      - title: "Asso ERASMUS"
+        url: /luminy/erasmus/
+      - title: "FSE"
+        url: /luminy/fse/

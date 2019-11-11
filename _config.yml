@@ -109,28 +109,22 @@ analytics:
 author:
   name             : "CCL"
   avatar           : /assets/images/remi.png
-  bio              : "Animation culturelle du campus de Luminy"
-  location         : "<a href=https://www.openstreetmap.org/node/270921951#map=17/43.23150/5.44176>Campus de Luminy</a>"
+  bio              : "Animer, partager, avancer, s'améliorer, s'amuser"
+  location         : "Luminy"
   email            : "centre-culturel@luminy.org"
+  # uri              : "ccl.luminy.org"
+  facebook         : "CCLuminy"
+  helloasso        : "centre-culturel-de-luminy"
   links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: mailto:centre-culturel@luminy.org
-    - label: "HelloAsso"
-      icon: "fas fa-fw fa-link"
-      url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/CCLuminy"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/perelo/CCL-site"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/perelo/CCL-site"
     # - label: "Instagram"
     #   icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    # - label: "HelloAsso"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
 
 # Site Footer
 footer:
@@ -283,11 +277,6 @@ compress_html:
   ignore:
     envs: development
 
-collections:
-  actions:
-    permalink: /:collection/:path:output_ext
-    output: true
-
 # Defaults
 defaults:
   # _posts
@@ -305,13 +294,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: splash
-      author_profile: true
-  # _actions
-  - scope:
-      path: ""
-      type: "actions"
-    values:
       layout: single
-      author_profile: false
-      share: true
+      author_profile: true
+      sidebar:
+        nav: tout

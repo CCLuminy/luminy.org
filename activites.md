@@ -1,7 +1,7 @@
 ---
-title: Liste actions
-layout: single
-author_profile: true
+title: Nos activités
+category_name: "activite"
+permalink: "/activites/"
 toc: true
 header:
   overlay_image: assets/images/baniere_ccl-intime.png

@@ -105,6 +105,14 @@
         </li>
       {% endif %}
 
+      {% if author.helloasso %}
+        <li>
+          <a href="https://www.helloasso.com/associations/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fas fa-fw fa-fire" aria-hidden="true"></i> HelloAsso
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.xing %}
         <li>
           <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
