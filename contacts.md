@@ -1,6 +1,7 @@
 ---
 title: Contacts
 section: ccl
+share: false
 header:
   overlay_image: assets/images/puget-fleuri.png
 ---
