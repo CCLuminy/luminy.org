@@ -2,3 +2,33 @@
 
 # CCL-site
 Site du CCL
+
+# Contribuez
+
+## Pour les plus motivés
+
+  - [Installer ruby](https://jekyllrb.com/docs/installation/)
+
+  - Installer les gemmes `jekyll` et `bundler`
+    ```
+    gem install jekyll bundler
+    ```
+
+  - Cloner le dépot
+    ```
+    git clone https://github.com/perelo/CCL-site.git
+    cd CCL-site
+    ```
+
+  - Installer les dépendances et prier
+    ```
+    bundle install
+    ```
+
+  - Prier encore
+    ```
+    jekyll serve
+    ```
+
+  - [Tester](http://localhost:4000/)
+
