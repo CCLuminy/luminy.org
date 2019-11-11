@@ -41,7 +41,7 @@ Association loi 1901 à but non lucratif
 
 ## Bureau officiel
 ...
-[Historique des bureaux](bureaux/)
+[Historique des bureaux](/ccl/bureau/)
 
 ## Partenaire
 - CROUS (hébergement)
