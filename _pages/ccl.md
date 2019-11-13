@@ -9,16 +9,6 @@ header:
 
 {{ site.time }}
 
-<iframe
-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCCLuminy%2Fposts%2F2648728988518103&width=500"
-width="500" height="490" style="border:none;overflow:hidden" scrolling="no"
-frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<iframe
-src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCCLuminy%2Fposts%2F2607051539352515&width=500"
-width="500" height="488" style="border:none;overflow:hidden" scrolling="no"
-frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
 ## Le CCL, c'est nous ! C'est vous ! C'est tous ceux qui ont envie de faire, de partager et de proposer pour que bouge ce campus !
 
 Passez nous voir !
@@ -44,4 +34,3 @@ Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 {% for page in section_pages %}
   [{{ page.title }}]({{ page.url }})
 {% endfor %}
-
