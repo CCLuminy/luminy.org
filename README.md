@@ -2,7 +2,7 @@
 Ce dépot contient les sources du site [`luminy.org`](https://test.luminy.org)
 géré par le Centre Culturel de Luminy.
 
-[wiki]()
+[wiki](https://github.com/CCLuminy/CCL-site/wiki)
 
 # Contribuez !
 
