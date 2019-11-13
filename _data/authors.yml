@@ -28,3 +28,17 @@ com:
     #   icon: "fas fa-fw fa-link"
     #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
 
+club-science:
+  name             : "Club de Science Luminy"
+  avatar           : /assets/images/authors-logo/logo-club-sciences.jpeg
+  bio              : "Organisation de conférences, de cours d'histoire et de philosophie des sciences"
+  location         : "Luminy"
+  email            : "club.science.luminy@gmail.com"
+  # uri              : "jardin.luminy.org"
+  facebook         : "Club-de-Science-Luminy-114357542612098/"
+  helloasso        : #"jardin-universitaire-de-luminy"
+  links:
+    # - label: "HelloAsso"
+    #   icon: "fas fa-fw fa-link"
+    #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
+

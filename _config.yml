@@ -274,25 +274,18 @@ compress_html:
 
 exclude: [ "*/snippets/", ]
 
-# Defaults
+collections:
+  pages:
+    output: true
+    permalink: /:path
+
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: single
-      author_profile: false
-      read_time: true
-      comments: # true
-      share: true
-      related: true
   - scope:
       path: ""
       type: "pages"
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       sidebar:
         nav: tout

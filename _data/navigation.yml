@@ -35,8 +35,8 @@ tout:
         url: /activites/jeudis/
       - title: "Campus propre"
         url: /activites/campus-propre/
-      - title: "Club de sciences"
-        url: /activites/club-sciences/
+      - title: "Club de science"
+        url: /activites/club-science/
       - title: "Projections"
         url: /activites/projections/
       - title: "Ateliers et animation"
