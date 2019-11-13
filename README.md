@@ -2,6 +2,8 @@
 Ce dépot contient les sources du site [`luminy.org`](https://test.luminy.org)
 géré par le Centre Culturel de Luminy.
 
+[wiki]()
+
 # Contribuez !
 
 ## Aidez-nous à tenir à jour luminy.org
