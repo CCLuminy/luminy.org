@@ -141,7 +141,7 @@ footer:
       url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/perelo/CCL-site"
+      url: "https://github.com/CCLuminy/CCL-site"
     - label: "À propos"
       url: "/contacts/#fonctionnement-associatif"
     # - label: "GitLab"

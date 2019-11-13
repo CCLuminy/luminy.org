@@ -7,7 +7,7 @@ header:
 
 {{ site.data.external-links.facebook.link }}
 
-# Actualités sur [<i class='fab fa-facebook-square'></i>]({{ site.data.external-links.facebook }})
+# Actualités sur [<i class='fab fa-facebook-square'></i>]({{ site.data.extlinks.fb-club-science }})
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous"

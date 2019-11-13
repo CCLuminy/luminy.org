@@ -7,13 +7,13 @@ header:
 ---
 # Le jardin universitaire
 
-[lien interne](jardin/)
-[Facebook](https://www.facebook.com/jardinluminy/)
+[lien interne](/luminy/jardin/)
+[Facebook]({{ site.data.extlinks.fb-jardin }})
 
 # Les paniers bio
 
-[lien interne](paniers/)
-[Cagette.net](http://app.cagette.net/group/2003)
+[lien interne](/luminy/paniers/)
+[Cagette.net]({{ site.data.extlinks.cagette }})
 
 # Club de sciences
 

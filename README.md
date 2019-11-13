@@ -16,7 +16,7 @@ pages sur le site, c'est possible !
 - Par mail :
   [centre-culturel@luminy.org](mailto:centre-culturel@luminy.org)
 - [En vrai](https://test.luminy.org/contacts/#en-vrai)
-- Ici, via [pull requests](https://github.com/perelo/CCL-site/pulls)
+- Ici, via [pull requests](https://github.com/CCLuminy/CCL-site/pulls)
 
 
 # Fonctionnement du site, pour les plus motivés
@@ -50,7 +50,7 @@ Pour plus d'infos sur le fonctionnement : [webmasters@luminy.org](mailto:webmast
 
 - Cloner le dépot
   ```
-  git clone https://github.com/perelo/CCL-site.git
+  git clone https://github.com/CCLuminy/CCL-site.git
   cd CCL-site
   ```
 

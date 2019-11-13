@@ -37,8 +37,5 @@ Le Toukouleur est organisé de manière à réduire très fortement son empreint
 
 # Retrospective
 
-[Photos Ciao Tympans][ciao-tympans]{: .btn .btn--inverse}
-[Photos L'homme parle][lhomme-parle-fb]{: .btn .btn--inverse}
-
-[ciao-tympans]: http://ciaotympans.com/concerts/festival-toukouleur-de-luminy
-[lhomme-parle-fb]: https://www.facebook.com/search/photos/?q=L%27Homme%20Parle%20toukouleur&epa=SEARCH_BOX
+[Photos Ciao Tympans]({{ site.data.extlinks.ciao-tympans }}){: .btn .btn--inverse}
+[Photos L'homme parle]({{ site.data.extlinks.fb-lhomme-parle }}){: .btn .btn--inverse}

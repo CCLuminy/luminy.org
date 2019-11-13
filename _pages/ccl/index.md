@@ -22,7 +22,7 @@ Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 - [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy"]
 - agenda
 
-[notre page facebook](https://facebook.com/CCLuminy/) ou notre [agenda](/agenda/) !
+[notre page facebook]({{ site.data.extlinks.fb-ccl }}) ou notre [agenda](/agenda/) !
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
