@@ -1,7 +1,6 @@
 ---
 title: Le CCL
 category_name: "ccl"
-permalink: "/ccl/"
 header:
   image: assets/images/banniere-ccl-intime.png
   og_image: assets/images/logo-com-grand.png
