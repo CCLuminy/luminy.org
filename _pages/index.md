@@ -13,11 +13,12 @@ header:
 excerpt: >
   Le CCL porte de nombreuses initiatives et se propose d'aider à en monter de nouvelles ! Son but : remettre les notions de créativité, de connaissance, de collectivité, de partage et d'entraide au coeur de la vie de notre campus universitaire en proposant à toutes les bonnes volontés de participer à construire leur lieu d'étude, de travail ou encore de vie.
 feature_row:
-  - image_path: assets/images/renard-touk.jpg
-    alt: "toukouleur"
-    title: "Toukouleur"
-    excerpt: "Festival culturel organisé chaque année par les motivés!"
-    url: "/activites/toukouleur/"
+  - image_path: assets/images/panier.png
+    alt: "paniers"
+    title: "Des paniers bio"
+    excerpt: "Livrés chaque jeudi, des légumes d'Arles à commander! Contrats de
+    solidarité avec en producteur."
+    url: "/luminy/paniers/"
     btn_class: "btn--primary"
     btn_label: "Plus"
   - image_path: assets/images/logo-jardin-grand.png
