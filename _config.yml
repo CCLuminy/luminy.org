@@ -106,27 +106,6 @@ analytics:
     anonymize_ip         : # true, false (default)
 
 
-# Site Author
-author:
-  name             : "CCL"
-  avatar           : /assets/images/authors-logo/indien-petit.png
-  bio              : "Animer, partager, avancer, s'améliorer, s'amuser"
-  location         : "Luminy"
-  email            : "centre-culturel@luminy.org"
-  # uri              : "ccl.luminy.org"
-  facebook         : "CCLuminy"
-  helloasso        : "centre-culturel-de-luminy"
-  links:
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/perelo/CCL-site"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
-    # - label: "HelloAsso"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
-
 # Site Footer
 footer:
   links:
@@ -273,6 +252,9 @@ compress_html:
     envs: development
 
 exclude: [ "*/snippets/", ]
+
+# see _data/authors.yml
+author: ccl
 
 collections:
   pages:
