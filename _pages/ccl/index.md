@@ -6,8 +6,6 @@ header:
   og_image: assets/images/logo-com-grand.png
 ---
 
-{{ site.time }}
-
 ## Le CCL, c'est nous ! C'est vous ! C'est tous ceux qui ont envie de faire, de partager et de proposer pour que bouge ce campus !
 
 Passez nous voir !
@@ -18,11 +16,12 @@ On est tous les jeudis soirs (sauf exceptions) à la cafèt' pour [les
 jeudis du CCL](/activites/jeudis/) de 19h à 23h !
 
 Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
-- activités
-- [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy"]
-- agenda
+- [activités](/activites/){: .btn .btn--inverse}
+- [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy][facebook]{: .btn .btn--inverse}
+- [<i class='fas fa-fw fa-calendar-alt'></i> Agenda][agenda]{: .btn .btn--inverse}
 
-[notre page facebook]({{ site.data.extlinks.fb-ccl }}) ou notre [agenda](/agenda/) !
+[agenda]: /agenda/
+[facebook]: {{ site.data.extlinks.fb-ccl }}
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 

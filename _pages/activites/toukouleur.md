@@ -1,6 +1,5 @@
 ---
 title: Toukouleur
-author_profile: true
 toc: true
 description: Le festival Toukouleur organisé chaque année par le CCL!
 header:
