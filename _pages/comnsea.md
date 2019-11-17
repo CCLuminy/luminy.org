@@ -1,6 +1,5 @@
 ---
 title: Com & Sea
-author: com
 header:
     image: assets/images/logo-com-grand.png
 ---

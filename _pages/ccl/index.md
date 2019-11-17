@@ -1,9 +1,8 @@
 ---
 title: Le CCL
-category_name: "ccl"
+no_title: true
 header:
   image: assets/images/banniere-ccl-intime.png
-  og_image: assets/images/logo-com-grand.png
 ---
 
 ## Le CCL, c'est nous ! C'est vous ! C'est tous ceux qui ont envie de faire, de partager et de proposer pour que bouge ce campus !
@@ -25,7 +24,7 @@ Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
-{% include_relative snippets/devenir-benevole.md %}
+{% include_relative l-asso/devenir-benevole.md %}
 
 ## En savoir plus
 {% assign section_pages = site.pages | where: 'section', 'ccl' %}
