@@ -27,4 +27,4 @@ Culturel de Luminy.
 {: .notice}
 
 
-{% include_relative snippets/devenir-benevole.md %}
+{% include_relative devenir-benevole.md %}

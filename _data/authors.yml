@@ -1,7 +1,10 @@
 # /_data/authors.yml
 ccl:
   name             : "CCL"
+  prefix           : "ccl"
   avatar           : /assets/images/authors-logo/indien-petit.png
+  og_image         : /assets/images/logo-ccl-grand.png
+  banner           : /assets/images/banniere-ccl-intime.png
   bio              : "Animer, partager, avancer, s'améliorer, s'amuser"
   location         : "Luminy"
   email            : "centre-culturel@luminy.org"
@@ -21,7 +24,9 @@ ccl:
 
 jardin:
   name             : "Jardin Universitaire"
+  prefix           : "jardin"
   avatar           : /assets/images/authors-logo/logo-jardin.png
+  banner           : /assets/images/banniere-jardin.jpg
   bio              : "Jardin partagé chaleureux et ouvert à tous ! "
   location         : "Bât. D"
   email            : "jardin@luminy.org"
@@ -33,8 +38,9 @@ jardin:
     #   icon: "fas fa-fw fa-link"
     #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
 
-com:
+comnsea:
   name             : "Com & Sea"
+  prefix           : "comnsea"
   avatar           : /assets/images/authors-logo/logo-com.png
   bio              : "Association d'Océanologie"
   location         : "Hexagone"
@@ -49,6 +55,7 @@ com:
 
 club-science:
   name             : "Club de Science Luminy"
+  prefix           : "club-science"
   avatar           : /assets/images/authors-logo/logo-club-sciences.jpeg
   bio              : "Organisation de conférences, de cours d'histoire et de philosophie des sciences"
   location         : "Luminy"

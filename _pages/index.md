@@ -19,21 +19,21 @@ feature_row:
     title: "Des paniers bio"
     excerpt: "Livrés chaque jeudi, des légumes d'Arles à commander! Contrats de
     solidarité avec en producteur."
-    url: "/luminy/paniers/"
+    url: "/jardin/paniers/"
     btn_class: "btn--primary"
     btn_label: "Plus"
   - image_path: assets/images/logo-jardin-grand.png
     alt: "jardin"
     title: "Jardin"
     excerpt: "Découvrez le jardin! Projet lancé par le CCL en 2014, désormais indépendant"
-    url: "/activites/jardin/"
+    url: "/jardin/"
     btn_class: "btn--primary"
     btn_label: "Plus"
   - image_path: assets/images/theatre-rouge.jpg
     alt: "ateliers"
     title: "Ateliers"
     excerpt: "Des ateliers à gogo"
-    url: "/activites/ateliers/"
+    url: "/ccl/activites/ateliers/"
     btn_class: "btn--primary"
     btn_label: "Plus"
 ---

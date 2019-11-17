@@ -27,7 +27,7 @@ repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-m
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : &logo "/assets/images/logo-ccl-grand.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -116,7 +116,6 @@ footer:
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/CCLuminy"
     - label: "HelloAsso"
-      icon: "fas fa-fw fa-fire"
       url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -251,8 +250,6 @@ compress_html:
   ignore:
     envs: development
 
-exclude: [ "*/snippets/", ]
-
 # see _data/authors.yml
 author: ccl
 
@@ -268,9 +265,9 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: false
+      share: true
       toc_sticky: true
       header:
         show_overlay_excerpt: false
       sidebar:
-        nav: tout
+        nav: true
