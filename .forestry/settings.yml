@@ -4,11 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: _data
+  label: Données
+  create: all
+  match: "*"
+  new_doc_ext: yml
 - type: document
   path: _data/navigation.yml
   label: Navigations
-  match: "**/*"
-  read_only: true
+  read_only: false
 - type: jekyll-pages
   label: Pages
   create: all
