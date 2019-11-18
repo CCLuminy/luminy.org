@@ -13,15 +13,12 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
-- type: jekyll-pages
-  label: Pages
-  create: all
 - type: jekyll-posts
   label: Posts
   create: all
 - type: directory
   path: _pages
-  label: Pages
+  label: Toutes les pages
   create: all
   match: "**/*"
 upload_dir: assets/images
