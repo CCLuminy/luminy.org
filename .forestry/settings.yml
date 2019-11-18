@@ -19,7 +19,7 @@ upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
 use_front_matter_path: 
-file_template: ":filename/:filename:"
+file_template: ":filename:"
 build:
   preview_env:
   - JEKYLL_ENV=staging
