@@ -2,9 +2,8 @@
 title: Adhésion et soutiens
 toc: true
 share: true
-header:
-  overlay_image: assets/images/banniere-bulles.png
-  og_image: assets/images/logo-ccl-grand.png
+overlay_image: assets/images/banniere-bulles.png
+og_image: assets/images/logo-ccl-grand.png
 ---
 
 # Adhérez à l'asso du CCL

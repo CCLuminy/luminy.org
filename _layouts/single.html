@@ -4,9 +4,9 @@ layout: default
 
 {% assign author = page.url | split: "/" %}
 {% assign author = author[1] %}
-{% assign author = site.data.authors[author] | default: author %}
+{% assign author = site.data.authors.authors | where: "prefix", author | first %}
 
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image or author.banner %}
+{% if page.header.overlay_color or page.overlay_image or page.header.image or author.banner %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
   {% include page__hero_video.html %}
@@ -28,7 +28,7 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image or author.banner %}
+      {% unless page.header.overlay_color or page.overlay_image or author.banner %}
         {% unless page.no_title %}
         <header>
           {% if page.title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}

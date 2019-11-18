@@ -1,8 +1,7 @@
 ---
 title: Club de Science
 author: club-science
-header:
-  overlay_image: assets/images/banniere-club-science.png
+overlay_image: assets/images/banniere-club-science.png
 ---
 
 {{ site.data.external-links.facebook.link }}

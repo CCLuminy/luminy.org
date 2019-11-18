@@ -2,8 +2,7 @@
 title: Nos activités
 category_name: "activite"
 toc: true
-header:
-  overlay_image: assets/images/banniere-parvis.jpg
+overlay_image: assets/images/banniere-parvis.jpg
 ---
 # Le jardin universitaire
 

@@ -1,8 +1,8 @@
 ---
 layout: splash
 title: Centre Culturel de Luminy
+overlay_image: assets/images/puget-fleuri.png
 header:
-  overlay_image: assets/images/puget-fleuri.png
   actions:
     - label: "<i class='fas fa-users'></i> Adhérez"
       url: "/ccl/adherer/"
@@ -37,6 +37,17 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Plus"
 ---
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 {% include feature_row %}
 
