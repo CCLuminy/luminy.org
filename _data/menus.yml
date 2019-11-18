@@ -1,1 +1,7 @@
---- {}
+---
+footer:
+- title: Le CCL
+  url: "/ccl"
+- title: À propos de Luminy.org
+  url: about.md
+- title: Des témoignages
