@@ -2,6 +2,9 @@
 title: Les paniers bio !
 overlay_image: assets/images/banniere-bulles.png
 menu:
+  footer:
+    weight: 3
+    title: Les paniers bio
   jardin:
     weight: 1
 
@@ -11,9 +14,28 @@ Tous les jeudis, les paniers marseillais proposent des produits bio en direct de
 # Distribution paniers bio
 [Cagette.net]({{ site.data.extlinks.cagette }})
 
-icoucou
+header
 <ul>
 {% for item in site.menus.header %}
+  <li class="menu-item-{{ loop.index }}">
+    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+    {% if item.children %}
+      <ul class="sub-menu">
+      {% for item in item.children %}
+  {{ item.identifier | inspect }}
+        <li class="menu-item-{{ loop.index }}">
+          <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
+
+jardin
+<ul>
+{% for item in site.menus.jardin %}
   <li class="menu-item-{{ loop.index }}">
     <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
     {% if item.children %}
