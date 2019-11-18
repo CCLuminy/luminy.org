@@ -1,6 +1,8 @@
 ---
 title: Gallerie du jardin
-menus: jardin
----
+menu:
+  jardin:
+    weight: 2
 
+---
 des images...
