@@ -5,18 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: _data
-  label: Données
-  create: all
-  match: "*"
-  new_doc_ext: yml
-- type: document
-  path: _data/navigation.yml
-  label: Navigations
-- type: jekyll-posts
-  label: Posts
-  create: all
-- type: directory
   path: _pages
   label: Toutes les pages
   create: all
