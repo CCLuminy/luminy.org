@@ -1,0 +1,18 @@
+---
+label: single
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- name: last_modified_at
+  type: datetime
+  label: Date dernière modification
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+pages:
+- _pages/cafe-des-langues/presentation.md
