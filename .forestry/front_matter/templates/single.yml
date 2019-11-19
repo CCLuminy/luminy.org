@@ -1,0 +1,10 @@
+---
+label: single
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: file
+  name: overlay_image
+  label: overlay_image
