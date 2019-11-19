@@ -206,12 +206,14 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-include-cache
+  - jekyll-menus
 
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-include-cache
+  - jekyll-menus
 
 
 # Archives

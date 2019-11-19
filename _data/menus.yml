@@ -1,0 +1,5 @@
+---
+footer:
+- title: À propos de Luminy.org
+  url: about.md
+  weight: 2
