@@ -5,6 +5,12 @@ fields:
 - type: text
   name: title
   label: title
-- type: file
-  name: overlay_image
-  label: overlay_image
+- name: last_modified_at
+  type: datetime
+  label: Date dernière modification
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
