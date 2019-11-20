@@ -3,11 +3,11 @@ main:
   - title: "Le CCL"
     url: /ccl/
   - title: "Activités"
-    url: /activites/
-  - title: "Luminy"
-    url: /luminy/
+    url: /ccl/activites/
+  - title: "Agenda"
+    url: /agenda/
   - title: "Contacts"
-    url: /contacts/
+    url: /ccl/l-asso/contacts/
 
 navs:
   - name: "ccl"
