@@ -23,8 +23,6 @@ navs:
           url: /ccl/activites/jeudis/
         - title: "Campus propre"
           url: /ccl/activites/campus-propre/
-        - title: "Club de science"
-          url: /ccl/activites/club-science/
         - title: "Projections"
           url: /ccl/activites/projections/
         - title: "Ateliers et animation"
@@ -51,3 +49,19 @@ navs:
           url: /jardin/paniers/
         - title: "Gallerie"
           url: /jardin/gallerie/
+  - name: "club-science"
+    nav:
+      - title: "Club science"
+        url: /club-science/
+        children:
+          - title: "Ressources"
+            url: /club-science/ressources/
+          - title: "Contacts"
+            utl: /club-science/contacts/
+  - name: "fse"
+    nav:
+      - title: "FSE Luminy"
+        url: /fse/
+        children:
+          - title: "Communiqués de presse"
+            url: /fse/communiques

@@ -22,16 +22,6 @@ authors:
     helloasso        : "jardin-universitaire-de-luminy"
     links:
 
-  - name             : "Com & Sea"
-    prefix           : "comnsea"
-    avatar           : /assets/images/authors-logo/logo-com.png
-    bio              : "Association d'Océanologie"
-    location         : "Hexagone"
-    email            : "comandseaass@gmail.com"
-    facebook         : "comandseaAMU"
-    helloasso        : #"jardin-universitaire-de-luminy"
-    links:
-
   - name             : "Club de Science Luminy"
     prefix           : "club-science"
     avatar           : /assets/images/authors-logo/logo-club-sciences.jpeg
@@ -39,3 +29,31 @@ authors:
     location         : "Luminy"
     email            : "club.science.luminy@gmail.com"
     facebook         : "Club-de-Science-Luminy-114357542612098/"
+
+  - name             : "FSE Luminy"
+    prefix           : "fse"
+    avatar           : /assets/images/authors-logo/fse-transparent.png
+    bio              : "INFORMER les étudiants, DÉFENDRE leurs droits, et créer la SOLIDARITÉ sur nos campus !"
+    location         : "Cité U & Hexagone"
+    # email            : "club.science.luminy@gmail.com"
+    facebook         : "https://www.facebook.com/FSE.Luminy/"
+
+  - name             : "Café des Langues"
+    prefix           : "cafe-des-langues"
+    avatar           : /assets/images/authors-logo/cafe-des-langues.png
+    bio              : "Venez converser autour d’un bon café et dans une ambiance très conviviale !"
+    location         : "Bibliothèque U."
+    email            : "cafedeslanguesluminy@gmail.com"
+    uri              : "https://www.dropbox.com/sh/6xn3uv56ao1ttkg/AAAAJwwZIFg6zstXIRPo1gdga?dl=0&fbclid=IwAR2Q58fOCrfKTtEBtpShFKWxwarcXTe0NgfJXjMeIcXyrhLsFVKnwR1Z_VA"
+    facebook         : "https://www.facebook.com/cafedeslanguesluminy"
+    twitter          : "Cafe_Langues"
+
+  - name             : "ALLIÉ"
+    prefix           : "allie"
+    avatar           : /assets/images/authors-logo/allie.png
+    bio              : "Association Luminyenne de Lutte et d'Information des Etudiants, est basée à Marseille"
+    location         : "Hexagone"
+    uri              : "http://allie-luminy.e-monsite.com/"
+    email            : "allie@luminy.org"
+    facebook         : "https://www.facebook.com/alliejournal/"
+

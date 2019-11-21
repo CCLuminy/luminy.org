@@ -8,6 +8,7 @@ overlay_image: assets/images/banniere-club-science.png
 
 # Actualités sur [<i class='fab fa-facebook-square'></i>]({{ site.data.extlinks.fb-club-science }})
 
+<!-- TODO: move this up, it should be executed only once -->
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous"
 src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v5.0"></script>
