@@ -2,4 +2,7 @@
 footer:
 - title: À propos de Luminy.org
   url: about.md
-  weight: 2
+  weight: 1
+- title: Poèmes
+  url: poemes/
+  weight: 1
