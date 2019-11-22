@@ -1,6 +1,6 @@
 # /_data/authors.yml
 authors:
-  - name             : "CCL"
+  - name             : "Centre Culturel de Luminy"
     prefix           : "ccl"
     avatar           : /assets/images/authors-logo/indien-petit.png
     og_image         : /assets/images/logo-ccl-grand.png
