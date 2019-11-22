@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: document
+  path: _data/navigation.yml
+  label: Navigations
+  match: "**/*"
 - type: directory
   path: _pages
   label: Toutes les pages
@@ -19,6 +23,7 @@ build:
   - JEKYLL_ENV=staging
   - GIT_LFS_SKIP_SMUDGE=1
   preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
