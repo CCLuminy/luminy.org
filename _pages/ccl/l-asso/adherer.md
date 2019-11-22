@@ -1,5 +1,6 @@
 ---
 title: Adhésion et soutiens
+menu: ccl-l-asso
 toc: true
 share: true
 overlay_image: assets/images/banniere-bulles.png

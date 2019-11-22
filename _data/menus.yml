@@ -6,3 +6,37 @@ footer:
 - title: Poèmes
   url: poemes/
   weight: 1
+
+ccl:
+  - title: "Activités"
+    url: "/ccl/activites/"
+    identifier: ccl-activites
+  - title: "L'association"
+    url: "/ccl/"
+    identifier: ccl-l-asso
+
+    # - title: "Concerts et festivals"
+    #   url: /ccl/activites/concerts/
+    # - title: "Toukouleur"
+    #   url: /ccl/activites/toukouleur/
+    # - title: "Les jeudis du CCL"
+    #   url: /ccl/activites/jeudis/
+    # - title: "Campus propre"
+    #   url: /ccl/activites/campus-propre/
+    # - title: "Projections"
+    #   url: /ccl/activites/projections/
+    # - title: "Ateliers et animation"
+    #   url: /ccl/activites/ateliers/
+    # - title: "Projets"
+    #   url: /ccl/activites/projets/
+# - title: "L'association"
+  # url: "/ccl/"
+  # children:
+    # - title: "Qui sommes-nous ?"
+    #   url: /ccl/l-asso/presentation-longue/
+    # - title: "Adhérer"
+    #   url: /ccl/l-asso/adherer/
+    # - title: "Statuts"
+    #   url: /ccl/l-asso/statuts/
+    # - title: "Contacts"
+    #   url: /ccl/l-asso/contacts/

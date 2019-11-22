@@ -1,5 +1,6 @@
 ---
 title: Présentation
+menu: ccl-l-asso
 section: "ccl"
 ---
 
