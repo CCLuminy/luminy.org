@@ -1,13 +1,13 @@
 # mashead links
 main:
-  - title: "Le CCL"
-    url: /ccl/
-  - title: "Activités"
-    url: /ccl/activites/
   - title: "Agenda"
     url: /agenda/
-  - title: "Contacts"
-    url: /ccl/l-asso/contacts/
+  - title: "Le Grenier"
+    url: /grenier/
+  - title: "À Propos"
+    url: /about/
+
+
 
 navs:
   - name: "ccl"
