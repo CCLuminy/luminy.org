@@ -1,16 +1,23 @@
-ul class social-icons
 <div class="page__footer-follow">
-    <ul class="social-icons">
-    {% for link in site.footer.links %}
-      <li>
-        <a href="{{ link.url }}/">{{ link.label }}</a>
-      </li>
-    {% endfor %}
-    <ul class="social-icons">
-    {% for author in site.data.authors.authors %}
-      <li>
-        <a href="/{{ author.prefix }}/">{{ author.name }}</a>
-      </li>
-    {% endfor %}
+  <ul class="social-icons">
+    <!-- {% if site.data.ui-text[site.locale].follow_label %} -->
+    <!--   <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li> -->
+    <!-- {% endif %} -->
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% if site.rss %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endif %}
+  </ul>
 </div>
-<div class="page__footer-copyright">&copy; 2002-{{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
+
+<div class="page__footer-copyright">&copy; 2000-{{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
+
+<!-- {{ site.data.ui-text[site.locale].website_label | default: "Website" }} {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" | downcase }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>, {{ site.data.ui-text[site.locale].hosted_by | default: "Hosted by" | downcase }} <a href="https://www.netlify.com/" rel="nofollow">Netlify</a>. -->
