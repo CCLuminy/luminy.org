@@ -1,21 +1,16 @@
+ul class social-icons
 <div class="page__footer-follow">
-  <div>
-    Luminy.org :
-    <ul>
+    <ul class="social-icons">
     {% for link in site.footer.links %}
       <li>
         <a href="{{ link.url }}/">{{ link.label }}</a>
       </li>
     {% endfor %}
-  </div>
-  <div>
-    Raccourcis :
-    <ul>
+    <ul class="social-icons">
     {% for author in site.data.authors.authors %}
       <li>
         <a href="/{{ author.prefix }}/">{{ author.name }}</a>
       </li>
     {% endfor %}
-  </div>
 </div>
 <div class="page__footer-copyright">&copy; 2002-{{ site.time | date: '%Y' }} {{ site.name | default: site.title }}</div>
