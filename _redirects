@@ -2,5 +2,5 @@
 http://test-jardin.luminy.org/* https://test.luminy.org/jardin/:splat 301!
 https://test-jardin.luminy.org/* https://test.luminy.org/jardin/:splat 301!
 
-http://test-ccl.luminy.org/* https://test.luminy.org/ccl/:splat 200!
-https://test-ccl.luminy.org/* https://test.luminy.org/ccl/:splat 200!
+http://test-ccl.luminy.org/* https://test.luminy.org/ccl/:splat 301!
+https://test-ccl.luminy.org/* https://test.luminy.org/ccl/:splat 301!
