@@ -146,6 +146,7 @@ footer:
 # Reading Files
 include:
   - .htaccess
+  - _redirects
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
