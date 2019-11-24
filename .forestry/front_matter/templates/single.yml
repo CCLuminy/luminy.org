@@ -47,7 +47,7 @@ fields:
   description: Description courte et précise pour le référencement.
 - name: has_header
   type: boolean
-  label: Entête super chiadée
+  label: Entête
   default: true
 - name: header
   type: field_group
@@ -59,10 +59,8 @@ fields:
     config:
       required: false
       options:
-      - default
-      - color
-      - fixed_image
-      - overlay_image
+      - overlay
+      - image
       - video
       source:
         type: simple
@@ -92,7 +90,7 @@ fields:
     default: true
   - name: show_text
     type: select
-    default: Copier la description
+    default: description
     config:
       required: false
       options:
@@ -104,15 +102,14 @@ fields:
         file: 
         path: 
     label: Texte sur l'entête
-  - name: custom_text
+  - name: overlay_text
     type: text
     config:
       required: false
-    label: Texte d'entête personnalisé
-    description: Ce texte remplace la description pour le référencement.
+    label: Texte
     showOnly:
-      field: header_text
-      value: Texte personnalisé
+      field: show_text
+      value: custom
   - name: caption
     type: text
     config:
@@ -154,10 +151,12 @@ fields:
       max: '5'
       labelField: label
     label: Boutons
+    showOnly:
+      field: type
   label: Entête
   showOnly:
     field: has_header
     value: true
 pages:
-- _pages/jardin/lorem-ipsum.md
 - _pages/lorem.md
+- _pages/jardin/lorem-ipsum.md
