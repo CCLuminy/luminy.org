@@ -125,15 +125,6 @@ fields:
     showOnly:
       field: header_text
       value: Texte personnalisé
-  - name: actions
-    type: list
-    config:
-      use_select: false
-      min: '0'
-      max: '5'
-      source:
-        type: simple
-    label: Boutons
   - name: caption
     type: text
     config:
@@ -142,10 +133,42 @@ fields:
       value: Banderole
     label: Crédits
     description: Apparaitra tout petit en bas à droite de l'image
+  - name: actions
+    type: field_group_list
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Label
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+    - name: fa-icon
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - facebook
+        - calendrier
+        - helloasso
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Icone
+    config:
+      min: '0'
+      max: '5'
+      labelField: label
+    label: Boutons
   label: Entête
   showOnly:
     field: has_header
     value: true
 pages:
-- _pages/lorem-ipsum-1.md
-- _pages/lorem-ipsum.md
+- _pages/lorem.md
