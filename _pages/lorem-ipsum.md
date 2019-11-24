@@ -13,6 +13,14 @@ entete:
 title: Lorem ipsum
 classes: wide
 description: description lorem ipsum
+header:
+  header_type: Par défaut
+  overlay_color: ''
+  overlay_image: ''
+  image: ''
+  overlay_title: true
+  header_text: Copier la description
+  caption: ''
 published: false
 
 ---
