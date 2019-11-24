@@ -88,7 +88,7 @@ fields:
     showOnly:
       field: header_type
       value: Banderole perso
-    default: "/assets/images/puget-fleuri.png"
+    default: ''
   - name: image
     type: file
     config:
@@ -97,7 +97,7 @@ fields:
     showOnly:
       field: header_type
       value: Image fixe
-    default: "/assets/images/banniere-hexagone.png"
+    default: ''
   - name: overlay_title
     type: boolean
     label: Titre sur l'entête
@@ -116,6 +116,24 @@ fields:
         file: 
         path: 
     label: Texte sur l'entête
+  - name: texte_d_entete_personnalise
+    type: text
+    config:
+      required: false
+    label: Texte d'entête personnalisé
+    description: Ce texte remplace la description pour le référencement.
+    showOnly:
+      field: header_text
+      value: Texte personnalisé
+  - name: actions
+    type: list
+    config:
+      use_select: false
+      min: '0'
+      max: '5'
+      source:
+        type: simple
+    label: Boutons
   - name: caption
     type: text
     config:
