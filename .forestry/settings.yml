@@ -11,8 +11,15 @@ sections:
   match: "**/*"
   templates:
   - single
+- type: directory
+  path: _pages/club-science
+  label: Club de Science
+  create: all
+  match: "**/*"
+  templates:
+  - single
 - type: heading
-  label: Headings
+  label: Config
 - type: document
   path: _data/authors.yml
   label: Les auteurs
