@@ -74,9 +74,9 @@ fields:
         file: 
         path: 
     label: Type
-    description: 'default: overlay avec juste le titre et la bannière de l''asso (écrase
-      les autre champs d''entête).  overlay: des infos sur une couleur ou une image
-      de fond (l''image est prioritaire)'
+    description: 'default: overlay avec juste le titre de la page et la bannière de
+      l''asso. overlay: des infos sur une couleur ou une image de fond (l''image est
+      prioritaire)'
   - name: color
     type: color
     config:
