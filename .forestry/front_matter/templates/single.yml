@@ -226,6 +226,7 @@ fields:
       path: 
   label: test
 pages:
+- _pages/jardin/lorem-ipsum.md
 - _pages/ccl/activites/lorem-ipsum.md
 - _pages/jardin/lorem-ipsum.md
 - _pages/ccl/activites/lorem-ipsum.md
