@@ -5,6 +5,10 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: document
+  path: _data/authors.yml
+  label: Les auteurs
+  match: "**/*"
+- type: document
   path: _data/navigation.yml
   label: Navigations
 - type: document
