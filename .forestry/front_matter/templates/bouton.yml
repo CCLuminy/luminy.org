@@ -1,0 +1,58 @@
+---
+label: bouton
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: file
+  name: overlay_image
+  label: overlay_image
+- type: field_group
+  name: header
+  label: header
+  fields:
+  - type: field_group_list
+    name: actions
+    label: actions
+    fields:
+    - type: text
+      name: label
+      label: label
+    - type: text
+      name: url
+      label: url
+  - type: boolean
+    name: show_overlay_excerpt
+    label: show_overlay_excerpt
+- type: textarea
+  name: excerpt
+  label: excerpt
+- type: field_group_list
+  name: feature_row
+  label: feature_row
+  fields:
+  - type: file
+    name: image_path
+    label: image_path
+  - type: text
+    name: alt
+    label: alt
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: excerpt
+    label: excerpt
+  - type: text
+    name: url
+    label: url
+  - type: text
+    name: btn_class
+    label: btn_class
+  - type: text
+    name: btn_label
+    label: btn_label
