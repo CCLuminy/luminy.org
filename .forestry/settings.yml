@@ -4,6 +4,12 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: jekyll-pages
+  label: Pages luminy.org
+  create: documents
+  match: "**/*"
+  templates:
+  - single
 - type: directory
   path: _pages/jardin
   label: Jardin
@@ -21,6 +27,13 @@ sections:
 - type: directory
   path: _pages/club-science
   label: Club de Science
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/fse
+  label: FSE
   create: all
   match: "**/*"
   templates:
