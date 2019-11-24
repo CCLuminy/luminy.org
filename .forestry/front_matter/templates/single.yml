@@ -47,7 +47,7 @@ fields:
   description: Description courte et précise pour le référencement.
 - name: has_header
   type: boolean
-  label: Entête
+  label: Afficher une entête visuelle
   default: true
 - name: header
   type: field_group
