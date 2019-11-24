@@ -3,19 +3,20 @@ last_modified_at: 2019-11-24 18:31:20 +0100
 toc: true
 has_header: true
 header:
-  type: overlay_image
+  type: color
   overlay_color: rgb(125, 103, 103)
   overlay_title: true
-  show_text: ''
+  show_text: description
   overlay_image: ''
   image: ''
   custom_text: ''
   caption: ''
   actions: []
+  color: "#B19292"
+  fixed_image: ''
 title: Lorem Ipsum
 classes: ''
 description: Description de ouf
-published: false
 
 ---
 # Eundem exemplo ternis moenia labor super Tenedos
