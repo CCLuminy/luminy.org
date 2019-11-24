@@ -7,13 +7,13 @@ header:
   overlay_color: rgb(125, 103, 103)
   overlay_title: true
   show_text: description
-  overlay_image: ''
+  overlay_image: "/assets/images/atelier-combat.jpg"
   image: ''
   custom_text: ''
   caption: ''
   actions: []
   color: "#B19292"
-  fixed_image: ''
+  fixed_image: "/assets/images/banniere-parvis.jpg"
 title: Lorem Ipsum
 classes: ''
 description: Description de ouf
