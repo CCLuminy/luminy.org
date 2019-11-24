@@ -30,7 +30,7 @@ fields:
     required: false
     options:
     - wide
-    - ' '
+    - " "
     source:
       type: simple
       section: 
@@ -127,5 +127,3 @@ fields:
   showOnly:
     field: has_header
     value: true
-pages:
-- _pages/lorem-ipsum.md
