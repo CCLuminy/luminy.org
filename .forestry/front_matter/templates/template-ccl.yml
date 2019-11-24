@@ -1,9 +1,0 @@
----
-label: Template ccl
-hide_body: false
-fields:
-- name: defauts
-  type: include
-  config: {}
-  template: single
-  label: Défauts
