@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: heading
+  label: Headings
 - type: document
   path: _data/authors.yml
   label: Les auteurs
