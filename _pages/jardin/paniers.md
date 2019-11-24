@@ -2,6 +2,7 @@
 title: Les paniers bio !
 last_modified_at: 2019-11-18T14:16:10.453Z
 overlay_image: assets/images/banniere-bulles.png
+classes: wide
 menu:
   footer:
     weight: 3
