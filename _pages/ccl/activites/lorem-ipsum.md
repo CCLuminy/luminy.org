@@ -18,7 +18,6 @@ header:
 title: Lorem Ipsum
 classes: wide
 description: Une description incroyable
-published: false
 
 ---
 # Eundem exemplo ternis moenia labor super Tenedos
