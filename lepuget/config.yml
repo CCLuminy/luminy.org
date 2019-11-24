@@ -73,25 +73,22 @@ collections:
                       - {label: "Lien", name: "url", widget: string}
 
   - name: 'general'
+    default_fields: *default_fields
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
     label: 'Pages générales'
     folder: '_pages/'
     create: true
     editor:
       preview: true
     fields:
-      - {label: "Titre de la page", name: "title", widget: "string"}
-      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
-      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
   - name: 'ccl'
     label: 'CCL'
     folder: '_pages/ccl'
     create: true
-    fields:
-      - {label: "Titre de la page", name: "title", widget: "string"}
-      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
-      - {label: "Bandeau ?", name: "overlay_image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+    fields: &default_fields
   - name: 'l-asso'
     label: "CCL/l'asso"
     folder: '_pages/ccl/l-asso'
