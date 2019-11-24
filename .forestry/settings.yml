@@ -4,6 +4,13 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: directory
+  path: _pages/ccl
+  label: Centre Culturel de Luminy
+  create: all
+  match: "**/*"
+  templates:
+  - single
 - type: heading
   label: Headings
 - type: document
