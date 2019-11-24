@@ -7,6 +7,9 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
+- type: document
+  path: _data/authors.yml.yml
+  label: Auteurs
 - type: directory
   path: _pages
   label: Toutes les pages
