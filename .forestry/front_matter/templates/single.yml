@@ -116,6 +116,9 @@ fields:
         file: 
         path: 
     label: Texte sur l'entête
+    showOnly:
+      field: type
+      value: overlay
   - name: overlay_text
     type: text
     config:
@@ -129,7 +132,8 @@ fields:
     config:
       required: false
     showOnly:
-      value: Banderole
+      field: type
+      value: overlay
     label: Crédits
     description: Apparaitra tout petit en bas à droite de l'image
   - name: actions
@@ -167,6 +171,7 @@ fields:
     label: Boutons
     showOnly:
       field: type
+      value: overlay
   label: Entête
   showOnly:
     field: has_header
