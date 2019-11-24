@@ -1,4 +1,9 @@
 ---
 label: Template ccl
 hide_body: false
-fields: []
+fields:
+- name: defauts
+  type: include
+  config: {}
+  template: single
+  label: Défauts
