@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
-  match: "**/*"
 - type: directory
   path: _pages
   label: Toutes les pages

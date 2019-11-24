@@ -14,3 +14,16 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+- name: classes
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Large ?
+  description: Page large ?
