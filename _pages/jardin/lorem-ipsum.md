@@ -1,9 +1,9 @@
 ---
-last_modified_at: 2019-11-24 18:31:20 +0100
+last_modified_at: 2019-11-24T17:31:20.000+00:00
 toc: true
 has_header: true
 header:
-  type: color
+  type: default
   overlay_color: rgb(125, 103, 103)
   overlay_title: true
   show_text: description
@@ -17,9 +17,11 @@ header:
     fa-icon: facebook
   color: "#B19292"
   fixed_image: "/assets/images/banniere-parvis.jpg"
+  overlay_text: ''
 title: Lorem Ipsum
 classes: ''
 description: Description de ouf
+share: true
 
 ---
 # Eundem exemplo ternis moenia labor super Tenedos
