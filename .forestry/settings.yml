@@ -12,6 +12,8 @@ sections:
   label: Toutes les pages
   create: all
   match: "**/*"
+  templates:
+  - single
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
