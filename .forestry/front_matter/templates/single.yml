@@ -4,16 +4,25 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
+  config:
+    required: true
 - name: last_modified_at
   type: datetime
   label: Date dernière modification
   description: ''
   config:
-    required: false
-    date_format: 
+    required: true
+    date_format: ''
     time_format: 
     display_utc: false
+    export_format: MM/DD/YYYY
+  default: now
+  hidden: true
+- name: toc
+  type: boolean
+  label: Afficher le sommaire ?
+  default: true
 - name: classes
   type: select
   default: ''
@@ -21,13 +30,58 @@ fields:
     required: false
     options:
     - wide
-    - not wide
     source:
       type: simple
       section: 
       file: 
       path: 
-  label: Large ?
-  description: Page large ?
+  label: Élargir la zone du texte (wide)
+  description: Le texte prend aussi l'espace à droite de la page. S'il y a un sommaire,
+    il sera placé en haut de la page.
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Description courte et précise pour le référencement.
+- name: header_type
+  type: select
+  default: Rien
+  config:
+    required: true
+    options:
+    - Image (banderole)
+    - Couleur unie
+    - Vidéo
+    - Rien
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Visuel de l'entête
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: visual_type
+    type: select
+    default: []
+    config:
+      required: false
+      options:
+      - Couleur unie
+      - Image (banderole)
+      - Vidéo
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Visuel de l'entête
+  label: Entête
+  showOnly:
+    field: header_type
+    value: Image (banderole)
 pages:
 - _pages/lorem-ipsum.md
