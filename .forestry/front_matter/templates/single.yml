@@ -179,6 +179,36 @@ fields:
     showOnly:
       field: type
       value: overlay
+  - name: video
+    type: field_group
+    config: {}
+    fields:
+    - name: id
+      type: text
+      config:
+        required: false
+      label: Identifiant de la vidéo
+      description: Par exemple https://www.youtube.com/watch?v=**rKNMf4LFX44** (mettre
+        uniquement la partie en gras)
+    - name: provider
+      type: select
+      default: youtube
+      config:
+        required: false
+        options:
+        - youtube
+        - vimeo
+        - google-drive
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Fournisseur
+    label: Vidéo
+    showOnly:
+      field: type
+      value: video
   label: Entête
   showOnly:
     field: has_header
