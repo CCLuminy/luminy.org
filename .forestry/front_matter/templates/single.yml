@@ -184,6 +184,6 @@ fields:
     field: has_header
     value: true
 pages:
+- _pages/jardin/lorem-ipsum.md
 - _pages/ccl/activites/lorem-ipsum.md
 - _pages/lorem.md
-- _pages/jardin/lorem-ipsum.md
