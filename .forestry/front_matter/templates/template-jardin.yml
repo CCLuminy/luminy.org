@@ -7,3 +7,8 @@ fields:
   config: {}
   template: single
   label: Défauts
+- name: plante
+  type: text
+  config:
+    required: false
+  label: Plante
