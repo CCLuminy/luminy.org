@@ -5,6 +5,13 @@ admin_path: admin
 webhook_url: 
 sections:
 - type: directory
+  path: _pages/jardin
+  label: Jardin
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
   path: _pages/ccl
   label: Centre Culturel de Luminy
   create: all
