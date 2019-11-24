@@ -53,17 +53,17 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: header_type
+  - name: type
     type: select
     default: Par défaut
     config:
       required: false
       options:
-      - Image fixe
-      - Couleur
-      - Vidéo
-      - Banderole perso
-      - Par défaut
+      - default
+      - color
+      - fixed_image
+      - overlay_image
+      - video
       source:
         type: simple
         section: 
@@ -102,21 +102,21 @@ fields:
     type: boolean
     label: Titre sur l'entête
     default: true
-  - name: header_text
+  - name: show_text
     type: select
     default: Copier la description
     config:
       required: false
       options:
-      - Copier la description
-      - Texte personnalisé
+      - description
+      - custom
       source:
         type: simple
         section: 
         file: 
         path: 
     label: Texte sur l'entête
-  - name: texte_d_entete_personnalise
+  - name: custom_text
     type: text
     config:
       required: false
