@@ -7,7 +7,7 @@ header:
   overlay_title: true
   show_text: description
   color: "#AC6B6B"
-  overlay_image: ''
+  overlay_image: "/assets/images/banniere-jardin.jpg"
   fixed_image: "/assets/images/atelier-mix.jpg"
   overlay_text: ''
   caption: Crédit
