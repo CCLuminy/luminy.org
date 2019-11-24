@@ -44,34 +44,19 @@ fields:
     required: false
   label: Description
   description: Description courte et précise pour le référencement.
-- name: header_type
-  type: select
-  default: Rien
-  config:
-    required: true
-    options:
-    - Image (banderole)
-    - Couleur unie
-    - Vidéo
-    - Rien
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Visuel de l'entête
-- name: header
+- name: entete
   type: field_group
   config: {}
   fields:
-  - name: visual_type
+  - name: header_type
     type: select
-    default: []
+    default: Rien
     config:
-      required: false
+      required: true
       options:
+      - Banderole
+      - Image fixe
       - Couleur unie
-      - Image (banderole)
       - Vidéo
       source:
         type: simple
@@ -79,9 +64,35 @@ fields:
         file: 
         path: 
     label: Visuel de l'entête
+  - name: overlay_color
+    type: color
+    label: Couleur
+    config:
+      required: true
+      color_format: Hex
+    showOnly:
+      field: header_type
+      value: Couleur unie
+  - name: overlay_image
+    type: file
+    config:
+      maxSize: '15'
+    label: Image
+    showOnly:
+      field: header_type
+      value: Banderole
+  - name: image
+    type: file
+    config:
+      maxSize: '15'
+    label: Image
+    showOnly:
+      field: header_type
+      value: Image fixe
   label: Entête
-  showOnly:
-    field: header_type
-    value: Image (banderole)
+- name: header_visual
+  type: boolean
+  label: Visuel d'entête
+  default: true
 pages:
 - _pages/lorem-ipsum.md
