@@ -6,10 +6,8 @@ layout: default
 {% assign author = author[1] %}
 {% assign author = site.data.authors.authors | where: "directory", author | first %}
 
-{% if page.header.overlay_color or page.overlay_image or page.header.image or author.banner %}
+{% if page.has_header %}
   {% include page__hero.html %}
-{% elsif page.header.video.id and page.header.video.provider %}
-  {% include page__hero_video.html %}
 {% endif %}
 
 {% if page.url != "/" and site.breadcrumbs %}
