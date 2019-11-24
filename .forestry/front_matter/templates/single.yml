@@ -30,7 +30,7 @@ fields:
     required: false
     options:
     - wide
-    - '""'
+    - ' '
     source:
       type: simple
       section: 
