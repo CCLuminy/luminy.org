@@ -1,14 +1,14 @@
 ---
-last_modified_at: 2019-11-24 20:12:07 +0100
+last_modified_at: 2019-11-24T19:12:07.000+00:00
 toc: true
 has_header: true
 header:
-  type: overlay
+  type: image
   overlay_title: true
   show_text: description
   color: "#AC6B6B"
   overlay_image: ''
-  fixed_image: ''
+  fixed_image: "/assets/images/atelier-mix.jpg"
   overlay_text: ''
   caption: ''
   actions:
