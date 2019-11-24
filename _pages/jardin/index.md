@@ -1,11 +1,9 @@
 ---
 title: Jardin Universitaire de Luminy
-menu:
-  header:
-    title: Les pages du jardin
-    weight: 1
-    identifier: jardin
-
+has_header: true
+toc: true
+header:
+  type: default
 ---
 # c'est le jardin
 

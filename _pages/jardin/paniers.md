@@ -1,15 +1,9 @@
 ---
 title: Les paniers bio !
 last_modified_at: 2019-11-18T14:16:10.453Z
-overlay_image: assets/images/banniere-bulles.png
-classes: wide
-menu:
-  footer:
-    weight: 3
-    title: Les paniers bio
-  jardin:
-    weight: 1
-
+has_header: true
+header:
+  type: default
 ---
 Tous les jeudis, les paniers marseillais proposent des produits bio en direct de chez les producteurs ; légumes, fruits, œufs, pain, jus, vin, huile, olives, fruits secs, vinaigre, viande, fromages, ...
 

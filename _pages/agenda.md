@@ -1,6 +1,9 @@
 ---
 title: Agenda
 description: Agenda commun luminy.org
+has_header: false
+header:
+  type: default
 
 ---
 <iframe

@@ -3,7 +3,7 @@
   {% capture overlay_title %}true{% endcapture %}
   {% capture overlay_text %}{{ page.header.description }}{% endcapture %}
   {% capture overlay_actions %}false{% endcapture %}
-  {% capture img_path %}{{ author.banner }}{% endcapture %}
+  {% capture img_path %}{{ author.banner | default: site.banner }}{% endcapture %}
 {% else %}
 
   {% capture header_type %}{{ page.header.type }}{% endcapture %}
@@ -64,7 +64,7 @@
           {% if page.header.color %}
             background-color: {{ page.header.color | default: 'transparent' }};
           {% endif %}
-          {% if page.header.overlay_image %}
+          {% if img_path %}
             background-image:
             {% if overlay_filter %}
               linear-gradient({{ overlay_filter }},
