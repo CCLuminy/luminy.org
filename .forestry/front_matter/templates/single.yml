@@ -49,7 +49,7 @@ fields:
   type: boolean
   label: Entête super chiadée
   default: true
-- name: entete
+- name: header
   type: field_group
   config: {}
   fields:
