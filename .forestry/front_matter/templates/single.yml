@@ -170,3 +170,5 @@ fields:
   showOnly:
     field: has_header
     value: true
+pages:
+- _pages/lorem.md
