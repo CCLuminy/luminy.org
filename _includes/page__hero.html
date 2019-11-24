@@ -12,7 +12,7 @@
 
 {% if page.header.overlay_image contains "://" %}
   {% capture overlay_img_path %}{{ page.header.overlay_image }}{% endcapture %}
-{% elsif page.overlay_image %}
+{% elsif page.header.overlay_image %}
   {% capture overlay_img_path %}{{ page.header.overlay_image | relative_url }}{% endcapture %}
 {% endif %}
 
@@ -44,8 +44,8 @@
 
 <div class="page__hero{% if page.header.type == 'overlay' %}--overlay{% endif %}"
   style="{% if page.header.type == 'overlay' %}
-          {% if page.header.overlay_color %}
-            background-color: {{ page.header.overlay_color | default: 'transparent' }};
+          {% if page.header.color %}
+            background-color: {{ page.header.color | default: 'transparent' }};
           {% endif %}
           {% if page.header.overlay_image %}
             background-image:
