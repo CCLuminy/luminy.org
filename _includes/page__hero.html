@@ -43,13 +43,19 @@
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
 <div class="page__hero{% if page.header.type == 'overlay' %}--overlay{% endif %}"
-  style="{% if page.header.type == 'overlay' %}{% if page.header.overlay_color
-  %}background-color: {{ page.header.overlay_color | default: 'transparent'
-  }};{% endif %} {% if page.header.overlay_image %}background-image: {% if
-  overlay_filter %}linear-gradient({{ overlay_filter }}, {{ overlay_filter }}),
-  {% endif %}url('{{ img_path }}');{% endif %}"
+  style="{% if page.header.type == 'overlay' %}
+          {% if page.header.overlay_color %}
+            background-color: {{ page.header.overlay_color | default: 'transparent' }};
+          {% endif %}
+          {% if page.header.overlay_image %}
+            background-image:
+            {% if overlay_filter %}
+              linear-gradient({{ overlay_filter }},
+            {{ overlay_filter }}),{% endif %}
+          {% endif %}url('{{ img_path }}');
+        {% endif %}"
 >
-
+    {% if page.header.type == "overlay" %}
     <div class="wrapper">
     {% if page.header.overlay_title %}
         <h1 id="page-title" class="page__title" itemprop="headline">
