@@ -171,4 +171,5 @@ fields:
     field: has_header
     value: true
 pages:
+- _pages/jardin/lorem-ipsum.md
 - _pages/lorem.md
