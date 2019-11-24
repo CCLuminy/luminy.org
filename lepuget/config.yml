@@ -9,6 +9,12 @@ slug:
   encoding: "ascii"
   clean_accents: true
 
+default_fields: *default_fields
+  - {label: "Titre de la page", name: "title", widget: "string"}
+  - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+  - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", default: false}
+  - {label: "Body", name: "body", widget: "markdown"}
+
 collections:
   - name: 'data'
     label: "Auteurs et Navigations"
@@ -73,11 +79,6 @@ collections:
                       - {label: "Lien", name: "url", widget: string}
 
   - name: 'general'
-    default_fields: *default_fields
-      - {label: "Titre de la page", name: "title", widget: "string"}
-      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
-      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", default: false}
-      - {label: "Body", name: "body", widget: "markdown"}
     label: 'Pages générales'
     folder: '_pages/'
     create: true
