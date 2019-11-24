@@ -55,32 +55,31 @@ fields:
   fields:
   - name: header_type
     type: select
-    default: Banderole
+    default: Par défaut
     config:
-      required: true
+      required: false
       options:
-      - Banderole
       - Image fixe
-      - Couleur unie
+      - Couleur
       - Vidéo
+      - Banderole perso
+      - Par défaut
       source:
         type: simple
         section: 
         file: 
         path: 
     label: Type
-    showOnly:
-      field: has_visual
-      value: true
   - name: overlay_color
     type: color
     label: Couleur
     config:
-      required: true
-      color_format: Hex
+      required: false
+      color_format: RGB
     showOnly:
       field: header_type
-      value: Couleur unie
+      value: Couleur
+    default: rgb(125, 103, 103)
   - name: overlay_image
     type: file
     config:
@@ -88,7 +87,8 @@ fields:
     label: Image
     showOnly:
       field: header_type
-      value: Banderole
+      value: Banderole perso
+    default: "/assets/images/puget-fleuri.png"
   - name: image
     type: file
     config:
@@ -97,17 +97,18 @@ fields:
     showOnly:
       field: header_type
       value: Image fixe
+    default: "/assets/images/banniere-hexagone.png"
   - name: overlay_title
     type: boolean
     label: Titre sur l'entête
     default: true
   - name: header_text
     type: select
-    default: ''
+    default: Copier la description
     config:
       required: false
       options:
-      - Description ci-dessus
+      - Copier la description
       - Texte personnalisé
       source:
         type: simple
