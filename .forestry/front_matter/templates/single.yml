@@ -70,34 +70,22 @@ fields:
         file: 
         path: 
     label: Type
-  - name: overlay_color
+  - name: color
     type: color
-    label: Couleur
     config:
       required: false
-      color_format: RGB
-    showOnly:
-      field: header_type
-      value: Couleur
-    default: rgb(125, 103, 103)
+      color_format: Hex
+    label: Couleur
   - name: overlay_image
     type: file
     config:
       maxSize: '15'
     label: Image
-    showOnly:
-      field: header_type
-      value: Banderole perso
-    default: ''
-  - name: image
+  - name: fixed_image
     type: file
     config:
       maxSize: '15'
     label: Image
-    showOnly:
-      field: header_type
-      value: Image fixe
-    default: ''
   - name: overlay_title
     type: boolean
     label: Titre sur l'entête
