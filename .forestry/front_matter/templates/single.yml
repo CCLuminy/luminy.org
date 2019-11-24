@@ -19,7 +19,9 @@ fields:
   default: ''
   config:
     required: false
-    options: ["wide", "not wide"]
+    options:
+    - wide
+    - not wide
     source:
       type: simple
       section: 
@@ -27,3 +29,5 @@ fields:
       path: 
   label: Large ?
   description: Page large ?
+pages:
+- _pages/lorem-ipsum.md
