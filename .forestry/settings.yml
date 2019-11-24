@@ -10,14 +10,14 @@ sections:
   create: all
   match: "**/*"
   templates:
-  - template-jardin
+  - single
 - type: directory
   path: _pages/ccl
   label: Centre Culturel de Luminy
   create: all
   match: "**/*"
   templates:
-  - template-ccl
+  - single
 - type: directory
   path: _pages/club-science
   label: Club de Science
