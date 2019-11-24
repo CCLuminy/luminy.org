@@ -278,9 +278,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
       toc_sticky: true
-      header:
-        show_overlay_excerpt: false
       sidebar:
         nav: true

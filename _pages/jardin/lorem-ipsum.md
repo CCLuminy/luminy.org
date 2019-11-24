@@ -1,25 +1,24 @@
 ---
 last_modified_at: 2019-11-24T17:31:20.000+00:00
 toc: true
-has_header: true
+has_header: false
 header:
-  type: default
+  type: overlay
   overlay_color: rgb(125, 103, 103)
   overlay_title: true
-  show_text: description
-  overlay_image: "/assets/images/atelier-combat.jpg"
-  image: ''
+  show_text: custom
+  overlay_image: #"/assets/images/atelier-combat.jpg"
   custom_text: ''
   caption: ''
   actions:
-  - label: Facebook
-    url: http://facebook.com/
-    fa-icon: facebook
   color: "#B19292"
   fixed_image: "/assets/images/banniere-parvis.jpg"
   overlay_text: ''
+  video:
+    id: rKNMf4LFX44
+    provider: youtube
 title: Lorem Ipsum
-classes: ''
+classes: 'wide'
 description: Description de ouf
 share: true
 
