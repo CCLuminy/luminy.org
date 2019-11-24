@@ -19,6 +19,11 @@ fields:
     export_format: ''
   default: now
   hidden: true
+- name: share
+  type: boolean
+  label: Afficher les boutons de partage (réseaux sociaux)
+  description: Boutons Twitter, Facebook, Linkedin en bas de la page
+  default: true
 - name: toc
   type: boolean
   label: Afficher le sommaire ?
@@ -55,21 +60,23 @@ fields:
   fields:
   - name: type
     type: select
-    default: Par défaut
+    default: default
     config:
       required: false
       options:
       - overlay
       - image
       - video
+      - default
       source:
         type: simple
         section: 
         file: 
         path: 
     label: Type
-    description: "'overlay': des infos sur une couleur ou une image de fond (l'image
-      est prioritaire)"
+    description: 'default: banière par défaut (du sous-dossier) avec le titre par
+      dessus (écrase les autre champs d''entête).  overlay: des infos sur une couleur
+      ou une image de fond (l''image est prioritaire)'
   - name: color
     type: color
     config:
