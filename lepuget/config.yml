@@ -24,7 +24,7 @@ collections:
             widget: "list"
             fields:
               - {                  label: "Nom à afficher", name: "name", widget: string }
-              - { required: false, label: "Nom court (pour l'url)", name: "prefix", widget: string }
+              - { required: false, label: "Répertoire (nom court)", name: "directory", widget: string }
               - {                  label: "Avatar", name: "avatar", widget: image }
               - { required: false, label: "Image de partage", name: "og_image", widget: string }
               - { required: false, label: "Bannière par défaut", name: "banner", widget: string }
