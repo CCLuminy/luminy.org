@@ -44,13 +44,17 @@ fields:
     required: false
   label: Description
   description: Description courte et précise pour le référencement.
+- name: has_header
+  type: boolean
+  label: Entête super chiadée
+  default: true
 - name: entete
   type: field_group
   config: {}
   fields:
   - name: header_type
     type: select
-    default: Rien
+    default: Banderole
     config:
       required: true
       options:
@@ -63,7 +67,10 @@ fields:
         section: 
         file: 
         path: 
-    label: Visuel de l'entête
+    label: Type
+    showOnly:
+      field: has_visual
+      value: true
   - name: overlay_color
     type: color
     label: Couleur
@@ -89,10 +96,48 @@ fields:
     showOnly:
       field: header_type
       value: Image fixe
+  - name: overlay_title
+    type: boolean
+    label: Titre sur l'entête
+    default: true
+  - name: header_text
+    type: select
+    default: ''
+    config:
+      required: false
+      options:
+      - Description ci-dessus
+      - Texte personnalisé
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Texte sur l'entête
+  - name: caption
+    type: text
+    config:
+      required: false
+    showOnly:
+      value: Banderole
+    label: Crédits
+    description: Apparaitra tout petit en bas à droite de l'image
+  - name: actions
+    type: list
+    config:
+      use_select: true
+      min: 
+      max: 
+      source:
+        type: simple
+      options:
+      - icone
+      - label
+      - url
+    label: Boutons
   label: Entête
-- name: header_visual
-  type: boolean
-  label: Visuel d'entête
-  default: true
+  showOnly:
+    field: has_header
+    value: true
 pages:
 - _pages/lorem-ipsum.md
