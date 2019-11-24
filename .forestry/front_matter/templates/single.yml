@@ -13,10 +13,10 @@ fields:
   description: ''
   config:
     required: true
-    date_format: ''
+    date_format: DD-MM-YYYY
     time_format: 
     display_utc: false
-    export_format: MM/DD/YYYY
+    export_format: ''
   default: now
   hidden: true
 - name: toc
