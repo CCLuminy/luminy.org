@@ -11,7 +11,10 @@ header:
   image: ''
   custom_text: ''
   caption: ''
-  actions: []
+  actions:
+  - label: Facebook
+    url: http://facebook.com/
+    fa-icon: facebook
   color: "#B19292"
   fixed_image: "/assets/images/banniere-parvis.jpg"
 title: Lorem Ipsum
