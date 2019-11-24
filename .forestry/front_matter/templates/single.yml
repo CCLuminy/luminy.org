@@ -68,26 +68,40 @@ fields:
         file: 
         path: 
     label: Type
+    description: "'overlay': des infos sur une couleur ou une image de fond (l'image
+      est prioritaire)"
   - name: color
     type: color
     config:
       required: false
       color_format: Hex
     label: Couleur
+    showOnly:
+      field: type
+      value: overlay
   - name: overlay_image
     type: file
     config:
       maxSize: '15'
     label: Image
+    showOnly:
+      field: type
+      value: overlay
   - name: fixed_image
     type: file
     config:
       maxSize: '15'
     label: Image
+    showOnly:
+      field: type
+      value: image
   - name: overlay_title
     type: boolean
     label: Titre sur l'entête
     default: true
+    showOnly:
+      field: type
+      value: overlay
   - name: show_text
     type: select
     default: description
