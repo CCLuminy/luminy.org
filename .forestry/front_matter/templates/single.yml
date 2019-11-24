@@ -19,7 +19,7 @@ fields:
   default: ''
   config:
     required: false
-    options: []
+    options: ["wide", "not wide"]
     source:
       type: simple
       section: 
