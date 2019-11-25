@@ -1,6 +1,5 @@
 ---
 title: Contacts
-menu: ccl-l-asso
 no_title: true
 section: ccl
 toc: true

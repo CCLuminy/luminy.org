@@ -1,10 +1,5 @@
 ---
 title: Votre projet sur `luminy.org`
-menu:
-  header:
-    weight: 2
-    title: À propos
-
 ---
 ## Contribuez au référencement des activités luminyennes
 Vous êtes actifs sur Luminy ? Vous participez, contribuez ou organisez des
