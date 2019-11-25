@@ -220,10 +220,10 @@ fields:
     required: false
     options: []
     source:
-      type: pages
+      type: datafiles
       section: les-auteurs
-      file: _data/authors.yml
-      path: 
+      file: authors.yml
+      path: _data/
   label: Changer l'auteur par défaut
   description: Si rien n'est indiqué, l'auteur sera celui correspondant à la section
     de la page.
