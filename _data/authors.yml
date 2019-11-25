@@ -1,4 +1,14 @@
 ---
+- name: Ali
+  prefix: ali
+  avatar: ''
+  og_image: ''
+  banner: ''
+  bio: ''
+  location: ''
+  email: ''
+  facebook: ''
+  helloasso: ''
 - name: Marin
   prefix: marin
   avatar: ''
