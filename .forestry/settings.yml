@@ -6,14 +6,14 @@ webhook_url:
 sections:
 - type: directory
   path: _pages
-  label: Pages
+  label: Pages racines
   create: documents
   match: "*"
   templates:
   - single
 - type: directory
-  path: _pages/jardin
-  label: Jardin
+  path: _pages/allie
+  label: ALLIÉ
   create: all
   match: "**/*"
   templates:
@@ -35,6 +35,13 @@ sections:
 - type: directory
   path: _pages/fse
   label: FSE
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/jardin
+  label: Jardin
   create: all
   match: "**/*"
   templates:
