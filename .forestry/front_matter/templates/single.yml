@@ -213,3 +213,15 @@ fields:
   showOnly:
     field: has_header
     value: true
+- name: author
+  type: select
+  default: Authors
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: 
+      file: _data/authors.yml
+      path: 
+  label: Auteurs
