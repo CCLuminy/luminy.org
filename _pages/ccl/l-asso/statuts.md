@@ -1,6 +1,5 @@
 ---
 title: "Statuts de l'asso"
-menu: ccl-l-asso
 section: "ccl"
 ---
 

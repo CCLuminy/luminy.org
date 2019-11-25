@@ -4,13 +4,221 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Titre
+  config:
+    required: true
 - name: last_modified_at
   type: datetime
   label: Date dernière modification
   description: ''
   config:
-    required: false
-    date_format: 
+    required: true
+    date_format: DD-MM-YYYY
     time_format: 
     display_utc: false
+    export_format: ''
+  default: now
+  hidden: true
+- name: share
+  type: boolean
+  label: Afficher les boutons de partage (réseaux sociaux)
+  description: Boutons Twitter, Facebook, Linkedin en bas de la page
+  default: true
+- name: toc
+  type: boolean
+  label: Afficher le sommaire ?
+  default: true
+- name: classes
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - wide
+    - " "
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Élargir la zone du texte (wide)
+  description: Le texte prend aussi l'espace à droite de la page. S'il y a un sommaire,
+    il sera placé en haut de la page.
+- name: description
+  type: text
+  config:
+    required: false
+  label: Description
+  description: Description courte et précise pour le référencement.
+- name: has_header
+  type: boolean
+  label: Afficher une entête visuelle
+  default: true
+- name: header
+  type: field_group
+  config: {}
+  fields:
+  - name: type
+    type: select
+    default: default
+    config:
+      required: false
+      options:
+      - overlay
+      - image
+      - video
+      - default
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Type
+    description: 'default: overlay avec juste le titre de la page et la bannière de
+      l''asso. overlay: des infos sur une couleur ou une image de fond (l''image est
+      prioritaire)'
+  - name: color
+    type: color
+    config:
+      required: false
+      color_format: Hex
+    label: Couleur
+    showOnly:
+      field: type
+      value: overlay
+  - name: overlay_image
+    type: file
+    config:
+      maxSize: '15'
+    label: Image
+    showOnly:
+      field: type
+      value: overlay
+  - name: fixed_image
+    type: file
+    config:
+      maxSize: '15'
+    label: Image
+    showOnly:
+      field: type
+      value: image
+  - name: overlay_title
+    type: boolean
+    label: Titre sur l'entête
+    default: true
+    showOnly:
+      field: type
+      value: overlay
+  - name: show_text
+    type: select
+    default: description
+    config:
+      required: false
+      options:
+      - description
+      - custom
+      source:
+        type: simple
+        section: 
+        file: 
+        path: 
+    label: Texte sur l'entête
+    showOnly:
+      field: type
+      value: overlay
+  - name: overlay_text
+    type: text
+    config:
+      required: false
+    label: Texte
+    showOnly:
+      field: show_text
+      value: custom
+  - name: caption
+    type: text
+    config:
+      required: false
+    showOnly:
+      field: type
+      value: overlay
+    label: Crédits
+    description: Apparaitra tout petit en bas à droite de l'image
+  - name: actions
+    type: field_group_list
+    fields:
+    - name: label
+      type: text
+      config:
+        required: false
+      label: Label
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+    - name: fa-icon
+      type: select
+      default: []
+      config:
+        required: false
+        options:
+        - facebook
+        - calendrier
+        - helloasso
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Icone
+    config:
+      min: '0'
+      max: '5'
+      labelField: label
+    label: Boutons
+    showOnly:
+      field: type
+      value: overlay
+  - name: video
+    type: field_group
+    config: {}
+    fields:
+    - name: id
+      type: text
+      config:
+        required: false
+      label: Identifiant de la vidéo
+      description: Par exemple https://www.youtube.com/watch?v=**rKNMf4LFX44** (mettre
+        uniquement la partie en gras)
+    - name: provider
+      type: select
+      default: youtube
+      config:
+        required: false
+        options:
+        - youtube
+        - vimeo
+        - google-drive
+        source:
+          type: simple
+          section: 
+          file: 
+          path: 
+      label: Fournisseur
+    label: Vidéo
+    showOnly:
+      field: type
+      value: video
+  label: Entête
+  showOnly:
+    field: has_header
+    value: true
+- name: author
+  type: text
+  config:
+    required: false
+  label: Changer l'auteur par défaut
+  description: Mettre nom court (prefix) de l'auteur. Voir la rubrique "Les auteurs".
+    Si rien n'est indiqué, l'auteur par défaut sera celui de l'asso correspondante
+    au sous-dossier de la page. Exemple les pages sous "Centre Culturel de Luminy"
+    ont pour auteur "ccl".

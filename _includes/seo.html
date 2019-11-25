@@ -25,6 +25,7 @@
   {%- assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once -%}
 {%- endif -%}
 
+<!-- don't use page.author even if it is set, find author based on url -->
 {% assign author = page.url | split: "/" %}
 {% assign author = author[1] %}
 {% assign author = site.data.authors.authors | where: "prefix", author | first %}
