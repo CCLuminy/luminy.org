@@ -220,7 +220,7 @@ fields:
     required: false
     options: []
     source:
-      type: documents
+      type: pages
       section: les-auteurs
       file: _data/authors.yml
       path: 
