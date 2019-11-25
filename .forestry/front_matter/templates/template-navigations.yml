@@ -29,13 +29,16 @@ fields:
     - name: title
       type: text
       config:
-        required: true
+        required: false
       label: Section
+      description: Peut être vide, dans ce cas le titre de la section ne sera pas
+        affiché, mais les sous-sections oui.
     - name: url
       type: text
       config:
         required: false
       label: URL
+      description: idem
     - name: children
       type: field_group_list
       fields:
