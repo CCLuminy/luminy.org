@@ -1,0 +1,41 @@
+---
+label: Template navigations
+hide_body: true
+fields:
+- type: field_group_list
+  name: main
+  label: main
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: navs
+  label: navs
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: field_group_list
+    name: nav
+    label: nav
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+    - type: field_group_list
+      name: children
+      label: children
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: url
+        label: url
