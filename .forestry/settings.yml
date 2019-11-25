@@ -61,10 +61,6 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
-- type: document
-  path: _data/_config.yml
-  label: config
-  read_only: true
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
