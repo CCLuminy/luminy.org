@@ -2,6 +2,14 @@
 authors:
 - name: Marin
   prefix: marin
+  avatar: ''
+  og_image: ''
+  banner: ''
+  bio: ''
+  location: ''
+  email: ''
+  facebook: ''
+  helloasso: ''
 - name: Centre Culturel de Luminy
   prefix: ccl
   avatar: "/assets/images/authors-logo/indien-petit.png"
@@ -37,7 +45,7 @@ authors:
   location: Cité U & Hexagone
   facebook: https://www.facebook.com/FSE.Luminy/
 - name: Café des Langues
-  prefix: cafe-des-languessss
+  prefix: cafe-des-langues
   avatar: "/assets/images/authors-logo/cafe-des-langues.png"
   bio: Venez converser autour d’un bon café et dans une ambiance très conviviale !
   location: Bibliothèque U.
