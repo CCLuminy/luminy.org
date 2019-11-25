@@ -31,7 +31,7 @@ fields:
       max: 
       source:
         type: pages
-        section: jardin
+        section: ''
     label: Arborescence
   description: Les arborescences associés aux auteurs/assos/collectifs
   config:
