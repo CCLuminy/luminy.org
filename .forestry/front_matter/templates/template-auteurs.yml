@@ -56,3 +56,5 @@ fields:
     contenant la page détermine l'auteur.
   config:
     labelField: name
+pages:
+- _data/authors.yml

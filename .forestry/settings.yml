@@ -61,6 +61,11 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
+- type: document
+  path: _config.yml
+  label: config
+  match: "**/*"
+  read_only: true
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
