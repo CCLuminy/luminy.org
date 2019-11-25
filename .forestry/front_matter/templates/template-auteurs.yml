@@ -4,35 +4,55 @@ hide_body: true
 fields:
 - type: field_group_list
   name: authors
-  label: authors
+  label: Auteurs
   fields:
   - type: text
     name: name
-    label: name
+    label: Nom
+    description: Nom à afficher
+    config:
+      required: true
   - type: text
     name: prefix
-    label: prefix
+    label: Nom court (prefix)
+    config:
+      required: true
+    description: Utilisé pour déterminer le sous-dossier pour lequel cet auteur sera
+      celui par défaut. Également utile pour référencer l'auteur.
   - type: text
     name: avatar
-    label: avatar
-  - type: text
-    name: og_image
-    label: og_image
-  - type: text
-    name: banner
-    label: banner
+    label: Avatar
+    description: À apparaitre sur le profil à gauche
   - type: text
     name: bio
-    label: bio
+    label: Bio
+    description: Courte bio ou description, à apparaitre dans le profil.
+  - type: text
+    name: banner
+    label: Bannière
+    description: Image à afficher par défaut en entête de chaque page de cet auteur.
   - type: text
     name: location
-    label: location
+    label: Localisation
+    description: À peu près
   - type: text
     name: email
-    label: email
+    label: Email
   - type: text
     name: facebook
-    label: facebook
+    label: Facebook
+    description: Donner l'URL
   - type: text
     name: helloasso
-    label: helloasso
+    label: HelloAsso
+    description: Idem
+  - type: text
+    name: og_image
+    label: Image OpenGraph
+    description: Image par défaut lorsqu'une page de cet auteur est partagée. Par
+      défaut, c'est l'avatar.
+  description: Liste des auteurs, assos et collectifs qui publient sur luminy.org.
+    Le "profile" de l'auteur sera placé à gauche sur chaque page. Par défaut, le sous-dossier
+    contenant la page détermine l'auteur.
+  config:
+    labelField: name
