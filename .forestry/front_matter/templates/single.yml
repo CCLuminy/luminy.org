@@ -214,14 +214,10 @@ fields:
     field: has_header
     value: true
 - name: author
-  type: select
-  default: Authors
+  type: text
   config:
     required: false
-    options: []
-    source:
-      type: documents
-      section: 
-      file: _data/authors.yml
-      path: 
-  label: Auteurs
+  label: Changer l'auteur par défaut
+  description: Mettre le champ "prefix" de l'auteur. Si rien n'est indiqué, l'auteur
+    par défaut sera celui de l'asso correspondante au sous-dossier de la page. Exemple
+    les pages sous "Centre Culturel de Luminy" ont pour auteur "ccl".
