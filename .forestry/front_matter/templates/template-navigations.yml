@@ -62,3 +62,5 @@ fields:
   description: Les arborescences associés aux auteurs/assos/collectifs
   config:
     labelField: name
+pages:
+- _data/navigation.yml
