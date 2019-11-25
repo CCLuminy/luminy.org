@@ -228,9 +228,6 @@ fields:
   description: Si rien n'est indiqué, l'auteur sera celui correspondant à la section
     de la page.
 pages:
-- _pages/lorem.md
-- _pages/ccl/activites/lorem-ipsum.md
-- _pages/ccl/activites/lorem-ipsum.md
 - _pages/jardin/lorem-ipsum.md
-- _pages/jardin/lorem-ipsum.md
+- _pages/ccl/activites/lorem-ipsum.md
 - _pages/lorem.md
