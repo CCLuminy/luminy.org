@@ -3,7 +3,7 @@
   {% assign author = page.url | split: "/" %}
   {% assign author = author[1] %}
 {% endunless %}
-{% assign author = site.data.authors.authors | where: "directory", author | first %}
+{% assign author = site.data.authors.authors | where: "prefix", author | first %}
 
 <div itemscope itemtype="https://schema.org/Person">
 

@@ -1,15 +1,8 @@
 ---
-- nom: Marin
+authors:
+- name: Marin
   prefix: marin
-  avatar: ''
-  og_image: ''
-  banner: ''
-  bio: ''
-  location: ''
-  email: ''
-  facebook: ''
-  helloasso: ''
-- nom: Centre Culturel de Luminy
+- name: Centre Culturel de Luminy
   prefix: ccl
   avatar: "/assets/images/authors-logo/indien-petit.png"
   og_image: "/assets/images/logo-ccl-grand.png"
@@ -19,7 +12,7 @@
   email: centre-culturel@luminy.org
   facebook: CCLuminy
   helloasso: centre-culturel-de-luminy
-- nom: Jardin Universitaire
+- name: Jardin Universitaire
   prefix: jardin
   avatar: "/assets/images/authors-logo/logo-jardin.png"
   banner: "/assets/images/banniere-jardin.jpg"
@@ -29,21 +22,21 @@
   facebook: jardinluminy
   helloasso: jardin-universitaire-de-luminy
   links: 
-- nom: Club de Science Luminy
+- name: Club de Science Luminy
   prefix: club-science
   avatar: "/assets/images/authors-logo/logo-club-sciences.jpeg"
   bio: Organisation de conférences, de cours d'histoire et de philosophie des sciences
   location: Luminy
   email: club.science.luminy@gmail.com
   facebook: Club-de-Science-Luminy-114357542612098/
-- nom: FSE Luminy
+- name: FSE Luminy
   prefix: fse
   avatar: "/assets/images/authors-logo/fse-transparent.png"
   bio: INFORMER les étudiants, DÉFENDRE leurs droits, et créer la SOLIDARITÉ sur nos
     campus !
   location: Cité U & Hexagone
   facebook: https://www.facebook.com/FSE.Luminy/
-- nom: Café des Langues
+- name: Café des Langues
   prefix: cafe-des-langues
   avatar: "/assets/images/authors-logo/cafe-des-langues.png"
   bio: Venez converser autour d’un bon café et dans une ambiance très conviviale !
@@ -52,7 +45,7 @@
   uri: https://www.dropbox.com/sh/6xn3uv56ao1ttkg/AAAAJwwZIFg6zstXIRPo1gdga?dl=0&fbclid=IwAR2Q58fOCrfKTtEBtpShFKWxwarcXTe0NgfJXjMeIcXyrhLsFVKnwR1Z_VA
   facebook: https://www.facebook.com/cafedeslanguesluminy
   twitter: Cafe_Langues
-- nom: ALLIÉ
+- name: ALLIÉ
   prefix: allie
   avatar: "/assets/images/authors-logo/allie.png"
   bio: Association Luminyenne de Lutte et d'Information des Etudiants, est basée à
