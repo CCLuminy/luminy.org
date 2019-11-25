@@ -218,6 +218,7 @@ fields:
   config:
     required: false
   label: Changer l'auteur par défaut
-  description: Mettre le champ "prefix" de l'auteur. Si rien n'est indiqué, l'auteur
-    par défaut sera celui de l'asso correspondante au sous-dossier de la page. Exemple
-    les pages sous "Centre Culturel de Luminy" ont pour auteur "ccl".
+  description: Mettre nom court (prefix) de l'auteur. Voir la rubrique "Les auteurs".
+    Si rien n'est indiqué, l'auteur par défaut sera celui de l'asso correspondante
+    au sous-dossier de la page. Exemple les pages sous "Centre Culturel de Luminy"
+    ont pour auteur "ccl".
