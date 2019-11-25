@@ -213,6 +213,20 @@ fields:
   showOnly:
     field: has_header
     value: true
+- name: author
+  type: select
+  default: ''
+  config:
+    required: false
+    options: []
+    source:
+      type: documents
+      section: les-auteurs
+      file: _data/authors.yml
+      path: 
+  label: Changer l'auteur par défaut
+  description: Si rien n'est indiqué, l'auteur sera celui correspondant à la section
+    de la page.
 pages:
 - _pages/lorem.md
 - _pages/ccl/activites/lorem-ipsum.md
