@@ -1,7 +1,7 @@
 # /_data/authors.yml
 authors:
   - name             : "Centre Culturel de Luminy"
-    directory        : "ccl"
+    prefix           : "ccl"
     avatar           : /assets/images/authors-logo/indien-petit.png
     og_image         : /assets/images/logo-ccl-grand.png
     banner           : /assets/images/banniere-ccl-intime.png
@@ -12,7 +12,7 @@ authors:
     helloasso        : "centre-culturel-de-luminy"
 
   - name             : "Jardin Universitaire"
-    directory        : "jardin"
+    prefix           : "jardin"
     avatar           : /assets/images/authors-logo/logo-jardin.png
     banner           : /assets/images/banniere-jardin.jpg
     bio              : "Jardin partagé chaleureux et ouvert à tous ! "
@@ -23,7 +23,7 @@ authors:
     links:
 
   - name             : "Club de Science Luminy"
-    directory        : "club-science"
+    prefix           : "club-science"
     avatar           : /assets/images/authors-logo/logo-club-sciences.jpeg
     bio              : "Organisation de conférences, de cours d'histoire et de philosophie des sciences"
     location         : "Luminy"
@@ -31,7 +31,7 @@ authors:
     facebook         : "Club-de-Science-Luminy-114357542612098/"
 
   - name             : "FSE Luminy"
-    directory        : "fse"
+    prefix           : "fse"
     avatar           : /assets/images/authors-logo/fse-transparent.png
     bio              : "INFORMER les étudiants, DÉFENDRE leurs droits, et créer la SOLIDARITÉ sur nos campus !"
     location         : "Cité U & Hexagone"
@@ -39,7 +39,7 @@ authors:
     facebook         : "https://www.facebook.com/FSE.Luminy/"
 
   - name             : "Café des Langues"
-    directory        : "cafe-des-langues"
+    prefix           : "cafe-des-langues"
     avatar           : /assets/images/authors-logo/cafe-des-langues.png
     bio              : "Venez converser autour d’un bon café et dans une ambiance très conviviale !"
     location         : "Bibliothèque U."
@@ -49,7 +49,7 @@ authors:
     twitter          : "Cafe_Langues"
 
   - name             : "ALLIÉ"
-    directory        : "allie"
+    prefix           : "allie"
     avatar           : /assets/images/authors-logo/allie.png
     bio              : "Association Luminyenne de Lutte et d'Information des Etudiants, est basée à Marseille"
     location         : "Hexagone"
