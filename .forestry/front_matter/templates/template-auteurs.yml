@@ -1,0 +1,38 @@
+---
+label: Template auteurs
+hide_body: true
+fields:
+- type: field_group_list
+  name: authors
+  label: authors
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: text
+    name: prefix
+    label: prefix
+  - type: text
+    name: avatar
+    label: avatar
+  - type: text
+    name: og_image
+    label: og_image
+  - type: text
+    name: banner
+    label: banner
+  - type: text
+    name: bio
+    label: bio
+  - type: text
+    name: location
+    label: location
+  - type: text
+    name: email
+    label: email
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: helloasso
+    label: helloasso
