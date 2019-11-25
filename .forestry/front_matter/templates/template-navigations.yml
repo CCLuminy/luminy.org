@@ -23,16 +23,6 @@ fields:
     name: name
     label: Nom court de l'auteur
     description: Voir le champs "nom court (prefix)" dans "Les auteurs"
-  - name: nav
-    type: list
-    config:
-      use_select: true
-      min: 
-      max: 
-      source:
-        type: pages
-        section: ''
-    label: Arborescence
   description: Les arborescences associés aux auteurs/assos/collectifs
   config:
     labelField: name
