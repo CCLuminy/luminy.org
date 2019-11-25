@@ -23,6 +23,42 @@ fields:
     name: name
     label: Nom court de l'auteur
     description: Voir le champs "nom court (prefix)" dans "Les auteurs"
+  - name: nav
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: true
+      label: Section
+    - name: url
+      type: text
+      config:
+        required: false
+      label: URL
+    - name: children
+      type: field_group_list
+      fields:
+      - name: title
+        type: text
+        config:
+          required: false
+        label: Nom de la sous-section
+      - name: url
+        type: text
+        config:
+          required: false
+        label: URL
+      config:
+        min: 
+        max: 
+        labelField: title
+      label: Sous-section
+    config:
+      min: '1'
+      max: 
+      labelField: title
+    label: Arborescence
   description: Les arborescences associés aux auteurs/assos/collectifs
   config:
     labelField: name
