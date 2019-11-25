@@ -19,6 +19,13 @@ sections:
   templates:
   - single
 - type: directory
+  path: _pages/cafe-des-langues
+  label: Café des Langues
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
   path: _pages/ccl
   label: Centre Culturel de Luminy
   create: all
@@ -54,13 +61,6 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
-- type: directory
-  path: _pages
-  label: Toutes les pages
-  create: all
-  match: "**/*"
-  templates:
-  - single
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
@@ -71,6 +71,7 @@ build:
   - JEKYLL_ENV=staging
   - GIT_LFS_SKIP_SMUDGE=1
   preview_output_directory: _site
+  install_dependencies_command: bundle install --path vendor/bundle
   preview_docker_image: forestryio/ruby:2.6
   mount_path: "/srv"
   working_dir: "/srv"
