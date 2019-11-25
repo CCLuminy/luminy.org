@@ -213,17 +213,3 @@ fields:
   showOnly:
     field: has_header
     value: true
-- name: author
-  type: select
-  default: ''
-  config:
-    required: false
-    options: []
-    source:
-      type: datafiles
-      section: les-auteurs
-      file: authors.yml
-      path: _data/
-  label: Changer l'auteur par défaut
-  description: Si rien n'est indiqué, l'auteur sera celui correspondant à la section
-    de la page.
