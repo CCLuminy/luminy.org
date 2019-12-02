@@ -18,7 +18,7 @@ fields:
     display_utc: false
     export_format: ''
   default: now
-  hidden: true
+  hidden: false
 - name: share
   type: boolean
   label: Afficher les boutons de partage (réseaux sociaux)
