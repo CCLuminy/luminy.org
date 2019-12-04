@@ -1,0 +1,19 @@
+*.gem
+*.sublime-project
+*.sublime-workspace
+.bundle
+.DS_Store
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+_asset_bundler_cache
+_site
+codekit-config.json
+example/_site
+node_modules
+npm-debug.log*
+vendor/bundle
+
+# Local Netlify folder
+.netlify
+Gemfile.lock
