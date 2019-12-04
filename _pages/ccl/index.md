@@ -1,8 +1,9 @@
 ---
 title: Le CCL
-no_title: true
+has_header: true
 header:
-  image: assets/images/banniere-ccl-intime.png
+  type: image
+  fixed_image: assets/images/banniere-ccl-intime.png
 ---
 
 ## Le CCL, c'est nous ! C'est vous ! C'est tous ceux qui ont envie de faire, de partager et de proposer pour que bouge ce campus !

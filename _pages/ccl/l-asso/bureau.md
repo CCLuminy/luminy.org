@@ -1,6 +1,5 @@
 ---
 title: Bureaux du CCL au fil des années
-menu: ccl-l-asso
 section: ccl
 ---
 ## 2019-2020

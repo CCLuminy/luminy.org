@@ -20,7 +20,7 @@ pages sur le site, c'est possible !
 
 
 # Fonctionnement du site, pour les plus motivés
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2d1ae5b1-d8bf-444a-8a73-39fe71dd4207/deploy-status)](https://app.netlify.com/sites/friendly-lovelace-c98437/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2d1ae5b1-d8bf-444a-8a73-39fe71dd4207/deploy-status)](https://app.netlify.com/sites/luminyorg/deploys)
 
 `luminy.org` est un site statique, c'est à dire qu'il n'y a pas d'intéraction
 complexe avec le client.

@@ -1,56 +1,37 @@
 ---
 title: Les paniers bio !
-last_modified_at: 2019-11-18T14:16:10.453Z
-overlay_image: assets/images/banniere-bulles.png
-menu:
-  footer:
-    weight: 3
-    title: Les paniers bio
-  jardin:
-    weight: 1
-
+last_modified_at: 2019-11-18 14:16:00
+has_header: true
+header:
+  type: default
+author: marin
+share: false
 ---
-Tous les jeudis, les paniers marseillais proposent des produits bio en direct de chez les producteurs ; légumes, fruits, œufs, pain, jus, vin, huile, olives, fruits secs, vinaigre, viande, fromages, ...
+
+Tous les jeudis, les paniers marseillais proposent des produits bio en direct de chez les producteurs ; l&eacute;gumes, fruits, œufs, pain, jus, vin, huile, olives, fruits secs, vinaigre, viande, fromages, …
 
 # Nous trouver
-La distribution se fait tout les jeudis (sauf exceptions, par exemple en période de vacances scolaires) de 16h45 à 19h sur le terrain du jardin, juste à droite.
-# Distribution paniers bio
-[Cagette.net]({{ site.data.extlinks.cagette }})
+
+La distribution se fait tout les jeudis (sauf exceptions, par exemple en p&eacute;riode de vacances scolaires) de 16h45 &agrave; 19h sur le terrain du jardin, juste &agrave; droite. \# Distribution paniers bio [Cagette.net]({{ site.data.extlinks.cagette }})
 
 header
-<ul>
-{% for item in site.menus.header %}
-  <li class="menu-item-{{ loop.index }}">
-    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-    {% if item.children %}
-      <ul class="sub-menu">
-      {% for item in item.children %}
-  {{ item.identifier | inspect }}
-        <li class="menu-item-{{ loop.index }}">
-          <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+
+plop
+
+* {% for item in site.menus.header %}
+* [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}") {% if item.children %}
+  * {% for item in item.children %} {{ item.identifier | inspect }}
+  * [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}"){: .menu-item-{{ loop.index }}}
+  * {% endfor %}
+  {: .sub-menu} {% endif %}{: .menu-item-{{ loop.index }}}
+* {% endfor %}
 
 jardin
-<ul>
-{% for item in site.menus.jardin %}
-  <li class="menu-item-{{ loop.index }}">
-    <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-    {% if item.children %}
-      <ul class="sub-menu">
-      {% for item in item.children %}
-  {{ item.identifier | inspect }}
-        <li class="menu-item-{{ loop.index }}">
-          <a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
-        </li>
-      {% endfor %}
-      </ul>
-    {% endif %}
-  </li>
-{% endfor %}
-</ul>
+
+* {% for item in site.menus.jardin %}
+* [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}") {% if item.children %}
+  * {% for item in item.children %} {{ item.identifier | inspect }}
+  * [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}"){: .menu-item-{{ loop.index }}}
+  * {% endfor %}
+  {: .sub-menu} {% endif %}{: .menu-item-{{ loop.index }}}
+* {% endfor %}

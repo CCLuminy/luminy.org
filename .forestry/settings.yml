@@ -4,15 +4,63 @@ auto_deploy: false
 admin_path: admin
 webhook_url: 
 sections:
+- type: directory
+  path: _pages
+  label: Pages racines
+  create: documents
+  match: "*"
+  templates:
+  - single
+- type: directory
+  path: _pages/allie
+  label: ALLIÉ
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/cafe-des-langues
+  label: Café des Langues
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/ccl
+  label: Centre Culturel de Luminy
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/club-science
+  label: Club de Science
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/fse
+  label: FSE
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: directory
+  path: _pages/jardin
+  label: Jardin
+  create: all
+  match: "**/*"
+  templates:
+  - single
+- type: heading
+  label: Config
+- type: document
+  path: _data/authors.yml
+  label: Les auteurs
 - type: document
   path: _data/navigation.yml
   label: Navigations
-  match: "**/*"
-- type: directory
-  path: _pages
-  label: Toutes les pages
-  create: all
-  match: "**/*"
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
