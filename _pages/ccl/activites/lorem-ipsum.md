@@ -1,26 +1,23 @@
 ---
-last_modified_at: 2019-11-24T17:31:20.000+00:00
+last_modified_at: 2019-11-24T19:12:07.000+00:00
 toc: true
-has_header: false
+has_header: true
 header:
-  type: overlay
-  overlay_color: rgb(125, 103, 103)
+  type: default
   overlay_title: true
-  show_text: custom
-  overlay_image: #"/assets/images/atelier-combat.jpg"
-  custom_text: ''
-  caption: ''
-  actions:
-  color: "#B19292"
-  fixed_image: "/assets/images/banniere-parvis.jpg"
+  show_text: description
+  color: "#AC6B6B"
+  overlay_image: "/assets/images/banniere-jardin.jpg"
+  fixed_image: "/assets/images/atelier-mix.jpg"
   overlay_text: ''
-  video:
-    id: rKNMf4LFX44
-    provider: youtube
+  caption: Crédit
+  actions:
+  - label: Facebook
+    url: http://facebook.com
+    fa-icon: facebook
 title: Lorem Ipsum
-classes: 'wide'
-description: Description de ouf
-share: true
+classes: wide
+description: Une description incroyable
 
 ---
 # Eundem exemplo ternis moenia labor super Tenedos
