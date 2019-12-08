@@ -7,11 +7,9 @@ header:
   overlay_image: assets/images/banniere-bulles.png
   actions:
     - label: "<i class='fas fa-users'></i> Adhérez"
-      url: "/ccl/adherer/"
+      url: "/l-asso/adherer/"
     - label: "<i class='fab fa-fw fa-facebook-square'></i> Suivez-nous"
       url: "https://www.facebook.com/CCLuminy/"
-    - label: "<i class='fas fa-fw fa-calendar-alt'></i> Agenda"
-      url: "/agenda/"
   show_text: description
 description: >
   Le CCL porte de nombreuses initiatives et se propose d'aider à en monter de nouvelles ! Son but : remettre les notions de créativité, de connaissance, de collectivité, de partage et d'entraide au coeur de la vie de notre campus universitaire en proposant à toutes les bonnes volontés de participer à construire leur lieu d'étude, de travail ou encore de vie.
@@ -27,14 +25,14 @@ feature_row:
     alt: "jongle"
     title: "Arts du Cirque"
     excerpt: "jongle jongle jongle"
-    url: "/jongle/"
+    url: "/activites/jongle/"
     btn_class: "btn--info"
     btn_label: "Plus"
   - image_path: assets/images/illustrations/musique-transparent.png
     alt: "musique"
     title: "Musique"
     excerpt: "Concerts, boeuf, jam, festivals"
-    url: "/ccl/activites/ateliers/"
+    url: "/activites/ateliers/"
     btn_class: "btn--warning"
     btn_label: "<i class='fas fa-music'></i> Infos"
 ---

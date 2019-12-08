@@ -1,11 +1,11 @@
 ---
 main:
-- title: Agenda
-  url: "/agenda/"
+- title: Activités
+  url: "/activites/"
 - title: Le Grenier
   url: "/grenier/"
-- title: À Propos
-  url: "/about/"
+- title: Contacts
+  url: "/l-asso/contacts/"
 nav:
 - title: Activités
   url: "/activites/"
