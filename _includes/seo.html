@@ -26,9 +26,7 @@
 {%- endif -%}
 
 <!-- don't use page.author even if it is set, find author based on url -->
-{% assign author = page.url | split: "/" %}
-{% assign author = author[1] %}
-{% assign author = site.data.authors.authors | where: "prefix", author | first %}
+{% assign author = site.data.authors.authors | where: "prefix", site.author | first %}
 
 {%- if author.twitter -%}
   {%- assign author_twitter = author.twitter | replace: "@", "" -%}

@@ -14,24 +14,3 @@ Tous les jeudis, les paniers marseillais proposent des produits bio en direct de
 
 La distribution se fait tout les jeudis (sauf exceptions, par exemple en p&eacute;riode de vacances scolaires) de 16h45 &agrave; 19h sur le terrain du jardin, juste &agrave; droite. \# Distribution paniers bio [Cagette.net]({{ site.data.extlinks.cagette }})
 
-header
-
-plop
-
-* {% for item in site.menus.header %}
-* [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}") {% if item.children %}
-  * {% for item in item.children %} {{ item.identifier | inspect }}
-  * [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}"){: .menu-item-{{ loop.index }}}
-  * {% endfor %}
-  {: .sub-menu} {% endif %}{: .menu-item-{{ loop.index }}}
-* {% endfor %}
-
-jardin
-
-* {% for item in site.menus.jardin %}
-* [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}") {% if item.children %}
-  * {% for item in item.children %} {{ item.identifier | inspect }}
-  * [{{ item.title }}]({{ item.url }} "Go to {{ item.title }}"){: .menu-item-{{ loop.index }}}
-  * {% endfor %}
-  {: .sub-menu} {% endif %}{: .menu-item-{{ loop.index }}}
-* {% endfor %}

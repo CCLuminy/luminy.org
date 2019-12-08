@@ -1,9 +1,5 @@
 <!-- {% assign author = page.author | default: page.authors[0] | default: site.author %} -->
-{% unless page.author %}
-  {% assign author = page.url | split: "/" %}
-  {% assign author = author[1] %}
-{% endunless %}
-{% assign author = site.data.authors.authors | where: "prefix", author | first %}
+{% assign author = site.data.authors.authors | where: "prefix", site.author | first %}
 
 <div itemscope itemtype="https://schema.org/Person">
 

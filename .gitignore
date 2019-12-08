@@ -17,3 +17,6 @@ vendor/bundle
 # Local Netlify folder
 .netlify
 Gemfile.lock
+
+# minimal mistakes examples docs
+docs/

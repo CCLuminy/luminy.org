@@ -12,8 +12,8 @@ authors:
   helloasso: ''
 - name: Centre Culturel de Luminy
   prefix: ccl
-  avatar: "/assets/images/authors-logo/indien-petit.png"
-  og_image: "/assets/images/logo-ccl-grand.png"
+  avatar: "/assets/images/authors-logo/logo-ccl.png"
+  og_image: "/assets/images/authors-logo/logo-ccl.png"
   banner: "/assets/images/banniere-ccl-intime.png"
   bio: Animer, partager, avancer, s'améliorer, s'amuser
   location: Luminy
