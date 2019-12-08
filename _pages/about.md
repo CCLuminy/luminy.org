@@ -1,5 +1,6 @@
 ---
 title: Votre projet sur `luminy.org`
+author_profile: false
 ---
 ## Contribuez au référencement des activités luminyennes
 Vous êtes actifs sur Luminy ? Vous participez, contribuez ou organisez des

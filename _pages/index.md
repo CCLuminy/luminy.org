@@ -96,13 +96,13 @@ last_modified_at: 2019-12-01 00:00:00 +0100
 
 <div class="cards-list">
 
-<a href="luminy.org">
+<a href="https://ccl.test.luminy.org">
   <div class="card">
     <div class="card_image"><img src="assets/images/authors-logo/logo-ccl-nb.png" /></div>
   </div>
 </a>
 
-<a href="">
+<a href="jardin">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/logo-jardin.png" />
@@ -113,7 +113,7 @@ last_modified_at: 2019-12-01 00:00:00 +0100
   </div>
 </a>
 
-<a href="">
+<a href="club-science">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/logo-club-sciences.jpeg" />
@@ -124,7 +124,7 @@ last_modified_at: 2019-12-01 00:00:00 +0100
   </div>
 </a>
 
-<a href="">
+<a href="allie">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/allie.png" />
@@ -132,7 +132,7 @@ last_modified_at: 2019-12-01 00:00:00 +0100
   </div>
 </a>
 
-<a href="">
+<a href="fse">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/fse-transparent.png" />
@@ -140,7 +140,7 @@ last_modified_at: 2019-12-01 00:00:00 +0100
   </div>
 </a>
 
-<a href="">
+<a href="comnsea">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/logo-com.png" />
@@ -148,7 +148,7 @@ last_modified_at: 2019-12-01 00:00:00 +0100
   </div>
 </a>
 
-<a href="">
+<a href="cafe-des-langues">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/cafe-des-langues.png" />
