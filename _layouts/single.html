@@ -2,11 +2,7 @@
 layout: default
 ---
 
-{% unless page.author %}
-  {% assign author = page.url | split: "/" %}
-  {% assign author = author[1] %}
-{% endunless %}
-{% assign author = site.data.authors.authors | where: "prefix", author | first %}
+{% assign author = site.data.authors.authors | where: "prefix", site.author | first %}
 
 {% if page.has_header %}
   {% include page__hero.html %}
