@@ -20,8 +20,8 @@ sections:
 - type: document
   path: _data/navigation.yml
   label: Navigations
-upload_dir: assets/images/ccl
-public_path: "/assets/images/ccl"
+upload_dir: assets/images
+public_path: "/assets/images"
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":filename:"
