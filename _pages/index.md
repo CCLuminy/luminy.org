@@ -2,10 +2,9 @@
 layout: splash
 title: Centre Culturel de Luminy
 has_header: true
-overlay_image: assets/images/puget-fleuri.png
 header:
-  type: default
-  overlay_image: assets/images/banniere-ccl-intime.png
+  type: overlay
+  overlay_image: assets/images/puget-fleuri.png
   actions:
     - label: "<i class='fas fa-users'></i> Adhérez"
       url: "/ccl/adherer/"
@@ -13,7 +12,7 @@ header:
       url: "https://www.facebook.com/CCLuminy/"
     - label: "<i class='fas fa-fw fa-calendar-alt'></i> Agenda"
       url: "/agenda/"
-  show_overlay_excerpt: true
+  show_text: description
 description: >
   Le CCL porte de nombreuses initiatives et se propose d'aider à en monter de nouvelles ! Son but : remettre les notions de créativité, de connaissance, de collectivité, de partage et d'entraide au coeur de la vie de notre campus universitaire en proposant à toutes les bonnes volontés de participer à construire leur lieu d'étude, de travail ou encore de vie.
 feature_row:
