@@ -2,10 +2,9 @@
 layout: splash
 title: Centre Culturel de Luminy
 has_header: true
-overlay_image: assets/images/puget-fleuri.png
 header:
-  type: default
-  overlay_image: assets/images/banniere-ccl-intime.png
+  type: overlay
+  overlay_image: assets/images/puget-fleuri.png
   actions:
     - label: "<i class='fas fa-users'></i> Adhérez"
       url: "/ccl/adherer/"
