@@ -1,5 +1,6 @@
 <!-- {% assign author = page.author | default: page.authors[0] | default: site.author %} -->
-{% assign author = site.data.authors.authors | where: "prefix", site.author | first %}
+{% assign author_prefix = page.author | default: site.author %}
+{% assign author = site.data.authors.authors | where: "prefix", author | first %}
 
 <div itemscope itemtype="https://schema.org/Person">
 
