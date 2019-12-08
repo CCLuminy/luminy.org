@@ -102,7 +102,7 @@ last_modified_at: 2019-12-01 00:00:00 +0100
   </div>
 </a>
 
-<a href="https://jardin.test.luminy.org">
+<a href="jardin">
   <div class="card">
     <div class="card_image">
       <img src="assets/images/authors-logo/logo-jardin.png" />
