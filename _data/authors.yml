@@ -12,8 +12,8 @@ authors:
   helloasso: ''
 - name: Centre Culturel de Luminy
   prefix: ccl
-  avatar: "/assets/images/authors-logo/indien-petit.png"
-  og_image: "/assets/images/logo-ccl-grand.png"
+  avatar: "/assets/images/authors-logo/logo-ccl.png"
+  og_image: "/assets/images/authors-logo/logo-ccl.png"
   banner: "/assets/images/banniere-ccl-intime.png"
   bio: Animer, partager, avancer, s'améliorer, s'amuser
   location: Luminy
@@ -73,6 +73,16 @@ authors:
   uri: http://allie-luminy.e-monsite.com/
   email: allie@luminy.org
   facebook: https://www.facebook.com/alliejournal/
+  banner: ''
+  helloasso: ''
+  og_image: ''
+- name: Com&Sea
+  prefix: comnsea
+  avatar: "/assets/images/authors-logo/logo-com.png"
+  bio: Association d'océano
+  location: Hexagone
+  email: comandseaass@gmail.com
+  facebook: https://www.facebook.com/comandseaAMU/
   banner: ''
   helloasso: ''
   og_image: ''
