@@ -1,0 +1,99 @@
+/* Font */
+
+a.card_btn {
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.8rem;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-weight: 400;
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid rgba(0.2, 0.2, 0.2, 0.2);
+  background: transparent;
+  margin-top: auto;
+}
+
+a.card_btn:hover {
+  background-color: rgba(255, 255, 255, 0.45);
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3333%;
+  }
+}
+
+.card {
+  background-color: #cdcdb1;
+  border-radius: 0.3rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.card_image {
+  height: 15rem;
+  padding: 4%;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  img {
+    object-fit: cover;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: #cdcdb1
+  // background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.card_title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid $border-color;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
