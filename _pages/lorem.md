@@ -1,5 +1,5 @@
 ---
-last_modified_at: 2019-11-24 17:25:29 +0100
+last_modified_at: 2019-11-24T17:25:29.000+01:00
 toc: true
 has_header: true
 header:
@@ -23,4 +23,4 @@ classes: ''
 description: ''
 
 ---
-lorem ipesum
+lorem ipesum ad vitam
