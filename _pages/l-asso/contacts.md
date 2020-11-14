@@ -69,7 +69,7 @@ Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
 | Secrétaire      |                   |               |
 | Vice secrétaire |                   |               |
 
-[Historique des bureaux](/ccl/bureau/){: .btn .btn--inverse}
+[Historique des bureaux](/l-asso/bureaux/){: .btn .btn--inverse}
 
 ## Financement
 

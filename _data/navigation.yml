@@ -33,5 +33,7 @@ nav:
     url: "/l-asso/adherer/"
   - title: Statuts
     url: "/l-asso/statuts/"
+  - title: Bureaux
+    url: "/l-asso/bureaux/"
   - title: Contacts
     url: "/l-asso/contacts/"

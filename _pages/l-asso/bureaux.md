@@ -1,5 +1,5 @@
 ---
-title: Bureaux du CCL au fil des années
+title: Bureaux du CCL depuis la création
 section: ccl
 ---
 ## 2019-2020
@@ -72,3 +72,95 @@ section: ccl
 | Vice-Trésorier  | Vincent ALLIE   | Informatique |
 | Secrétaire      | Nicolas LIVERIS | Informatique |
 | Vice-Secrétaire | Bastien RULAT   | Informatique |
+
+
+## 2009-2010
+
+| Poste           | Nom
+| -----           | ---
+| Président       | Cyril MARTIN Remplacé par Bastien RULAT<br/>suite à l'assemblée générale de Mars 2010
+| Trésorier       | Adrien MALGOYRE
+| Secrétaire      | Nadine Soraya YOUSSOUF
+| Vice-président  | César BOTELLA
+| Vice-trésorier  | Ludovic MATIS
+| Vice-secrétaire | Olivier SORIANO
+
+## 2007-2009
+
+| Poste           | Nom
+| -----           | ---
+| Président       | Antoine BOUVET
+| Trésorier       | Cyril MARTIN
+| Secrétaire      | César BOTELLA
+| Vice-présidente | Clothilde ESTÈVE
+| Vice-trésorier  | Yoann THUBIN
+| Vice-secrétaire | Émilie BONNET
+
+
+## 2006-2007 :
+
+| Poste           | Nom
+| -----           | ---
+| Président       | Alan REGUER
+| Trésorière      | Sandra DA COSTA
+| Secrétaire      | Marie-Laure CHAURAND
+| Vice-président  | Adrien MALGOYRE
+| Vice-trésorière | Fanny NORMANO
+| Vice-secrétaire | Antoine BOUVET
+
+## 2005-2006 :
+
+| Poste           | Nom
+| -----           | ---
+| Présidente      | Anne LECHEVALIER
+| Trésorière      | Émilie MORANT
+| Secrétaire      | Nina HOAREAU
+| Vice-trésorier  | Vincent FAUVELLE
+| Vice-secrétaire | Cécile FAUCILLON
+
+
+## 2004-2005 :
+
+| Poste           | Nom
+| -----           | ---
+| Président       | Jonas BOURGUIGNON
+| Trésorier       | Jérémy GRAU
+| Secrétaire      | Guillaume LUXARDI
+| Vice-présidents | Thomas ROUSSEL, Charlotte LASNIER
+
+
+## 2003-2004 :
+
+| Poste           | Nom
+| -----           | ---
+| Président       | Jérémy GRAU
+| Trésorier       | Jonas BOURGUIGNON
+| Secrétaire      | Guillaume LUXARDI
+| Vice-présidents | Anne LECHEVALIER, Julien REVERBERI
+
+## Entre 2001 et 2003
+
+Présidente: Emilie Bercier - Bongiovanni
+
+Trésorier: Daniel
+
+Président: JP
+
+ 
+
+ 
+
+Suite aux élections lors de l’assemblée générale du 06/11/2000 (création de l'association), le bureau de l’association du Centre Culturel de Luminy est composé des personnes suivantes :
+
+## 2000/2001 (AG de création le 06/11/2000)
+
+| Nom             | Poste              |
+| ---             | ------------------ |
+| Président       | Koumarane VALAVANE |
+| Trésorière      | Sophie CHARVET     |
+| Vice-présidente | Marilyn LEJEUNE    |
+
+
+## Indianostrum (ancètre du Centre Culturel de Luminy)
+
+

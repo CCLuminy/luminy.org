@@ -81,14 +81,6 @@
         </li>
       {% endif %}
 
-      {% if author.twitter %}
-        <li>
-          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
-          </a>
-        </li>
-      {% endif %}
-
       {% if author.facebook %}
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
@@ -105,6 +97,22 @@
         </li>
       {% endif %}
 
+      {% if author.instagram %}
+        <li>
+          <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.twitter %}
+        <li>
+          <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      {% endif %}
+
       {% if author.helloasso %}
         <li>
           <a href="https://www.helloasso.com/associations/{{ author.helloasso }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
@@ -117,14 +125,6 @@
         <li>
           <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
             <i class="fab fa-fw fa-xing-square" aria-hidden="true"></i> XING
-          </a>
-        </li>
-      {% endif %}
-
-      {% if author.instagram %}
-        <li>
-          <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i> Instagram
           </a>
         </li>
       {% endif %}

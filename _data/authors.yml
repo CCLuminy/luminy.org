@@ -16,9 +16,11 @@ authors:
   og_image: "/assets/images/authors-logo/logo-ccl.png"
   banner: "/assets/images/banniere-ccl-intime.png"
   bio: Animer, partager, avancer, s'améliorer, s'amuser
-  location: Luminy
+  # location: Luminy
   email: centre-culturel@luminy.org
   facebook: CCLuminy
+  instagram: centrecultureldeluminy
+  twitter: CCLuminy
   helloasso: centre-culturel-de-luminy
 - name: Jardin Universitaire
   prefix: jardin
