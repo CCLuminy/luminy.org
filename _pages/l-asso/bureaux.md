@@ -2,7 +2,18 @@
 title: Bureaux du CCL depuis la création
 section: ccl
 ---
+
 ## 2019-2020
+
+| Poste             | Nom                 |
+| -------           | --------            |
+| Président.e Mila  | Taillandier         |
+| Vice-Président.e  | Loïc Ter Maaten     |
+| Trésori.er.e      | Hélène Delarueducan |
+| Vice-Trésori.er.e | Morgane Maniveau    |
+| Secrétaire        | Clara Terrier       |
+| Vice-Secrétaire   | Clara Boullerne     |
+
 
 ## 2018-2019
 
