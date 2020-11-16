@@ -19,4 +19,4 @@ vendor/bundle
 Gemfile.lock
 
 # minimal mistakes examples docs
-docs/
+/docs/
