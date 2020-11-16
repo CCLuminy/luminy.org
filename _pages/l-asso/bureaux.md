@@ -108,7 +108,7 @@ section: ccl
 | Vice-secrétaire | Émilie BONNET
 
 
-## 2006-2007 :
+## 2006-2007
 
 | Poste           | Nom
 | -----           | ---
@@ -119,7 +119,7 @@ section: ccl
 | Vice-trésorière | Fanny NORMANO
 | Vice-secrétaire | Antoine BOUVET
 
-## 2005-2006 :
+## 2005-2006
 
 | Poste           | Nom
 | -----           | ---
@@ -130,7 +130,7 @@ section: ccl
 | Vice-secrétaire | Cécile FAUCILLON
 
 
-## 2004-2005 :
+## 2004-2005
 
 | Poste           | Nom
 | -----           | ---
@@ -140,7 +140,7 @@ section: ccl
 | Vice-présidents | Thomas ROUSSEL, Charlotte LASNIER
 
 
-## 2003-2004 :
+## 2003-2004
 
 | Poste           | Nom
 | -----           | ---
@@ -149,24 +149,20 @@ section: ccl
 | Secrétaire      | Guillaume LUXARDI
 | Vice-présidents | Anne LECHEVALIER, Julien REVERBERI
 
+
 ## Entre 2001 et 2003
 
-Présidente: Emilie Bercier - Bongiovanni
+| Poste           | Nom
+| -----           | ---
+| Présidente      | Emilie Bercier - Bongiovanni |
+| Trésorier       | Daniel |
+| Président       | JP     |
 
-Trésorier: Daniel
-
-Président: JP
-
- 
-
- 
-
-Suite aux élections lors de l’assemblée générale du 06/11/2000 (création de l'association), le bureau de l’association du Centre Culturel de Luminy est composé des personnes suivantes :
 
 ## 2000/2001 (AG de création le 06/11/2000)
 
-| Nom             | Poste              |
-| ---             | ------------------ |
+| Poste           | Nom
+| -----           | ---
 | Président       | Koumarane VALAVANE |
 | Trésorière      | Sophie CHARVET     |
 | Vice-présidente | Marilyn LEJEUNE    |
