@@ -1,57 +1,61 @@
 ---
 title: Retrospective
+
+
 gallery-studio-musique:
-- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
-  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
-  alt: studio-musique-1
-  title: Studio-musique-1
-- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
-  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
-  alt: studio-musique-2
-  title: Studio-musique-2
-- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
-  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
-  alt: studio-musique-4
-  title: Studio-musique-4
-- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
-  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
-  alt: studio-musique-6
+  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
+    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
+    alt: studio-musique-1
+    title: Studio-musique-1
+  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
+    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
+    alt: studio-musique-2
+    title: Studio-musique-2
+  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
+    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
+    alt: studio-musique-4
+    title: Studio-musique-4
+  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
+    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
+    alt: studio-musique-6
   title: Studio-musique-6
+
 gallery-concert-salle-po:
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-048.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-069.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-072.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-086.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-102.JPG
-- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-112.JPG
-share: true
-classes: wide
-description: Historique du CCL - Centre Culturel de Luminy et du campus. Animations,
-  Festivals, Ateliers, Concerts, Jam, Dub
-has_header: true
-header:
-  type: image
-  fixed_image: "/assets/images/banniere-puget-orange-1.jpg"
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-048.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-069.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-072.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-086.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-102.JPG
+  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-112.JPG
+  share: true
+  classes: wide
+  description: Historique du CCL - Centre Culturel de Luminy et du campus. Animations, Festivals, Ateliers, Concerts, Jam, Dub
+  has_header: true
+  header:
+    type: image
+    fixed_image: "/assets/images/banniere-puget-orange-1.jpg"
 
 ---
 <!-- https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery -->
 
-# Association du Centre Culturel de Luminy
+Association du Centre Culturel de Luminy
+========================================
 
-## (Association étudiante loi 1901)
+(Association étudiante loi 1901)
+--------------------------------
 
 [<i class="fas fa-globe"></i> Site 2007-2014]({{ site.data.extlinks.archive-site-2007-2014 }}){: .btn .btn--inverse}
 [<i class="fas fa-globe"></i> Site 2014-2017]({{ site.data.extlinks.archive-site-2014-2017 }}){: .btn .btn--inverse}
 [<i class="fab fa-facebook-square"></i> Luminy Story]({{ site.data.extlinks.luminy-story }}){: .btn .btn--inverse}
 
-***
+______________
 
-<button class="collapsible" id="yaml">Historique 1994 - 2009</button>
+<button class="collapsible" id="historique-1994-2009">Historique 1994 - 2009</button>
 
 <!-- <div class="content" id="yamldata" markdown="1" style="display: none"> -->
-<div class="content" id="yamldata" markdown="1">
+<div class="content" id="historique-1994-2009data" markdown="1">
 
 Tout commence en 1994, le Crous et la Région investissent dans la réalisation d’une cafeteria dans une salle du resto U (ancien) dans le bâtiment dit « Hexagone » pour palier à l’isolement de la cité U de Luminy.
 
@@ -91,21 +95,27 @@ Le Crous décide en 2007 de réhabiliter le bâtiment et encore une fois nous pe
 
 Durant l’année 2009 nous avons réussi à recréer un lieu de vie conviviale pour accueillir les étudiants. Les activités ont pu reprendre et de nouvelles ont étés créer en fonction de la demande des étudiants.
 
+
+
 </div>
 
 {% include gallery id="gallery-studio-musique" caption="Studio de Musique 2010 derrière les amhpis du bât. A" %}
 
 {%- include collapse.html -%}
 
-***
+_______________________
 
-Dans l'ancienne salle du CCL au Bât. A de la cité U.
+## Dans l'ancienne salle du CCL au Bât. A de la cité U.
+
 [Gaby et Feti]({{ site.data.extlinks.gaby-feti }}){: .btn .btn--inverse}
 
-***
+____________
+
+
 
 [<i class="fas fa-globe"></i> Site JEC 2013]({{ site.data.extlinks.archive-site-jec2013 }}){: .btn .btn--inverse}
 
 [<i class="fas fa-globe"></i> Site Toukouleur 2014]({{ site.data.extlinks.archive-site-toukouleur2014 }}){: .btn .btn--inverse}
 
-À suivre...
+
+
