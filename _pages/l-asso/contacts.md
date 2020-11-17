@@ -25,8 +25,8 @@ share: false
 - [centre-culturel@luminy.org](mailto:centre-culturel@luminy.org)
 - [webmasters@luminy.org](mailto:webmasters@luminy.org)
 - [<i class="fab fa-facebook-square"></i> CCLuminy]({{ urls.fb-ccl }}){: .btn .btn--inverse}
-- ou directement : <button class="collapsible" id="formulaire-contact">Nous envoyer un message</button>
-<div class="content" id="formulaire-contactdata" markdown="1"
+- ou directement : <button class="collapsible" id="formulaire-write-us">Nous envoyer un message</button>
+<div class="content" id="formulaire-write-usdata" markdown="1"
 style="display: none">
 {% include write-us-form.html %}
 </div>

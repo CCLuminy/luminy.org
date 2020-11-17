@@ -45,10 +45,10 @@ Association du Centre Culturel de Luminy
 
 ______________
 
-<button class="collapsible" id="yaml">Historique 1994 - 2009</button>
+<button class="collapsible" id="historique-1994-2009">Historique 1994 - 2009</button>
 
 <!-- <div class="content" id="yamldata" markdown="1" style="display: none"> -->
-<div class="content" id="yamldata" markdown="1">
+<div class="content" id="historique-1994-2009data" markdown="1">
 
 Tout commence en 1994, le Crous et la Région investissent dans la réalisation d’une cafeteria dans une salle du resto U (ancien) dans le bâtiment dit « Hexagone » pour palier à l’isolement de la cité U de Luminy.
 
