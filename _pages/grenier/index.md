@@ -98,8 +98,8 @@ Durant l’année 2009 nous avons réussi à recréer un lieu de vie conviviale 
 
 _______________________
 
+## Dans l'ancienne salle du CCL au Bât. A de la cité U.
 
-Dans l'ancienne salle du CCL au Bât. A de la cité U.
 [Gaby et Feti]({{ site.data.extlinks.gaby-feti }}){: .btn .btn--inverse}
 
 ____________
