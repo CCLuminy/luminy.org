@@ -87,3 +87,5 @@ Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
 
 ## Fonctionnement `luminy.org`
 Voir [<i class="fab fa-github" aria-hidden="true"></i> Github]({{ urls.github-ccl }}/blob/master/README.md#fonctionnement-du-site-pour-les-plus-motivés){: .btn .btn--inverse}
+
+{% include contact-form.html %}
