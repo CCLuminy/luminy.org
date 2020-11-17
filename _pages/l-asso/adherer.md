@@ -25,6 +25,6 @@ officiellement, doivent être adhérent (i.e. membre) à l'association du Centre
 Culturel de Luminy.
 {: .notice}
 
-<iframe id="haWidget" allowtransparency="true" scrolling="auto" src="https://www.helloasso.com/associations/centre-culturel-de-luminy/adhesions/adhesions-centre-culturel-de-luminy-ccl-2/widget" style="width:100%;height:750px;border:none;" onload="window.scroll(0, this.offsetTop)"></iframe>
+<iframe id="haWidget" allowtransparency="true" scrolling="auto" src="https://www.helloasso.com/associations/centre-culturel-de-luminy/adhesions/adhesions-2019-2020-ccl-centre-culturel-de-luminy-2/widget" style="width:100%;height:750px;border:none;" onload="window.scroll(0, this.offsetTop)"></iframe><div style="width:100%;text-align:center;">Propulsé par <a href="https://www.helloasso.com" rel="nofollow">HelloAsso</a></div>
 
 {% include_relative devenir-benevole.md %}

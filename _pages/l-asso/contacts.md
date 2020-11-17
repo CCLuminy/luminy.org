@@ -5,6 +5,7 @@ section: ccl
 toc: true
 share: false
 ---
+
 # Prendre contact avec nous
 
 {% assign urls = site.data.extlinks %}
@@ -24,6 +25,18 @@ share: false
 - [centre-culturel@luminy.org](mailto:centre-culturel@luminy.org)
 - [webmasters@luminy.org](mailto:webmasters@luminy.org)
 - [<i class="fab fa-facebook-square"></i> CCLuminy]({{ urls.fb-ccl }}){: .btn .btn--inverse}
+
+### Donne-nous des infos sur toi si tu veux reçevoir nos infos
+
+Seul le mail est obligatoire
+
+<button class="collapsible" id="formulaire-contact">Formulaire</button>
+<div class="content" id="formulaire-contactdata" markdown="1"
+style="display: none">
+{% include contact-form.html %}
+</div>
+
+{%- include collapse.html -%}
 
 ### Pour un projet en particulier
 - Festival Toukouleur : [toukouleur@luminy.org](mailto:toukouleur@luminy.org)
@@ -88,4 +101,3 @@ Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
 ## Fonctionnement `luminy.org`
 Voir [<i class="fab fa-github" aria-hidden="true"></i> Github]({{ urls.github-ccl }}/blob/master/README.md#fonctionnement-du-site-pour-les-plus-motivés){: .btn .btn--inverse}
 
-{% include contact-form.html %}
