@@ -1,41 +1,41 @@
 ---
 title: Retrospective
 
-
 gallery-studio-musique:
-  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
-    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
-    alt: studio-musique-1
-    title: Studio-musique-1
-  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
-    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
-    alt: studio-musique-2
-    title: Studio-musique-2
-  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
-    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
-    alt: studio-musique-4
-    title: Studio-musique-4
-  - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
-    image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
-    alt: studio-musique-6
+- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
+  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
+  alt: studio-musique-1
+  title: Studio-musique-1
+- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
+  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-002.JPG
+  alt: studio-musique-2
+  title: Studio-musique-2
+- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
+  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-004.JPG
+  alt: studio-musique-4
+  title: Studio-musique-4
+- url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
+  image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
+  alt: studio-musique-6
   title: Studio-musique-6
 
 gallery-concert-salle-po:
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-048.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-069.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-072.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-086.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-102.JPG
-  - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-112.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-048.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-069.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-072.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-086.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-102.JPG
+- image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-112.JPG
   share: true
   classes: wide
-  description: Historique du CCL - Centre Culturel de Luminy et du campus. Animations, Festivals, Ateliers, Concerts, Jam, Dub
+  description: >
+    Historique du CCL - Centre Culturel de Luminy et du campus. Animations, Festivals, Ateliers, Concerts, Jam, Dub
   has_header: true
   header:
-    type: image
-    fixed_image: "/assets/images/banniere-puget-orange-1.jpg"
+    type: overlay
+    overlay_image: assets/images/banniere-bulles.png
 
 ---
 <!-- https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery -->
