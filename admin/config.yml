@@ -1,0 +1,130 @@
+# config.yml
+
+backend:
+  name: git-gateway
+  repo: CCLuminy/CCL-site
+  branch: content # Branch to update (optional; defaults to master)
+media_folder: 'assets/images/'
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+  - name: 'data'
+    label: "Auteurs et Navigations"
+    editor:
+        preview: false
+    files:
+      - name: "authors"
+        label: "Auteurs"
+        file: "_data/authors.yml"
+        fields:
+          - label: "Auteurs"
+            name: "authors"
+            widget: "list"
+            fields:
+              - {                  label: "Nom à afficher", name: "name", widget: string }
+              - { required: false, label: "Nom court (pour l'url)", name: "prefix", widget: string }
+              - {                  label: "Avatar", name: "avatar", widget: image }
+              - { required: false, label: "Image de partage", name: "og_image", widget: string }
+              - { required: false, label: "Bannière par défaut", name: "banner", widget: string }
+              - {                  label: "Petite description", name: "bio", widget: string }
+              - { required: false, label: "Localisation", name: "location", widget: string }
+              - { required: false, label: "Email", name: "email", widget: string }
+              - { required: false, label: "Site internet", name: "uri", widget: string }
+              - { required: false, label: "Facebook", name: "facebook", widget: string }
+              - { required: false, label: "Helloasso", name: "helloasso", widget: string }
+              - required: false
+                label: "Autre"
+                name: "links"
+                widget: "list"
+                fields:
+                  - {label: "Label", name: "label", widget: string}
+                  - {label: "URL", name: "url", widget: string}
+                  - {label: "Icone Fontawesome", name: "icon", widget: string, required: false}
+
+      - name: "navigation"
+        label: "Navigations"
+        file: "_data/navigation.yml"
+        fields:
+          - label: "Navigation d'entête"
+            name: "main"
+            widget: "list"
+            fields:
+              - {label: "Titre", name: "title", widget: string}
+              - {label: "Lien", name: "url", widget: string}
+          - label: "Navigations par 'auteur'"
+            name: "navs"
+            widget: "list"
+            fields:
+              - {label: "Nom court (pour url)", name: "name", widget: string}
+              - label: "Sections"
+                name: "nav"
+                widget: list
+                fields:
+                  - {label: "Titre", name: "title", widget: string}
+                  - {label: "Lien", name: "url", widget: string}
+                  - label: "Sous-sections"
+                    name: "children"
+                    required: false
+                    widget: "list"
+                    fields:
+                      - {label: "Titre", name: "title", widget: string}
+                      - {label: "Lien", name: "url", widget: string}
+
+  - name: 'general'
+    label: 'Pages générales'
+    folder: '_pages/'
+    create: true
+    editor:
+      preview: true
+    fields:
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'ccl'
+    label: 'CCL'
+    folder: '_pages/ccl'
+    create: true
+    fields:
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Bandeau ?", name: "overlay_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'l-asso'
+    label: "CCL/l'asso"
+    folder: '_pages/ccl/l-asso'
+    fields:
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'activites'
+    label: 'CCL/Activites'
+    folder: '_pages/ccl/activites/'
+    create: true
+    fields:
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'grenier'
+    label: 'CCL/Grenier'
+    folder: '_pages/ccl/grenier/'
+    create: true
+    fields:
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'jardin'
+    label: 'Jardin'
+    description: 'Tout est là'
+    folder: '_pages/jardin'
+    create: true
+    fields:
+      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
+      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
