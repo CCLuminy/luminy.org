@@ -151,6 +151,7 @@ include:
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
+  - email-template
   - vendor
   - .asset-cache
   - .bundle
