@@ -2,8 +2,8 @@
 
 backend:
   name: git-gateway
-  repo: CCLuminy/CCL-site
-  branch: content # Branch to update (optional; defaults to master)
+  repo: CCLuminy/luminy.org
+  branch: ccl # Branch to update (optional; defaults to master)
 media_folder: 'assets/images/'
 slug:
   encoding: "ascii"
