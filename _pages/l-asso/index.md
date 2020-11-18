@@ -21,7 +21,7 @@ Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 * [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy]{: .btn .btn--inverse}
 * [<i class='fas fa-fw fa-calendar-alt'></i> Agenda](/agenda/){: .btn .btn--inverse}
 
-\[facebook]: {{ site.data.extlinks.fb-ccl }}
+[facebook]: {{ site.data.extlinks.fb-ccl }}
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
@@ -31,5 +31,5 @@ Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 
 {% assign section_pages = site.pages | where: 'section', 'ccl' %}
 {% for page in section_pages %}
-  \[{{ page.title }}]({{ page.url }})
+  [{{ page.title }}]({{ page.url }})
 {% endfor %}
