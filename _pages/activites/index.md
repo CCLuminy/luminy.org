@@ -1,7 +1,8 @@
 ---
 title: Nos activités
-category_name: "activite"
+category_name: activite
 toc: true
+last_modified_at: 2020-11-18T22:44:57.153Z
 overlay_image: assets/images/banniere-parvis.jpg
 ---
 # Le jardin universitaire
@@ -31,3 +32,5 @@ avec le club de sciences ou pas
 # ateliers
   - dessin
   - mix
+
+# distribution de pain
