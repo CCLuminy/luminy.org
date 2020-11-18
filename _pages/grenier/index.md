@@ -1,6 +1,6 @@
 ---
-title: Retrospective
-
+last_modified_at: 2020-11-18T22:44:05.298Z
+classes: wide
 gallery-studio-musique:
   - url: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
     image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-001.JPG
@@ -18,7 +18,10 @@ gallery-studio-musique:
     image_path: assets/images/grenier/studio-musique/phoca_thumb_l_Studio_musique-006.JPG
     alt: studio-musique-6
     title: Studio-musique-6
-
+header:
+  type: image
+  fixed_image: assets/images/banniere-puget-orange.jpg
+has_header: true
 gallery-concert-salle-po:
   - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
   - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-031.JPG
@@ -28,15 +31,11 @@ gallery-concert-salle-po:
   - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-086.JPG
   - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-102.JPG
   - image_path: assets/images/grenier/concert-salle-po/phoca_thumb_m_Concerts_salle_po-112.JPG
-share: true
-classes: wide
+title: Retrospective
 description: >
-  Historique du CCL - Centre Culturel de Luminy et du campus. Animations, Festivals, Ateliers, Concerts, Jam, Dub
-has_header: true
-header:
-  type: image
-  fixed_image: assets/images/banniere-puget-orange.jpg
-
+  Historique du CCL - Centre Culturel de Luminy et du campus. Animations,
+  Festivals, Ateliers, Concerts, Jam, Dub
+share: true
 ---
 <!-- https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery -->
 
@@ -116,4 +115,6 @@ ____________
 [<i class="fas fa-globe"></i> Site JEC 2013]({{ site.data.extlinks.archive-site-jec2013 }}){: .btn .btn--inverse}
 
 [<i class="fas fa-globe"></i> Site Toukouleur 2014]({{ site.data.extlinks.archive-site-toukouleur2014 }}){: .btn .btn--inverse}
+
+À suivre
 
