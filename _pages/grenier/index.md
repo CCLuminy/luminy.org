@@ -117,5 +117,3 @@ ____________
 
 [<i class="fas fa-globe"></i> Site Toukouleur 2014]({{ site.data.extlinks.archive-site-toukouleur2014 }}){: .btn .btn--inverse}
 
-
-
