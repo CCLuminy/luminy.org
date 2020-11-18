@@ -4,8 +4,8 @@ has_header: true
 header:
   type: image
   fixed_image: assets/images/banniere-ccl-intime.png
+last_modified_at: 2020-10-01T21:30:01.572Z
 ---
-
 ## Le CCL, c'est nous ! C'est vous ! C'est tous ceux qui ont envie de faire, de partager et de proposer pour que bouge ce campus !
 
 Passez nous voir !
@@ -16,19 +16,20 @@ On est tous les jeudis soirs (sauf exceptions) à la cafèt' pour [les
 jeudis du CCL](/activites/jeudis/) de 19h à 23h !
 
 Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
-- [activités](/activites/){: .btn .btn--inverse}
-- [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy][facebook]{: .btn .btn--inverse}
-- [<i class='fas fa-fw fa-calendar-alt'></i> Agenda][agenda]{: .btn .btn--inverse}
 
-[agenda]: /agenda/
-[facebook]: {{ site.data.extlinks.fb-ccl }}
+* [activités](/activites/){: .btn .btn--inverse}
+* [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy]{: .btn .btn--inverse}
+* [<i class='fas fa-fw fa-calendar-alt'></i> Agenda](/agenda/){: .btn .btn--inverse}
+
+\[facebook]: {{ site.data.extlinks.fb-ccl }}
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
 {% include_relative devenir-benevole.md %}
 
-## En savoir plus
+## Mieux nous connaitre
+
 {% assign section_pages = site.pages | where: 'section', 'ccl' %}
 {% for page in section_pages %}
-  [{{ page.title }}]({{ page.url }})
+  \[{{ page.title }}]({{ page.url }})
 {% endfor %}
