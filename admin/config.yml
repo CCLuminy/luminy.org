@@ -4,7 +4,13 @@ backend:
   name: git-gateway
   repo: CCLuminy/luminy.org
   branch: ccl # Branch to update (optional; defaults to master)
+
 media_folder: 'assets/images/'
+publish_mode: editorial_workflow
+site_url: https://ccl.test.luminy.org
+display_url: https://ccl.test.luminy.org
+custom_logo: assets/images/authors-logo/indien-petit.png
+locale: fr
 slug:
   encoding: "ascii"
   clean_accents: true
