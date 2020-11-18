@@ -25,7 +25,7 @@ Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 
 [Voir le plan de Luminy](/assets/images/plan-luminy-ccl.png)
 
-{% include_relative l-asso/devenir-benevole.md %}
+{% include_relative devenir-benevole.md %}
 
 ## En savoir plus
 {% assign section_pages = site.pages | where: 'section', 'ccl' %}

@@ -1,5 +1,7 @@
 ---
 main:
+- title: Le CCL
+  url: "/l-asso/"
 - title: Activités
   url: "/activites/"
 - title: Le Grenier
@@ -25,7 +27,7 @@ nav:
   - title: Projets
     url: "/activites/projets/"
 - title: L'association
-  url: "/"
+  url: "/le-ccl"
   children:
   - title: Qui sommes-nous ?
     url: "/l-asso/presentation-longue/"
