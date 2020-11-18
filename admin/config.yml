@@ -9,7 +9,7 @@ media_folder: 'assets/images/'
 publish_mode: editorial_workflow
 site_url: https://ccl.test.luminy.org
 display_url: https://ccl.test.luminy.org
-custom_logo: assets/images/authors-logo/indien-petit.png
+custom_logo: /assets/images/authors-logo/indien-petit.png
 locale: fr
 slug:
   encoding: "ascii"
@@ -81,6 +81,8 @@ collections:
   - name: 'general'
     label: 'Pages générales'
     folder: '_pages/'
+    preview_path: '/{{slug}}'
+    delete: false
     create: true
     editor:
       preview: true
@@ -89,26 +91,21 @@ collections:
       - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
       - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: 'ccl'
-    label: 'CCL'
-    folder: '_pages/ccl'
-    create: true
-    fields:
-      - {label: "Titre de la page", name: "title", widget: "string"}
-      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
-      - {label: "Bandeau ?", name: "overlay_image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+
   - name: 'l-asso'
-    label: "CCL/l'asso"
-    folder: '_pages/ccl/l-asso'
+    label: "l'asso"
+    folder: '_pages/l-asso'
+    preview_path: '/l-asso/{{slug}}'
+    delete: false
     fields:
       - {label: "Titre de la page", name: "title", widget: "string"}
       - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
       - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'activites'
-    label: 'CCL/Activites'
-    folder: '_pages/ccl/activites/'
+    label: 'Activités'
+    folder: '_pages/activites/'
+    preview_path: '/activites//{{slug}}'
     create: true
     fields:
       - {label: "Titre de la page", name: "title", widget: "string"}
@@ -116,18 +113,9 @@ collections:
       - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'grenier'
-    label: 'CCL/Grenier'
-    folder: '_pages/ccl/grenier/'
-    create: true
-    fields:
-      - {label: "Titre de la page", name: "title", widget: "string"}
-      - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
-      - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
-  - name: 'jardin'
-    label: 'Jardin'
-    description: 'Tout est là'
-    folder: '_pages/jardin'
+    label: 'Grenier'
+    folder: '_pages/grenier/'
+    preview_path: '/grenier//{{slug}}'
     create: true
     fields:
       - {label: "Titre de la page", name: "title", widget: "string"}
