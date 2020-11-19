@@ -36,6 +36,17 @@ feature_row:
     btn_class: "btn--warning"
     btn_label: "<i class='fas fa-music'></i> Infos"
 ---
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
 
 {% include feature_row %}
 
