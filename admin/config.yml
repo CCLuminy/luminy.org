@@ -82,8 +82,8 @@ collections:
     label: 'Pages générales'
     folder: '_pages/'
     preview_path: '/{{slug}}'
-    delete: false
     create: true
+    delete: false
     editor:
       preview: true
     fields:
@@ -94,19 +94,22 @@ collections:
 
   - name: 'l-asso'
     label: "l'asso"
+    description: "description ici pour la collection lasso"
     folder: '_pages/l-asso'
     preview_path: '/l-asso/{{slug}}'
+    create: true
     delete: false
     fields:
-      - {label: "Titre de la page", name: "title", widget: "string"}
+      - {label: "Titre de la page", name: "title", widget: "string", description: "description"}
       - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
       - {label: "Remplacer le bandeau par défaut par un autre ?", name: "overlay_image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
   - name: 'activites'
     label: 'Activités'
     folder: '_pages/activites/'
-    preview_path: '/activites//{{slug}}'
+    preview_path: '/activites/{{slug}}'
     create: true
+    delete: false
     fields:
       - {label: "Titre de la page", name: "title", widget: "string"}
       - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
@@ -115,8 +118,9 @@ collections:
   - name: 'grenier'
     label: 'Grenier'
     folder: '_pages/grenier/'
-    preview_path: '/grenier//{{slug}}'
+    preview_path: '/grenier/{{slug}}'
     create: true
+    delete: false
     fields:
       - {label: "Titre de la page", name: "title", widget: "string"}
       - {label: "Date de dernière mise à jour", name: "last_modified_at", widget: "date"}
