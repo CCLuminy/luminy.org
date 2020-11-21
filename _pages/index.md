@@ -4,7 +4,7 @@ title: Centre Culturel de Luminy
 has_header: true
 header:
   type: overlay
-  overlay_image: assets/images/banniere-bulles.png
+  overlay_image: assets/images/banniere-jardin.jpg
   actions:
     - label: "<i class='fas fa-users'></i> Adhérez"
       url: "/l-asso/adherer/"
