@@ -18,15 +18,15 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 locale                   : "fr-FR"
 title                    : "luminy.org"
 title_separator          : "|"
-subtitle                 : "Centre Culturel de Luminy"
-name                     : "Centre Culturel de Luminy CCL"
-description              : "luminy.org association centre culturel de luminy marseille 13009 culture citoyenneté liberté d'expression art partage des connaissances initiatives sociales concert festival dub reggae rock electro"
-url                      : "https://ccl.test.luminy.org"
+subtitle                 : "JaLu"
+name                     : "Jardin Luminyen"
+description              : "luminy.org association jardin universitaire de luminy, jardin luminyen, "
+url                      : "https://jardin.test.luminy.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : &logo "/assets/images/authors-logo/indien-petit.png"
-banner                   : "/assets/images/puget-fleuri.png"
+logo                     : &logo "/assets/images/authors-logo/logo-jardin.png"
+banner                   : "/assets/images/banniere-jardin.jpg"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
@@ -88,7 +88,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : "CCLuminy"
+  username               : "jardinluminyen"
   app_id                 :
   publisher              :
 og_image                 : *logo
@@ -266,7 +266,7 @@ compress_html:
     envs: development
 
 # see _data/authors.yml
-author: ccl
+author: jardin
 
 collections:
   pages:
