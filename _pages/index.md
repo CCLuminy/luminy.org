@@ -48,16 +48,15 @@ feature_row:
   }
 </script>
 
-{% include feature_row %}
+{% include formulaire-newsletter-jardin.html %}
 
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v5.0"></script>
 
-<div class="fb-page" data-href="https://www.facebook.com/CCLuminy/"
+<div class="fb-page" data-href="{{ data.extlinks.fb-jardin }}"
 data-tabs="" data-width="" data-height="" data-small-header="false"
 data-adapt-container-width="true" data-hide-cover="false"
 data-show-facepile="false"><blockquote
-cite="https://www.facebook.com/CCLuminy/" class="fb-xfbml-parse-ignore"><a
-href="https://www.facebook.com/CCLuminy/">Centre Culturel de Luminy -
-CCL</a></blockquote></div>
+cite="{{ data.extlinks.fb-jardin }}" class="fb-xfbml-parse-ignore"><a
+href="{{ data.extlinks.fb-jardin }}">Jardin Luminyen</a></blockquote></div>
 

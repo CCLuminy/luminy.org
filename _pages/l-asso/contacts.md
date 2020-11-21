@@ -10,21 +10,17 @@ share: false
 
 {% assign urls = site.data.extlinks %}
 
-## En vrai
-- Au local de l'hexagone entre midi et 2
-  [<i class="fas fa-map-pin"></i> OSM]({{ urls.osm-hexa }}){: .btn .btn--inverse}
-- À la cafétéria du CROUS le soir de 19h à 13h, surtout le jeudi
-  [<i class="fas fa-map-pin"></i> OSM]({{ urls.osm-cafet }}){: .btn .btn--inverse}
-- Au jardin universitaire
+## En vrai au jardin
+
+- Au jardin
   [<i class="fas fa-map-pin"></i> OSM]({{ urls.osm-jardin }}){: .btn .btn--inverse}
-- Au hasard sur Luminy
+- Aux distributions des paniers bio le jeudi entre 16h45 et 18h.
 
 ## Par internet
 
 ### Pour toute question, information, demande ou requête
-- [centre-culturel@luminy.org](mailto:centre-culturel@luminy.org)
-- [webmasters@luminy.org](mailto:webmasters@luminy.org)
-- [<i class="fab fa-facebook-square"></i> CCLuminy]({{ urls.fb-ccl }}){: .btn .btn--inverse}
+- [jardin@luminy.org](mailto:jardin@luminy.org)
+- [<i class="fab fa-facebook-square"></i> Jardin]({{ urls.fb-jardin }}){: .btn .btn--inverse}
 - ou directement : <button class="collapsible" id="formulaire-write-us">Nous envoyer un message</button>
 <div class="content" id="formulaire-write-usdata" markdown="1"
 style="display: none">
@@ -38,18 +34,11 @@ Seul le mail est obligatoire
 <button class="collapsible" id="formulaire-contact">Formulaire</button>
 <div class="content" id="formulaire-contactdata" markdown="1"
 style="display: none">
-{% include contact-form.html %}
+{% include formulaire-newsletter-jardin.html %}
 </div>
 
-### Pour un projet en particulier
-- Festival Toukouleur : [toukouleur@luminy.org](mailto:toukouleur@luminy.org)
-- Club de Science [<i class="fab fa-facebook-square"></i> Club de Science Luminy]({{ urls.fb-club-sciences }}){: .btn .btn--inverse}
-- Jardin Universitaire : [jardin@luminy.org](mailto:jardin@luminy.org)
-- Paniers bio : [bio@luminy.org](mailto:bio@luminy.org)
-
 ### Directement de pair à pair
-- Mila TAILLANDIER [milataillandier@gmail.com](mailto:milataillandier@gmail.com)
-- Lucas SCHNEIDER [lucas@les-schneider.com](mailto:lucas@les-schneider.com)
+- Flo
 
 Nous vous encourageons à utiliser les mailing-listes en `@luminy.org` et
 utiliser "Répondre à tous" à la place du "pair à pair". Cela permet à plusieurs
@@ -57,22 +46,9 @@ personnes de reçevoir les mails envoyés, et ainsi améliore l'efficacité de n
 communication.
 {: .notice}
 
-Enfin, [<i class="fas fa-fw fa-fire" aria-hidden="true"></i> HelloAsso]({{ urls.helloasso-ccl }}){: .btn .btn--inverse}
-
-## Adresse postale (?)
-```
-Cité Universitaire de Luminy,
-171, avenue de Luminy
-13009, Marseille
-```
-
+Enfin, [<i class="fas fa-fw fa-fire" aria-hidden="true"></i> HelloAsso]({{ urls.helloasso-jardin }}){: .btn .btn--inverse}
 
 # Fonctionnement associatif
-
-Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
-.btn--inverse}
-- **SIREN** : 500 708 656
-- **SIRET** : 500 708 656 00011
 
 ## Bureau courant
 
@@ -101,15 +77,12 @@ Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
 - Projets Région PACA
 - CVEC?
 
-## Fonctionnement `luminy.org`
-Voir [<i class="fab fa-github" aria-hidden="true"></i> Github]({{ urls.github-ccl }}/blob/master/README.md#fonctionnement-du-site-pour-les-plus-motivés){: .btn .btn--inverse}
-
 ## Formulaires
 
 <button class="collapsible" id="formulaire-distrib">Sendinblue</button>
 <div class="content" id="formulaire-distribdata" markdown="1"
 style="display: block">
-{% include sendinblue-inscription.html %}
+{% include formulaire-newsletter-jardin.html %}
 </div>
 
 {%- include collapse.html -%}
