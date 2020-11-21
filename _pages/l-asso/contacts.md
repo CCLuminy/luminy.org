@@ -41,8 +41,6 @@ style="display: none">
 {% include contact-form.html %}
 </div>
 
-{%- include collapse.html -%}
-
 ### Pour un projet en particulier
 - Festival Toukouleur : [toukouleur@luminy.org](mailto:toukouleur@luminy.org)
 - Club de Science [<i class="fab fa-facebook-square"></i> Club de Science Luminy]({{ urls.fb-club-sciences }}){: .btn .btn--inverse}
@@ -106,3 +104,12 @@ Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
 ## Fonctionnement `luminy.org`
 Voir [<i class="fab fa-github" aria-hidden="true"></i> Github]({{ urls.github-ccl }}/blob/master/README.md#fonctionnement-du-site-pour-les-plus-motivés){: .btn .btn--inverse}
 
+## Formulaires
+
+<button class="collapsible" id="formulaire-distrib">Sendinblue</button>
+<div class="content" id="formulaire-distribdata" markdown="1"
+style="display: block">
+{% include sendinblue-inscription.html %}
+</div>
+
+{%- include collapse.html -%}
