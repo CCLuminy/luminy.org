@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Centre Culturel de Luminy
+title: Jardin Luminyen
 has_header: true
 header:
   type: overlay
@@ -9,29 +9,29 @@ header:
     - label: "<i class='fas fa-users'></i> Adhérez"
       url: "/l-asso/adherer/"
     - label: "<i class='fab fa-fw fa-facebook-square'></i> Suivez-nous"
-      url: "https://www.facebook.com/CCLuminy/"
+      url: "https://www.facebook.com/jardinluminy/"
   show_text: description
 description: >
-  Le CCL porte de nombreuses initiatives et se propose d'aider à en monter de nouvelles ! Son but : remettre les notions de créativité, de connaissance, de collectivité, de partage et d'entraide au coeur de la vie de notre campus universitaire en proposant à toutes les bonnes volontés de participer à construire leur lieu d'étude, de travail ou encore de vie.
+  Le Jardin Luminyen a pour but de promouvoir l'agroécologie et la permaculture au plus grand nombre de personnes. Pour celà, nous gérons jardin universitaire de Luminy, qui se veut à terme être une modeste vitrine expérimentale de ce genre de pratiques. Tout le monde est le bienvenu !
 feature_row:
-  - image_path: assets/images/illustrations/rock-n-roll.png
-    alt: "danse"
-    title: "Danse"
-    excerpt: "Atelier danse"
-    url: "/activites/danse/"
+  - image_path: assets/images/panier.png
+    alt: "paniers"
+    title: "Paniers bio"
+    excerpt: "Paniers bio"
+    url: "/activites/paniers/"
     btn_class: "btn--primary"
     btn_label: "Plus"
-  - image_path: assets/images/illustrations/jongle-transparent.png
-    alt: "jongle"
-    title: "Arts du Cirque"
+  - image_path: assets/images/authors-logo/logo-touk-transparent.png
+    alt: ""
+    title: "Toukouleur"
     excerpt: "jongle jongle jongle"
-    url: "/activites/jongle/"
+    url: "/activites/toukouleur/"
     btn_class: "btn--info"
     btn_label: "Plus"
-  - image_path: assets/images/illustrations/musique-transparent.png
-    alt: "musique"
-    title: "Musique"
-    excerpt: "Concerts, boeuf, jam, festivals"
+  - image_path: assets/images/renard-touk.jpg
+    alt: "renard"
+    title: "Renard"
+    excerpt: "des renards"
     url: "/activites/ateliers/"
     btn_class: "btn--warning"
     btn_label: "<i class='fas fa-music'></i> Infos"
@@ -47,6 +47,8 @@ feature_row:
     });
   }
 </script>
+
+{% include feature_row %}
 
 {% include formulaire-newsletter-jardin.html %}
 
