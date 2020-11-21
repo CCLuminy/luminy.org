@@ -4,8 +4,8 @@ no_title: true
 section: ccl
 toc: true
 share: false
+last_modified_at: 2020-11-21T16:35:38.490Z
 ---
-
 # Prendre contact avec nous
 
 {% assign urls = site.data.extlinks %}
@@ -32,6 +32,7 @@ style="display: none">
 Seul le mail est obligatoire
 
 <button class="collapsible" id="formulaire-contact">Formulaire</button>
+
 <div class="content" id="formulaire-contactdata" markdown="1"
 style="display: none">
 {% include formulaire-newsletter-jardin.html %}
@@ -48,38 +49,40 @@ communication.
 
 Enfin, [<i class="fas fa-fw fa-fire" aria-hidden="true"></i> HelloAsso]({{ urls.helloasso-jardin }}){: .btn .btn--inverse}
 
-# Fonctionnement associatif
 
 ## Bureau courant
 
-| Poste           | Nom               | Filière       |
-| -------         | --------          | ---------     |
-| Présidente      |                   |               |
-| Vice-président  |                   |               |
-| Trésorière      |                   |               |
-| Vice trésorière |                   |               |
-| Secrétaire      |                   |               |
-| Vice secrétaire |                   |               |
+| Poste           | Nom | Filière |
+| --------------- | --- | ------- |
+| Présidente      |     |         |
+| Vice-président  |     |         |
+| Trésorière      |     |         |
+| Vice trésorière |     |         |
+| Secrétaire      |     |         |
+| Vice secrétaire |     |         |
 
 [Historique des bureaux](/l-asso/bureaux/){: .btn .btn--inverse}
 
 ## Financement
 
 ### Autofinancement
-- Organisation d'événements
-- Dons
-- Goodies
+
+* Organisation d'événements
+* Dons
+* Goodies
 
 ### Subventions publiques
-- Fonctionnement via AMU
-- Projets FSDIE (AMU)
-- Projets CROUS par le conseil des résidents
-- Projets Région PACA
-- CVEC?
+
+* Fonctionnement via AMU
+* Projets FSDIE (AMU)
+* Projets CROUS par le conseil des résidents
+* Projets Région PACA
+* CVEC?
 
 ## Formulaires
 
 <button class="collapsible" id="formulaire-distrib">Sendinblue</button>
+
 <div class="content" id="formulaire-distribdata" markdown="1"
 style="display: block">
 {% include formulaire-newsletter-jardin.html %}
