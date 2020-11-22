@@ -14,6 +14,13 @@ header:
 description: >
   Le CCL porte de nombreuses initiatives et se propose d'aider à en monter de nouvelles ! Son but : remettre les notions de créativité, de connaissance, de collectivité, de partage et d'entraide au coeur de la vie de notre campus universitaire en proposant à toutes les bonnes volontés de participer à construire leur lieu d'étude, de travail ou encore de vie.
 feature_row:
+  - image_path: assets/images/distrib-pain-flou.jpg
+    alt: "distributions pain"
+    title: "Distributions de Pain"
+    excerpt: "Distributions de Pain"
+    url: "/activites/distrib/"
+    btn_class: "btn--primary"
+    btn_label: "Plus"
   - image_path: assets/images/illustrations/rock-n-roll.png
     alt: "danse"
     title: "Danse"
