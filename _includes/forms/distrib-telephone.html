@@ -1,7 +1,3 @@
-<!-- YOYOYO pour supprimer l'obligation sur des champs
-    :%s/data-required="\zs\(\*\|true\)\ze"// | %s///
--->
-
 <!-- Begin Sendinblue Form -->
 <!-- START - We recommend to place the below code in head tag of your website html  -->
 <style>
@@ -75,7 +71,7 @@
     </div>
     <div></div>
     <div id="sib-container" class="sib-container--large sib-container--horizontal" style="text-align:center; background-color:rgba(235,235,224,1); max-width:540px; border-radius:10px; border-width:1px; border-color:#e9dcbe; border-style:solid;">
-      <form id="sib-form" method="POST" action="https://23aec1fe.sibforms.com/serve/MUIEAH-QRSSf9Mb1RRn0lHm-YIciy_yyiQ0rgTetHl4mc8xbCKt9tSA2IgwmmCH2eIlXFJTwFpD_QIVZ2JL_1rWz8YdpCWdg8o9gyyAPhTszQO0euwQYQdU3tmfpYPi8S7F2ZtEfHwsaDSBcmjqFLvyd1WRoys-_U9zMs60uWS8K47e9GfkCBeQgYIIoxCGvZjb4euEYmYvdPHGM"
+      <form id="sib-form" method="POST" action="https://23aec1fe.sibforms.com/serve/MUIEAPRlpwWWNoQMD7yq4jaqk7IqOOhLWRUDyVqtPLZRcZgo2UXo4xmG3qH1cgBMiBqP2L6eVbbpnW3p0hk4xhsB4d7y24O0EQKMxyBunAwXLCBOcUpvPvSWrG6yUrP6O_YYxcQ_TrQLH2UFJe8xajvTFi3u1uTTSrnAU9bFVqNx1lrOCkeIjpXx1ILmOkBZVVqDAeT0vwAtziUz"
         data-type="subscription">
         <div style="padding: 8px 0;">
           <div class="sib-form-block" style="font-size:32px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
@@ -85,7 +81,7 @@
         <div style="padding: 8px 0;">
           <div class="sib-form-block" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">
             <div class="sib-text-form-block">
-              <p>Inscrivez-vous à notre newsletter pour suivre nos actualités.</p>
+              <p>Donnez-nous juste votre numéro de téléphone.</p>
             </div>
           </div>
         </div>
@@ -129,14 +125,14 @@
           <div class="sib-sms-field sib-form-block">
             <div class="form__entry entry_block">
               <div class="form__label-row ">
-                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="SMS">
+                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="SMS" data-required="*">
                   Entrez votre TÉLÉPHONE
                 </label>
 
                 <div class="sib-sms-input-wrapper">
-                  <div class="sib-sms-input" data-placeholder="SMS" data-required="" data-country-code="FR" data-value="">
+                  <div class="sib-sms-input" data-placeholder="SMS" data-required="1" data-country-code="FR" data-value="">
                     <div class="entry__field">
-                      <select class="input" name="SMS__COUNTRY_CODE">
+                      <select class="input" name="SMS__COUNTRY_CODE" data-required="true">
                         <option value="+93">
                           +93 AF
                         </option>
@@ -890,7 +886,7 @@
                       </select>
                     </div>
                     <div class="entry__field" style="width: 100%">
-                      <input type="tel" type="text" class="input" id="SMS" name="SMS" autocomplete="off" placeholder="SMS" />
+                      <input type="tel" type="text" class="input" id="SMS" name="SMS" autocomplete="off" placeholder="SMS" data-required="true" required />
                     </div>
                   </div>
                   <div class="sib-sms-tooltip">
@@ -916,24 +912,6 @@
           <div class="sib-input sib-form-block">
             <div class="form__entry entry_block">
               <div class="form__label-row form__label-row--horizontal">
-                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="EMAIL" data-required="*">
-                  Entrez votre EMAIL
-                </label>
-
-                <div class="entry__field">
-                  <input class="input" type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="EMAIL" data-required="true" required />
-                </div>
-              </div>
-
-              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-              </label>
-            </div>
-          </div>
-        </div>
-        <div style="padding: 8px 0;">
-          <div class="sib-input sib-form-block">
-            <div class="form__entry entry_block">
-              <div class="form__label-row form__label-row--horizontal">
                 <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;" for="COMMENTAIRE">
                   COMMENTAIRE
                 </label>
@@ -943,36 +921,6 @@
                 </div>
               </div>
 
-              <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
-              </label>
-            </div>
-          </div>
-        </div>
-        <div style="padding: 8px 0;">
-          <div class="sib-checkbox-group sib-form-block">
-            <div class="form__entry entry_mcq">
-              <div class="form__label-row form__label-row--horizontal">
-                <label class="entry__label" style="font-size:16px; text-align:left; font-weight:700; font-family:&quot;Helvetica&quot;, sans-serif; color:#3c4858;">
-                  Si vous êtes intéressé.e par nos autres activités, cochez les cases correspondantes.
-                </label>
-                <div>
-                  <div class="entry__choice">
-                    <label class="checkbox__label">
-                      <input type="checkbox" class="input_replaced" name="lists_32[]" data-value="Activités CCL" value="6" />
-                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Activités CCL</span> </label>
-                  </div>
-                  <div class="entry__choice">
-                    <label class="checkbox__label">
-                      <input type="checkbox" class="input_replaced" name="lists_32[]" data-value="Jardin" value="5" />
-                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Jardin</span> </label>
-                  </div>
-                  <div class="entry__choice">
-                    <label class="checkbox__label">
-                      <input type="checkbox" class="input_replaced" name="lists_32[]" data-value="Infos générales" value="2" />
-                      <span class="checkbox checkbox_tick_positive"></span><span style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#3C4858; background-color:transparent;">Infos générales</span> </label>
-                  </div>
-                </div>
-              </div>
               <label class="entry__error entry__error--primary" style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
               </label>
             </div>
@@ -1034,7 +982,6 @@
 
 
 
-  window.REQUIRED_MULTISELECT_MESSAGE = 'Veuillez choisir au moins une option';
 
   window.translation = {
     common: {
