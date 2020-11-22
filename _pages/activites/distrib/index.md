@@ -3,8 +3,8 @@ layout: single
 title: Distributions de pain
 ---
 
-
-<button class="collapsible"
+Formulaire d'inscription pour reçevoir des infor sur les distributions.
+<button class="collapsible btn btn--inverse"
         id="form-distrib">cacher/voir</button>
 <div class="content"
      id="form-distribdata" markdown="1"
@@ -13,12 +13,7 @@ title: Distributions de pain
 </div>
 
 
-<button class="collapsible"
-        id="form-distrib-telephone">formulaire téléphone uniquement</button>
-<div class="content"
-     id="form-distrib-telephonedata" markdown="1"
-     style="display: none">
-{% include forms/distrib-telephone.html %}
-</div>
-
 {%- include collapse.html -%}
+
+[formulaire sans email](distrib-telephone){: .btn .btn--inverse}
+
