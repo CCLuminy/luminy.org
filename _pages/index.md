@@ -60,11 +60,4 @@ feature_row:
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v5.0"></script>
 
-<div class="fb-page" data-href="https://www.facebook.com/CCLuminy/"
-data-tabs="" data-width="" data-height="" data-small-header="false"
-data-adapt-container-width="true" data-hide-cover="false"
-data-show-facepile="false"><blockquote
-cite="https://www.facebook.com/CCLuminy/" class="fb-xfbml-parse-ignore"><a
-href="https://www.facebook.com/CCLuminy/">Centre Culturel de Luminy -
-CCL</a></blockquote></div>
-
+<div class="fb-page" data-href="https://www.facebook.com/CCLuminy/" data-tabs="timeline" data-width="500" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/CCLuminy/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/CCLuminy/">Centre Culturel de Luminy - CCL</a></blockquote></div>

@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "fr-FR"
-title                    : "luminy.org"
+title                    : "Centre Culturel de Luminy"
 title_separator          : "|"
-subtitle                 : "CCL"
+subtitle                 : "luminy.org"
 name                     : "Centre Culturel de Luminy"
 description              : "luminy.org association centre culturel de luminy marseille 13009 culture citoyenneté liberté d'expression art partage des connaissances initiatives sociales concert festival dub reggae rock electro"
 url                      : "https://ccl.test.luminy.org"
