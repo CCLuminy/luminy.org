@@ -1,3 +1,6 @@
 [build]
     command = "jekyll build"
     publish = "_site"
+
+[context.jardin]
+    command = "mv _pages-jardin/ _pages/ && jekyll build"
