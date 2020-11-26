@@ -41,10 +41,11 @@
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
+      console.log("init netlify identity")
       if (!user) {
         window.netlifyIdentity.on("login", () => {
           gotrueUser = window.netlifyIdentity.gotrue.currentUser()
-          if (gotrueUser.email == "judl@luminy.org") {
+          if (gotrueUser && gotrueUser.email == "jardin.contact@luminy.org") {
             window.netlifyIdentity.logout();
           } else {
             document.location.href = "/lepuget/";
