@@ -37,3 +37,20 @@
     <script src="{{ script_path }}"></script>
   {% endfor %}
 {% endif %}
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          gotrueUser = window.netlifyIdentity.gotrue.currentUser()
+          if (gotrueUser.email == "judl@luminy.org") {
+            window.netlifyIdentity.logout();
+          } else {
+            document.location.href = "/lepuget/";
+          }
+        });
+      }
+    });
+  }
+</script>

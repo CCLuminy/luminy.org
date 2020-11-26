@@ -8,12 +8,8 @@
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
-    <!-- Locale translate script -->
     <script>
-        import CMS from 'netlify-cms-app';
-        import { fr } from 'netlify-cms-locales';
-
-        CMS.registerLocale('fr', fr);
+        window.netlifyIdentity.setLocale("fr");
     </script>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
