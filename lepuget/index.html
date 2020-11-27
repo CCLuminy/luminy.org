@@ -10,6 +10,17 @@
   <body>
     <script>
         window.netlifyIdentity.setLocale("fr");
+
+        window.netlifyIdentity.on("init", user => {
+            console.log("netlify init! ###################### " + user.email);
+            if (user && user.email == "jardin.contact@luminy.org")
+                window.netlifyIdentity.logout().then( (err) => {
+                    console.log(user.email + " déconnecté!");
+                    document.location.href = "/";
+                });
+            if (!user) {
+            }
+        });
     </script>
     <!-- Include the script that builds the page and powers Netlify CMS -->
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
