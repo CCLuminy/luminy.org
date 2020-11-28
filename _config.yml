@@ -121,26 +121,27 @@ footer:
     - label: "Contact webmaster"
       url: "/contact/"
     # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
+    #   icon: "fa fa-twitter"
       # url:
     # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
+    #   icon: "fa fa-facebook"
     #   url: "https://facebook.com/CCLuminy"
     # - label: "HelloAsso"
+    #   icon: "fa fa-users"
     #   url: "https://www.helloasso.com/associations/centre-culturel-de-luminy"
     # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
+    #   icon: "fa fa-github"
     #   url: "https://github.com/CCLuminy/CCL-site"
     # - label: "À propos"
     #   url: "/contacts/#fonctionnement-associatif"
     # - label: "GitLab"
-    #   icon: "fab fa-fw fa-gitlab"
+    #   icon: "fa fa-gitlab"
       # url:
     # - label: "Bitbucket"
-    #   icon: "fab fa-fw fa-bitbucket"
+    #   icon: "fa fa-bitbucket"
       # url:
     # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
+    #   icon: "fa fa-instagram"
       # url:
 
 

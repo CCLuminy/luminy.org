@@ -46,9 +46,9 @@ Association du Centre Culturel de Luminy
 (Association étudiante loi 1901)
 --------------------------------
 
-[<i class="fas fa-globe"></i> Site 2007-2014]({{ site.data.extlinks.archive-site-2007-2014 }}){: .btn .btn--inverse}
-[<i class="fas fa-globe"></i> Site 2014-2017]({{ site.data.extlinks.archive-site-2014-2017 }}){: .btn .btn--inverse}
-[<i class="fab fa-facebook-square"></i> Luminy Story]({{ site.data.extlinks.luminy-story }}){: .btn .btn--inverse}
+[<i class="fa fa-globe"></i> Site 2007-2014]({{ site.data.extlinks.archive-site-2007-2014 }}){: .btn .btn--inverse}
+[<i class="fa fa-globe"></i> Site 2014-2017]({{ site.data.extlinks.archive-site-2014-2017 }}){: .btn .btn--inverse}
+[<i class="fa fa-facebook-square"></i> Luminy Story]({{ site.data.extlinks.luminy-story }}){: .btn .btn--inverse}
 
 ______________
 
@@ -113,7 +113,7 @@ ____________
 
 
 
-[<i class="fas fa-globe"></i> Site JEC 2013]({{ site.data.extlinks.archive-site-jec2013 }}){: .btn .btn--inverse}
+[<i class="fa fa-globe"></i> Site JEC 2013]({{ site.data.extlinks.archive-site-jec2013 }}){: .btn .btn--inverse}
 
-[<i class="fas fa-globe"></i> Site Toukouleur 2014]({{ site.data.extlinks.archive-site-toukouleur2014 }}){: .btn .btn--inverse}
+[<i class="fa fa-globe"></i> Site Toukouleur 2014]({{ site.data.extlinks.archive-site-toukouleur2014 }}){: .btn .btn--inverse}
 

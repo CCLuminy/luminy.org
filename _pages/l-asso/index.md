@@ -18,8 +18,8 @@ jeudis du CCL](/activites/jeudis/) de 19h à 23h !
 Ou bien apprenez à nous connaitre en surfant et découvrez nos activités
 
 * [activités](/activites/){: .btn .btn--inverse}
-* [<i class='fab fa-fw fa-facebook-square'></i> CCLuminy]{: .btn .btn--inverse}
-* [<i class='fas fa-fw fa-calendar-alt'></i> Agenda](/agenda/){: .btn .btn--inverse}
+* [<i class='fa fa-fw fa-facebook-square'></i> CCLuminy]({{ site.data.extlinks.fb-ccl }}){: .btn .btn--inverse}
+* [<i class='fa fa-fw fa-calendar'></i> Agenda](/agenda/){: .btn .btn--inverse}
 
 [facebook]: {{ site.data.extlinks.fb-ccl }}
 

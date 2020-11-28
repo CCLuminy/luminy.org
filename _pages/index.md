@@ -6,9 +6,9 @@ header:
   type: overlay
   overlay_image: assets/images/banniere-bulles.png
   actions:
-    - label: "<i class='fas fa-users'></i> Adhérez"
+    - label: "<i class='fa fa-users'></i> Adhérez"
       url: "/l-asso/adherer/"
-    - label: "<i class='fab fa-fw fa-facebook-square'></i> Suivez-nous"
+    - label: "<i class='fa fa-facebook'></i> Suivez-nous"
       url: "https://www.facebook.com/CCLuminy/"
   show_text: description
 description: >
