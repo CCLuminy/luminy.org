@@ -12,11 +12,11 @@ share: false
 
 ## En vrai
 - Au local de l'hexagone entre midi et 2
-  [<i class="fas fa-map-pin"></i> OSM]({{ urls.osm-hexa }}){: .btn .btn--inverse}
+  [<i class="fa fa-map-pin"></i> OSM]({{ urls.osm-hexa }}){: .btn .btn--inverse}
 - À la cafétéria du CROUS le soir de 19h à 13h, surtout le jeudi
-  [<i class="fas fa-map-pin"></i> OSM]({{ urls.osm-cafet }}){: .btn .btn--inverse}
+  [<i class="fa fa-map-pin"></i> OSM]({{ urls.osm-cafet }}){: .btn .btn--inverse}
 - Au jardin universitaire
-  [<i class="fas fa-map-pin"></i> OSM]({{ urls.osm-jardin }}){: .btn .btn--inverse}
+  [<i class="fa fa-map-pin"></i> OSM]({{ urls.osm-jardin }}){: .btn .btn--inverse}
 - Au hasard sur Luminy
 
 ## Par internet
@@ -24,7 +24,7 @@ share: false
 ### Pour toute question, information, demande ou requête
 - [centre-culturel@luminy.org](mailto:centre-culturel@luminy.org)
 - [webmasters@luminy.org](mailto:webmasters@luminy.org)
-- [<i class="fab fa-facebook-square"></i> CCLuminy]({{ urls.fb-ccl }}){: .btn .btn--inverse}
+- [<i class="fa fa-facebook-square"></i> CCLuminy]({{ urls.fb-ccl }}){: .btn .btn--inverse}
 - ou directement : <button class="collapsible" id="formulaire-write-us">Nous envoyer un message</button>
 <div class="content" id="formulaire-write-usdata" markdown="1"
 style="display: none">
@@ -43,7 +43,7 @@ style="display: none">
 
 ### Pour un projet en particulier
 - Festival Toukouleur : [toukouleur@luminy.org](mailto:toukouleur@luminy.org)
-- Club de Science [<i class="fab fa-facebook-square"></i> Club de Science Luminy]({{ urls.fb-club-sciences }}){: .btn .btn--inverse}
+- Club de Science [<i class="fa fa-facebook-square"></i> Club de Science Luminy]({{ urls.fb-club-sciences }}){: .btn .btn--inverse}
 - Jardin Universitaire : [jardin@luminy.org](mailto:jardin@luminy.org)
 - Paniers bio : [bio@luminy.org](mailto:bio@luminy.org)
 
@@ -57,7 +57,7 @@ personnes de reçevoir les mails envoyés, et ainsi améliore l'efficacité de n
 communication.
 {: .notice}
 
-Enfin, [<i class="fas fa-fw fa-fire" aria-hidden="true"></i> HelloAsso]({{ urls.helloasso-ccl }}){: .btn .btn--inverse}
+Enfin, [<i class="fa fa-fw fa-users" aria-hidden="true"></i> HelloAsso]({{ urls.helloasso-ccl }}){: .btn .btn--inverse}
 
 ## Adresse postale (?)
 ```
@@ -102,7 +102,7 @@ Association loi 1901 à but non lucratif [Statuts](/ccl/statuts/){: .btn
 - CVEC?
 
 ## Fonctionnement `luminy.org`
-Voir [<i class="fab fa-github" aria-hidden="true"></i> Github]({{ urls.github-ccl }}/blob/master/README.md#fonctionnement-du-site-pour-les-plus-motivés){: .btn .btn--inverse}
+Voir [<i class="fa fa-github" aria-hidden="true"></i> Github]({{ urls.github-ccl }}/blob/master/README.md#fonctionnement-du-site-pour-les-plus-motivés){: .btn .btn--inverse}
 
 ## Formulaires
 

@@ -9,7 +9,7 @@ og_image: assets/images/logo-ccl-grand.png
 # Adhérez à l'asso du CCL
 
 **C'est 1€ symbolique ;)** Comment adhérer ?
-- En ligne sur [<i class="fas fa-fw fa-fire" aria-hidden="true"></i> HelloAsso]({{ site.data.extlinks.helloasso-ccl }}){: .btn .btn--inverse}
+- En ligne sur [<i class="fa fa-fw fa-users" aria-hidden="true"></i> HelloAsso]({{ site.data.extlinks.helloasso-ccl }}){: .btn .btn--inverse}
 - En nous rencontrant, par exemple au local de l'hexagone ou devant la
   cafétéria [Contacts](/contacts){: .btn .btn--inverse}
 
