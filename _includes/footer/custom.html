@@ -1,3 +1,86 @@
-<!-- start custom footer snippets -->
+<!-- A large size static footer example -->
+<!-- https://www.jquery-az.com/bootstrap4/demo.php?ex=77.0_3 -->
 
-<!-- end custom footer snippets -->
+<footer>
+  <div class="footer" id="footer">
+    <div class="container">
+      <div class="row">
+
+
+          <div class="col-xs-12 col-sm-6 col-md-4 footers-one">
+            {% include footer/author-profile.html %}
+        </div>
+
+        {% assign navigation = site.data.navigation.nav %}
+        {% for nav in navigation %}
+          <div class="col-lg-2  col-md-3 col-sm-4 col-xs-6">
+            {% if nav.url %}
+              {% if nav.url contains "://" %}
+                {% assign nav_url = nav.url %}
+              {% else %}
+                {% assign nav_url = nav.url | relative_url %}
+              {% endif %}
+
+              <!-- <h3><a href="{{ nav_url }}">{{ nav.title }}</a></h3> -->
+              <h3>{{ nav.title }}</h3>
+            {% else %}
+              <h3>{{ nav.title }}</h3>
+            {% endif %}
+
+            {% if nav.children != null %}
+              <ul>
+                {% for child in nav.children %}
+                  {% if child.url contains "://" %}
+                    {% assign child_url = child.url %}
+                  {% else %}
+                    {% assign child_url = child.url | relative_url %}
+                  {% endif %}
+
+                  <li><a href="{{ child_url }}">{{ child.title }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        {% endfor %}
+
+        <div class="col-lg-2  col-md-3 col-sm-4 col-xs-6">
+          <h3> About </h3>
+          <ul>
+            <li> <a href="#"> Our Company </a> </li>
+            <li> <a href="#"> About Us </a> </li>
+            <li> <a href="#"> Terms of Services </a> </li>
+            <li> <a href="#"> Our Team </a> </li>
+          </ul>
+        </div>
+        <div class="col-lg-2  col-md-3 col-sm-4 col-xs-6">
+          <h3> Contact </h3>
+          <ul>
+            <li> <a href="#"> Contact Marketing </a> </li>
+            <li> <a href="#"> Contact Sales </a> </li>
+            <li> <a href="#"> Contact HR </a> </li>
+            <li> <a href="#"> Contact Admin </a> </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4  col-md-6 col-sm-8 col-xs-12 ">
+          <h3> Suivez-nous </h3>
+          <ul>
+            <li>Inscrivez votre mail pour nous suivre</li>
+            <li>
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Email ">
+                <div class="input-group-append">
+                  <button class="btn  btn-inverse" type="button"> <i class="fa fa-save fa-fw fa-lg"> </i></button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--/.row-->
+    </div>
+    <!--/.container-->
+  </div>
+  <!--/.footer-->
+
+</footer>

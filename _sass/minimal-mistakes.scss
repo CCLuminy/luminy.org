@@ -29,6 +29,7 @@
 @import "minimal-mistakes/masthead";
 @import "minimal-mistakes/navigation";
 @import "minimal-mistakes/footer";
+@import "minimal-mistakes/custom-footer";
 @import "minimal-mistakes/search";
 @import "minimal-mistakes/syntax";
 
@@ -41,6 +42,7 @@
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
 
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css);
 
 @font-face {
   font-family: "Tempus Sans ITC";

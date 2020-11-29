@@ -1,0 +1,105 @@
+
+
+.full {
+  width: 100%;	
+}
+
+.footer {
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  color:#000;
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #DDDDDD;
+  background: $footer-background-color; 
+  // background: -webkit-linear-gradient(to right, #31BDE6, #00003E);  
+  // background: linear-gradient(to right, #31BDE6, #00003E);     
+}
+
+
+.footer h3 {
+  font-family: "Tempus Sans ITC";
+  border-bottom: 1px solid #BAC1C8;
+  color:#000;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  padding: 40px 0 10px;
+  text-transform: uppercase;
+}
+.footer ul {
+  font-size: 13px;
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-top: 15px;
+  color: #7F8C8D;
+}
+.footer ul li a {
+  padding: 0 0 5px 0;
+  display: block;
+}
+.footer a {
+  color: #78828D;
+  color:#000;
+}
+.supportLi h4 {
+  font-size: 20px;
+  font-weight: lighter;
+  line-height: normal;
+  margin-bottom: 0 !important;
+  padding-bottom: 0;
+}
+
+.social li {
+  border: 2px solid #B5B5B5;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -o-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 10px 10px 0;
+  padding: 0;
+  text-align: center;
+  width: 36px;
+  transition: all 0.5s ease 0s;
+  -moz-transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+
+.social li a {
+  color: #EDEFF1;
+}
+.social li:hover {
+  border: 2px solid #2c3e50;
+  background: #2c3e50;
+}
+.social li a i {
+  font-size: 16px;
+  // margin: 0 0 0 5px;
+  color: #000 !important;
+  // color: #EDEFF1 !important;
+}
+
+// .footer-bottom {
+//   background: #40E0D0;
+//   background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+//   background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
+//   border-top: 1px solid #DDDDDD;
+//   padding-top: 20px;
+//   padding-bottom: 40px;
+//   color:#000;
+// }
+// .footer-bottom p.pull-left {
+//   padding-top: 6px;
+// }
+// .payments {
+//   font-size: 1.5em;	
+// }
+

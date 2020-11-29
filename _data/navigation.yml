@@ -12,8 +12,8 @@ nav:
 - title: Activités
   url: "/activites/"
   children:
-  - title: Concerts et festivals
-    url: "/activites/concerts/"
+  - title: Distributions de pain
+    url: "/activites/distrib/"
   - title: Toukouleur
     url: "/activites/toukouleur/"
   - title: Les jeudis du CCL

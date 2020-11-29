@@ -10,18 +10,20 @@ authors:
   email: ''
   facebook: ''
   helloasso: ''
+
 - name: Centre Culturel de Luminy
   prefix: ccl
   avatar: "/assets/images/authors-logo/remi.png"
   og_image: "/assets/images/authors-logo/logo-ccl.png"
   banner: "/assets/images/banniere-ccl-intime.png"
   bio: Animer, partager, avancer, s'améliorer, s'amuser
-  # location: Luminy
+  location: Luminy
   email: centre-culturel@luminy.org
   facebook: CCLuminy
   instagram: centrecultureldeluminy
   twitter: CCLuminy
   helloasso: centre-culturel-de-luminy
+
 - name: Jardin Universitaire
   prefix: jardin
   avatar: "/assets/images/authors-logo/logo-jardin.png"
@@ -33,6 +35,7 @@ authors:
   helloasso: jardin-universitaire-de-luminy
   links: 
   og_image: ''
+
 - name: Club de Science Luminy
   prefix: club-science
   avatar: "/assets/images/authors-logo/logo-club-sciences.jpeg"
@@ -43,6 +46,7 @@ authors:
   banner: ''
   helloasso: ''
   og_image: ''
+
 - name: FSE Luminy
   prefix: fse
   avatar: "/assets/images/authors-logo/fse-transparent.png"
@@ -54,6 +58,7 @@ authors:
   email: ''
   helloasso: ''
   og_image: ''
+
 - name: Café des Langues
   prefix: cafe-des-langues
   avatar: "/assets/images/authors-logo/cafe-des-langues.png"
@@ -66,6 +71,7 @@ authors:
   banner: ''
   helloasso: ''
   og_image: ''
+
 - name: ALLIÉ
   prefix: allie
   avatar: "/assets/images/authors-logo/allie.png"
@@ -78,6 +84,7 @@ authors:
   banner: ''
   helloasso: ''
   og_image: ''
+
 - name: Com&Sea
   prefix: comnsea
   avatar: "/assets/images/authors-logo/logo-com.png"

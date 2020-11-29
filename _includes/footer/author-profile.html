@@ -1,0 +1,111 @@
+<!-- {% assign author = page.author | default: page.authors[0] | default: site.author %} -->
+{% assign author = site.data.authors.authors | where: "prefix", site.author | first %}
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  {% if author.avatar %}
+    <div class="footers-logo">
+      {% if author.avatar contains "://" %}
+        {% assign author_src = author.avatar %}
+      {% else %}
+        {% assign author_src = author.avatar | relative_url %}
+      {% endif %}
+
+      {% if author.home %}
+        {% if author.home contains "://" %}
+          {% assign author_link = author.home %}
+        {% else %}
+          {% assign author_link = author.home | relative_url %}
+        {% endif %}
+        <a href="{{ author_link }}">
+          <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+        </a>
+      {% else %}
+        <img src="{{ author_src }}" alt="{{ author.name }}" itemprop="image">
+      {% endif %}
+    </div>
+  {% endif %}
+
+  <div class="footers-info mt-3">
+    <h3 style="display: none" itemprop="name">{{ author.name }}</h3>
+    {% if author.bio %}
+      <div class="author__bio" itemprop="description">
+        {{ author.bio | markdownify }}
+      </div>
+    {% endif %}
+  </div>
+
+  <ul class="social">
+    {% if author.location %}
+      <li style="display: none" itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+        <i class="fa fa-map-marker-alt fa-fw" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+      </li>
+    {% endif %}
+
+    {% if author.facebook %}
+      <li>
+        <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.linkedin %}
+      <li>
+        <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.instagram %}
+      <li>
+        <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-instagram fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.twitter %}
+      <li>
+        <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.helloasso %}
+      <li>
+        <a href="https://www.helloasso.com/associations/{{ author.helloasso }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-users fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.email %}
+      <li>
+        <a href="mailto:{{ author.email }}">
+          <meta itemprop="email" content="{{ author.email }}" />
+          <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.pinterest %}
+      <li>
+        <a href="https://www.pinterest.com/{{ author.pinterest }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-pinterest fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+    {% if author.soundcloud %}
+      <li>
+        <a href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
+          <i class="fa fa-soundcloud fa-fw" aria-hidden="true"></i>
+        </a>
+      </li>
+    {% endif %}
+
+  </ul>
+</div>
