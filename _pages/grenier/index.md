@@ -46,9 +46,9 @@ Association du Centre Culturel de Luminy
 (Association étudiante loi 1901)
 --------------------------------
 
-[<i class="fa fa-globe"></i> Site 2007-2014]({{ site.data.extlinks.archive-site-2007-2014 }}){: .btn .btn--inverse}
-[<i class="fa fa-globe"></i> Site 2014-2017]({{ site.data.extlinks.archive-site-2014-2017 }}){: .btn .btn--inverse}
-[<i class="fa fa-facebook-square"></i> Luminy Story]({{ site.data.extlinks.luminy-story }}){: .btn .btn--inverse}
+[<i class="fa fa-globe fa-lg fa-fw"></i> Site 2007-2014]({{ site.data.extlinks.archive-site-2007-2014 }}){: .btn .btn--inverse}
+[<i class="fa fa-globe fa-fw fa-lg"></i> Site 2014-2017]({{ site.data.extlinks.archive-site-2014-2017 }}){: .btn .btn--inverse}
+[<i class="fa fa-facebook-square fa-fw fa-lg"></i> Luminy Story]({{ site.data.extlinks.luminy-story }}){: .btn .btn--inverse}
 
 ______________
 

@@ -44,14 +44,14 @@
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
-          <i class="fa fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
+          <i class="fa fa-map-marker-alt fa-fw" aria-hidden="true"></i> <span itemprop="name">{{ author.location }}</span>
         </li>
       {% endif %}
 
       {% if author.links %}
         {% for link in author.links %}
           {% if link.label and link.url %}
-            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fa fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+            <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fa fa-link fa-fw' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
           {% endif %}
         {% endfor %}
       {% endif %}
@@ -59,7 +59,7 @@
       {% if author.uri %}
         <li>
           <a href="{{ author.uri }}" itemprop="url">
-            <i class="fa fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
+            <i class="fa fa-link fa-fw" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}
           </a>
         </li>
       {% endif %}
@@ -68,7 +68,7 @@
         <li>
           <a href="mailto:{{ author.email }}">
             <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fa fa-envelope" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+            <i class="fa fa-envelope fa-fw" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
           </a>
         </li>
       {% endif %}
@@ -76,7 +76,7 @@
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-key" aria-hidden="true"></i> Keybase
+            <i class="fa fa-key fa-fw" aria-hidden="true"></i> Keybase
           </a>
         </li>
       {% endif %}
@@ -84,7 +84,7 @@
       {% if author.facebook %}
         <li>
           <a href="https://www.facebook.com/{{ author.facebook }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook
+            <i class="fa fa-facebook-square fa-fw" aria-hidden="true"></i> Facebook
           </a>
         </li>
       {% endif %}
@@ -92,7 +92,7 @@
       {% if author.linkedin %}
         <li>
           <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-linkedin" aria-hidden="true"></i> LinkedIn
+            <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       {% endif %}
@@ -100,7 +100,7 @@
       {% if author.instagram %}
         <li>
           <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-instagram" aria-hidden="true"></i> Instagram
+            <i class="fa fa-instagram fa-fw" aria-hidden="true"></i> Instagram
           </a>
         </li>
       {% endif %}
@@ -108,7 +108,7 @@
       {% if author.twitter %}
         <li>
           <a href="https://twitter.com/{{ author.twitter }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-twitter" aria-hidden="true"></i> Twitter
+            <i class="fa fa-twitter fa-fw" aria-hidden="true"></i> Twitter
           </a>
         </li>
       {% endif %}
@@ -116,7 +116,7 @@
       {% if author.helloasso %}
         <li>
           <a href="https://www.helloasso.com/associations/{{ author.helloasso }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-users" aria-hidden="true"></i> HelloAsso
+            <i class="fa fa-users fa-fw" aria-hidden="true"></i> HelloAsso
           </a>
         </li>
       {% endif %}
@@ -124,7 +124,7 @@
       {% if author.xing %}
         <li>
           <a href="https://www.xing.com/profile/{{ author.xing }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-xing-square" aria-hidden="true"></i> XING
+            <i class="fa fa-xing-square fa-fw" aria-hidden="true"></i> XING
           </a>
         </li>
       {% endif %}
@@ -132,7 +132,7 @@
       {% if author.tumblr %}
         <li>
           <a href="https://{{ author.tumblr }}.tumblr.com" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-tumblr-square" aria-hidden="true"></i> Tumblr
+            <i class="fa fa-tumblr-square fa-fw" aria-hidden="true"></i> Tumblr
           </a>
         </li>
       {% endif %}
@@ -140,7 +140,7 @@
       {% if author.bitbucket %}
         <li>
           <a href="https://bitbucket.org/{{ author.bitbucket }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-bitbucket" aria-hidden="true"></i> Bitbucket
+            <i class="fa fa-bitbucket fa-fw" aria-hidden="true"></i> Bitbucket
           </a>
         </li>
       {% endif %}
@@ -148,7 +148,7 @@
       {% if author.github %}
         <li>
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-github" aria-hidden="true"></i> GitHub
+            <i class="fa fa-github fa-fw" aria-hidden="true"></i> GitHub
           </a>
         </li>
       {% endif %}
@@ -156,7 +156,7 @@
       {% if author.gitlab %}
         <li>
           <a href="https://gitlab.com/{{ author.gitlab }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-gitlab" aria-hidden="true"></i> GitLab
+            <i class="fa fa-gitlab fa-fw" aria-hidden="true"></i> GitLab
           </a>
         </li>
       {% endif %}
@@ -164,7 +164,7 @@
       {% if author.stackoverflow %}
         <li>
           <a href="https://stackoverflow.com/users/{{ author.stackoverflow }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
+            <i class="fa fa-stack-overflow fa-fw" aria-hidden="true"></i> Stack Overflow
           </a>
         </li>
       {% endif %}
@@ -172,7 +172,7 @@
       {% if author.lastfm %}
         <li>
           <a href="https://last.fm/user/{{ author.lastfm }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-lastfm-square" aria-hidden="true"></i> Last.fm
+            <i class="fa fa-lastfm-square fa-fw" aria-hidden="true"></i> Last.fm
           </a>
         </li>
       {% endif %}
@@ -180,7 +180,7 @@
       {% if author.dribbble %}
         <li>
           <a href="https://dribbble.com/{{ author.dribbble }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-dribbble" aria-hidden="true"></i> Dribbble
+            <i class="fa fa-dribbble fa-fw" aria-hidden="true"></i> Dribbble
           </a>
         </li>
       {% endif %}
@@ -188,7 +188,7 @@
       {% if author.pinterest %}
         <li>
           <a href="https://www.pinterest.com/{{ author.pinterest }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-pinterest" aria-hidden="true"></i> Pinterest
+            <i class="fa fa-pinterest fa-fw" aria-hidden="true"></i> Pinterest
           </a>
         </li>
       {% endif %}
@@ -196,7 +196,7 @@
       {% if author.foursquare %}
         <li>
           <a href="https://foursquare.com/{{ author.foursquare }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-foursquare" aria-hidden="true"></i> Foursquare
+            <i class="fa fa-foursquare fa-fw" aria-hidden="true"></i> Foursquare
           </a>
         </li>
       {% endif %}
@@ -204,7 +204,7 @@
       {% if author.steam %}
         <li>
           <a href="https://steamcommunity.com/id/{{ author.steam }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-steam" aria-hidden="true"></i> Steam
+            <i class="fa fa-steam fa-fw" aria-hidden="true"></i> Steam
           </a>
         </li>
       {% endif %}
@@ -213,13 +213,13 @@
         {% if author.youtube contains "://" %}
           <li>
             <a href="{{ author.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-              <i class="fa fa-youtube" aria-hidden="true"></i> YouTube
+              <i class="fa fa-youtube fa-fw" aria-hidden="true"></i> YouTube
             </a>
           </li>
         {% else author.youtube %}
           <li>
             <a href="https://www.youtube.com/user/{{ author.youtube }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-              <i class="fa fa-youtube" aria-hidden="true"></i> YouTube
+              <i class="fa fa-youtube fa-fw" aria-hidden="true"></i> YouTube
             </a>
           </li>
         {% endif %}
@@ -228,7 +228,7 @@
       {% if author.soundcloud %}
         <li>
           <a href="https://soundcloud.com/{{ author.soundcloud }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-soundcloud" aria-hidden="true"></i> SoundCloud
+            <i class="fa fa-soundcloud fa-fw" aria-hidden="true"></i> SoundCloud
           </a>
         </li>
       {% endif %}
@@ -236,7 +236,7 @@
       {% if author.weibo %}
         <li>
           <a href="https://www.weibo.com/{{ author.weibo }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-weibo" aria-hidden="true"></i> Weibo
+            <i class="fa fa-weibo fa-fw" aria-hidden="true"></i> Weibo
           </a>
         </li>
       {% endif %}
@@ -244,7 +244,7 @@
       {% if author.flickr %}
         <li>
           <a href="https://www.flickr.com/{{ author.flickr }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-flickr" aria-hidden="true"></i> Flickr
+            <i class="fa fa-flickr fa-fw" aria-hidden="true"></i> Flickr
           </a>
         </li>
       {% endif %}
@@ -252,7 +252,7 @@
       {% if author.codepen %}
         <li>
           <a href="https://codepen.io/{{ author.codepen }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-codepen" aria-hidden="true"></i> CodePen
+            <i class="fa fa-codepen fa-fw" aria-hidden="true"></i> CodePen
           </a>
         </li>
       {% endif %}
@@ -260,7 +260,7 @@
       {% if author.vine %}
         <li>
           <a href="https://vine.co/u/{{ author.vine }}" itemprop="sameAs" rel="nofollow noopener noreferrer">
-            <i class="fa fa-vine" aria-hidden="true"></i> Vine
+            <i class="fa fa-vine fa-fw" aria-hidden="true"></i> Vine
           </a>
         </li>
       {% endif %}
