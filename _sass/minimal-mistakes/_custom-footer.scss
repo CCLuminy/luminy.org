@@ -1,7 +1,7 @@
 
 
 .full {
-  width: 100%;	
+  width: 100%;
 }
 
 .footer {
@@ -12,9 +12,9 @@
   color:#000;
   border-bottom: 1px solid #CCCCCC;
   border-top: 1px solid #DDDDDD;
-  background: $footer-background-color; 
-  // background: -webkit-linear-gradient(to right, #31BDE6, #00003E);  
-  // background: linear-gradient(to right, #31BDE6, #00003E);     
+  background: $footer-background-color;
+  // background: -webkit-linear-gradient(to right, #31BDE6, #00003E);
+  // background: linear-gradient(to right, #31BDE6, #00003E);
 }
 
 
@@ -86,20 +86,4 @@
   color: #000 !important;
   // color: #EDEFF1 !important;
 }
-
-// .footer-bottom {
-//   background: #40E0D0;
-//   background: -webkit-linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
-//   background: linear-gradient(to right, #FF0080, #FF8C00, #40E0D0);
-//   border-top: 1px solid #DDDDDD;
-//   padding-top: 20px;
-//   padding-bottom: 40px;
-//   color:#000;
-// }
-// .footer-bottom p.pull-left {
-//   padding-top: 6px;
-// }
-// .payments {
-//   font-size: 1.5em;	
-// }
 
