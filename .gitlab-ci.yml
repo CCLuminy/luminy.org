@@ -1,0 +1,61 @@
+variables:
+  # GIT_LFS_SKIP_SMUDGE: 1
+  GIT_STRATEGY: clone
+  JEKYLL_ENV: production
+#  LC_ALL: C.UTF-8
+
+image: "ruby:2.5"
+
+before_script:
+  # install ssh-agent
+  - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+  - 'which rsync || ( apt-get update -y && apt-get install rsync -y )'
+  - 'which git-lfs || ( apt-get update -y && apt-get install git-lfs -y )'
+
+  # run ssh-agent
+  - eval $(ssh-agent -s)
+
+  # disable host key checking (NOTE: makes you susceptible to man-in-the-middle attacks)
+  # WARNING: use only in docker container, if you use it with shell you will overwrite your user's ssh config
+  # add ssh key stored in SSH_PRIVATE_KEY variable to the agent store
+  - mkdir -p ~/.ssh
+  - echo "$SSH_HOST" > ~/.ssh/known_hosts
+  - echo "$YEYE" | tr -d '\r' > ~/.ssh/id_rsa
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config
+  - chmod -R 700 ~/.ssh
+
+  - wc -c ~/.ssh/id_rsa
+ 
+  - git config -l
+  - git-lfs --version
+  - git lfs install
+  - git lfs env
+  - git remote -vv
+  - GIT_CURL_VERBOSE=1 git lfs pull
+
+  # - gem install bundler
+  # - bundle install
+
+test-job:
+  stage: build
+  script:
+    - rsync --version
+  only:
+    - deploy
+
+
+build-and-deploy-jekyll:
+  stage: deploy
+  script:
+    - bundle exec jekyll build -d _site
+    - ssh -vT eloi.perdereau@saphir2.lis-lab.fr
+    - rsync -avzh --delete _site eloi.perdereau@saphir2.lis-lab.fr:public_html/ccl-site
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
+    - ccl
+
+# after_script:
+#   - rm -rf ~/.ssh
