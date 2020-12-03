@@ -4,7 +4,7 @@ variables:
   JEKYLL_ENV: production
 #  LC_ALL: C.UTF-8
 
-image: "ruby:2.5"
+image: "ruby:2.6"
 
 before_script:
   # install ssh-agent
