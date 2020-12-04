@@ -15,18 +15,20 @@ before_script:
   # run ssh-agent
   - eval $(ssh-agent -s)
 
+  - export
+
   # disable host key checking (NOTE: makes you susceptible to man-in-the-middle attacks)
   # WARNING: use only in docker container, if you use it with shell you will overwrite your user's ssh config
   # add ssh key stored in SSH_PRIVATE_KEY variable to the agent store
   - mkdir -p ~/.ssh
   - echo "$SSH_HOST" > ~/.ssh/known_hosts
-  - echo "$YEYE" | tr -d '\r' > ~/.ssh/id_rsa
+  # - echo "$YEYE" | tr -d '\r' > ~/.ssh/id_rsa
   - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" >> ~/.ssh/config
-  - chmod -R 700 ~/.ssh
+  - chmod -R 600 ~/.ssh
 
-  - wc -c ~/.ssh/id_rsa
+  # - wc -c ~/.ssh/id_rsa
 
-  - ls -alh $CI_PROJECT_DIR/assets/images/*
+  # - ls -alh $CI_PROJECT_DIR/assets/images/*
   # - git config -l
   # - git-lfs --version
   # - git lfs install
@@ -40,6 +42,7 @@ before_script:
 test-job:
   stage: build
   script:
+    - ssh -vT eloi.perdereau@saphir2.lis-lab.fr
     - rsync --version
   only:
     - deploy
