@@ -16,20 +16,20 @@ minimal_mistakes_skin    : "dirt" # "default", "air", "aqua", "contrast", "dark"
 
 # Site Settings
 locale                   : "fr-FR"
-title                    : "Centre Culturel de Luminy"
+title                    : "Club de Science Luminy"
 title_separator          : "|"
 subtitle                 : "luminy.org"
-name                     : "Centre Culturel de Luminy"
-description              : "luminy.org association centre culturel de luminy marseille 13009 culture citoyenneté liberté d'expression art partage des connaissances initiatives sociales concert festival dub reggae rock electro"
-url                      : "https://ccl.test.luminy.org"
+name                     : "Club de Science Luminy"
+description              : "luminy.org association club science marseille 13009 cours débats scientifiques épistémologie astrologie médiation interdisciplinaire"
+url                      : "https://club-science.test.luminy.org"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : &logo "/assets/images/authors-logo/logo-ccl.png"
-banner                   : "/assets/images/puget-fleuri.png"
+logo                     : &logo "/assets/images/authors-logo/logo-club-sciences.jpeg"
+banner                   : "/assets/images/banniere-club-science.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 300
 rss                      : false
 # atom_feed:
 #   path                   : # blank (default) uses feed.xml
@@ -54,7 +54,7 @@ naver_site_verification  :
 twitter:
   username               :
 facebook:
-  username               : "CCLuminy"
+  username               : "Clubdescience"
   app_id                 :
   publisher              :
 og_image                 : *logo
@@ -210,7 +210,7 @@ compress_html:
     envs: development
 
 # see _data/authors.yml
-author: ccl
+author: club-science
 
 collections:
   pages:
