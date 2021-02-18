@@ -29,7 +29,7 @@ logo                     : &logo "/assets/images/authors-logo/logo-club-sciences
 banner                   : "/assets/images/banniere-club-science.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 300
+words_per_minute         : 100
 rss                      : false
 # atom_feed:
 #   path                   : # blank (default) uses feed.xml
@@ -161,6 +161,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 # Plugins (previously gems:)
 plugins:
   - jekyll-paginate
+  - jekyll-archives
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-last-modified-at
@@ -168,6 +169,7 @@ plugins:
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
+  - jekyll-archives
   - jekyll-sitemap
   - jekyll-include-cache
   - jekyll-last-modified-at
@@ -184,30 +186,26 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+  type: jekyll_archives
+  path: /
 tag_archive:
-  type: liquid
-  path: /tags/
+  type: jekyll_archives
+  path: /
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+    - year
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+    year: year-archive
+  permalinks:
+    category: /:name/
+    tag: /:name/
+    year: /:year/
 
-
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
 
 # see _data/authors.yml
 author: club-science
@@ -227,3 +225,11 @@ defaults:
       toc_sticky: true
       sidebar:
         nav: true
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      toc_sticky: true
+      share: true

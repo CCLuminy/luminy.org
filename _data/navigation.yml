@@ -1,41 +1,43 @@
 ---
 main:
-- title: L'asso
-  url: "/l-asso/"
-- title: Activités
+- title: Présentations
   url: "/activites/"
-- title: Le Grenier
-  url: "/grenier/"
+- title: Conférences
+  url: "/conferences/"
+- title: Resources
+  url: "/resources/"
+- title: Nous rejoindre
+  url: "/l-asso/nous-rejoindre/"
 - title: Contacts
   url: "/l-asso/contacts/"
-nav:
-- title: Activités
-  url: "/activites/"
-  children:
-  - title: Distributions de pain
-    url: "/activites/distrib/"
-  - title: Toukouleur
-    url: "/activites/toukouleur/"
-  - title: Les jeudis du CCL
-    url: "/activites/jeudis/"
-  - title: Campus propre
-    url: "/activites/campus-propre/"
-  - title: Projections
-    url: "/activites/projections/"
-  - title: Ateliers et animation
-    url: "/activites/ateliers/"
-  - title: Projets
-    url: "/activites/projets/"
-- title: L'association
-  url: "/le-ccl"
-  children:
-  - title: Qui sommes-nous ?
-    url: "/l-asso/presentation-longue/"
-  - title: Adhérer
-    url: "/l-asso/adherer/"
-  - title: Statuts
-    url: "/l-asso/statuts/"
-  - title: Bureaux
-    url: "/l-asso/bureaux/"
-  - title: Contacts
-    url: "/l-asso/contacts/"
+# nav:
+# - title: Activités
+#   url: "/activites/"
+#   children:
+#   - title: Distributions de pain
+#     url: "/activites/distrib/"
+#   - title: Toukouleur
+#     url: "/activites/toukouleur/"
+#   - title: Les jeudis du CCL
+#     url: "/activites/jeudis/"
+#   - title: Campus propre
+#     url: "/activites/campus-propre/"
+#   - title: Projections
+#     url: "/activites/projections/"
+#   - title: Ateliers et animation
+#     url: "/activites/ateliers/"
+#   - title: Projets
+#     url: "/activites/projets/"
+# - title: L'association
+#   url: "/le-ccl"
+#   children:
+#   - title: Qui sommes-nous ?
+#     url: "/l-asso/presentation-longue/"
+#   - title: Adhérer
+#     url: "/l-asso/adherer/"
+#   - title: Statuts
+#     url: "/l-asso/statuts/"
+#   - title: Bureaux
+#     url: "/l-asso/bureaux/"
+#   - title: Contacts
+#     url: "/l-asso/contacts/"

@@ -21,6 +21,7 @@ gem "jekyll"
 # If you have any other plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-paginate"
+  gem "jekyll-archives"
   gem "jekyll-sitemap"
   gem "jekyll-include-cache"
   gem "jekyll-last-modified-at"
